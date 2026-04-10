@@ -253,7 +253,7 @@ Penicillins are bactericidal, not bacteriostatic. However, they only kill active
 ::::
 
 ::: {.column width="60%"}
-<video src="images-betalactam1/pcn_moa.mov" autoplay loop muted controls style="width:100%; height:auto;">
+<video src="images-betalactam1/pcn_moa.mov" controls style="width:100%; height:auto;">
 
 </video>
 :::
@@ -261,7 +261,7 @@ Penicillins are bactericidal, not bacteriostatic. However, they only kill active
 
 ------------------------------------------------------------------------
 
-## Why Bacteria Need Cell Walls
+## Why bacteria need cell walls
 
 <br>
 
@@ -286,7 +286,7 @@ Penicillins are bactericidal, not bacteriostatic. However, they only kill active
 :::::
 :::::::
 
-::: notes
+::: aside
 This is why penicillins have such a good safety profile. They target a structure (peptidoglycan) that human cells don't have. The selective toxicity ratio is excellent.
 :::
 
@@ -314,15 +314,23 @@ The cross-links are what give peptidoglycan its strength. Without cross-linking,
 
 <br>
 
-![PBP transpeptidation reaction cross-linking bacterial cell wall. NAG = N-acetylglucosamine; NAM = N-acetylmuramic acid.](images/fig20-2-08.png){width="75%"}
+![](images-betalactam1/transpeptidation.png){fig-align="center"}
 
 ::: notes
-Walk through the diagram showing how NAG-NAM chains are cross-linked. Point out that the transpeptidation reaction removes the terminal D-alanine while forming the cross-link.
+Walk students through this diagram carefully — it contains the conceptual core of penicillin's mechanism.
+
+**The glycan backbone:** The horizontal chains are the NAG-NAM polymer. NAG (N-acetylglucosamine) and NAM (N-acetylmuramic acid) alternate and are linked by β-1,4-glycosidic bonds. These chains run parallel to the bacterial membrane. Alone, they provide no structural rigidity — that requires the cross-links.
+
+**The peptide stems:** Each NAM residue has a short peptide chain hanging off it — the pentapeptide stem — which terminates in **D-Ala–D-Ala**. These D-amino acids are unique to bacteria; mammals use only L-amino acids, which is a key reason penicillins have such selective toxicity.
+
+**The cross-linking reaction (transpeptidation):** The transpeptidase (a PBP) grabs the terminal D-Ala–D-Ala of one pentapeptide stem. It forms a transient covalent bond with the **penultimate D-Ala**, and in doing so **ejects the terminal D-Ala** as a leaving group. The reactive penultimate D-Ala is then attacked by a free amino group on an adjacent peptide stem, forming the **cross-bridge** that locks the two glycan chains together. One D-alanine is lost for every cross-link formed.
+
+**Why this matters:** Penicillins block only this cross-linking step. The rest of cell wall synthesis — NAG-NAM precursor production, glycan chain polymerization — continues unimpeded. Bacteria keep building structurally unstable, uncrosslinked wall until it can no longer withstand osmotic pressure, and the cell lyses.
 :::
 
 ------------------------------------------------------------------------
 
-## Transpeptidation: The Target Reaction
+## Transpeptidation: The target reaction
 
 <br>
 
@@ -333,13 +341,13 @@ Walk through the diagram showing how NAG-NAM chains are cross-linked. Point out 
 5.  Cross-link formed with adjacent chain
 6.  **Penicillin mimics D-Ala-D-Ala** and gets stuck
 
-::: notes
-This is the key concept. Penicillin structurally mimics the D-Ala-D-Ala substrate. When the PBP tries to bind penicillin, it forms a stable covalent complex instead of completing the reaction. The enzyme is "stuck."
+::: aside
+Penicillin structurally mimics the D-Ala-D-Ala substrate. When the PBP tries to bind penicillin, it forms a stable covalent complex instead of completing the reaction. The enzyme is "stuck."
 :::
 
 ------------------------------------------------------------------------
 
-## What Are Penicillin-Binding Proteins (PBPs)?
+## What Are penicillin-binding proteins (PBPs)?
 
 <br>
 
@@ -350,7 +358,7 @@ This is the key concept. Penicillin structurally mimics the D-Ala-D-Ala substrat
 -   Multiple PBPs in each bacterial species
 -   Different PBPs have different functions
 
-::: notes
+::: aside
 The evolutionary relationship between PBPs and β-lactamases is important. β-lactamases evolved from PBPs but developed the ability to rapidly hydrolyze (rather than be inhibited by) β-lactams.
 :::
 
@@ -358,7 +366,7 @@ The evolutionary relationship between PBPs and β-lactamases is important. β-la
 
 ## Classes of PBPs
 
-<br>
+<br> <br>
 
 | Class | Size | Function |
 |------------------------|------------------------|------------------------|
@@ -366,13 +374,13 @@ The evolutionary relationship between PBPs and β-lactamases is important. β-la
 | **High-MW Class B** | \>50 kDa | Transpeptidase only |
 | **Low-MW** | \<50 kDa | Carboxypeptidases |
 
-::: notes
+::: aside
 High-molecular-weight PBPs are the essential targets. Class A PBPs can do both glycan chain elongation and cross-linking. Class B only do cross-linking. Low-MW PBPs are carboxypeptidases that trim the peptidoglycan.
 :::
 
 ------------------------------------------------------------------------
 
-## PBP Functions in *E. coli*
+## PBP functions in *E. coli*
 
 <br>
 
@@ -383,13 +391,13 @@ High-molecular-weight PBPs are the essential targets. Class A PBPs can do both g
 | PBP3     | Septum formation, cell division   | Long filaments      |
 | PBP4-6   | Carboxypeptidases                 | Minor effects       |
 
-::: notes
+::: aside
 Different β-lactams have different affinities for different PBPs, which explains why some cause rapid lysis while others cause filamentation. The essential PBPs are 1, 2, and 3.
 :::
 
 ------------------------------------------------------------------------
 
-## PBPs vs β-Lactamases: Key Difference
+## PBPs vs β-Lactamases: Key difference
 
 <br>
 
