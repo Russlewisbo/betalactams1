@@ -160,7 +160,7 @@ The β-lactam ring is under considerable strain due to its geometry. This strain
 :::
 
 ::: {.column width="50%"}
-![](images-betalactam1/Beta-lactam.svg){fig-align="center" width="300"}
+![](images-betalactam1/Beta-lactam.svg){fig-align="center" width="237"}
 :::
 :::::
 
@@ -178,7 +178,7 @@ The β-lactam ring mimics the natural substrate of PBPs, which is the D-alanyl-D
 
 ::: {style="font-size: 0.75em"}
 | **Ambler Class** | **Major Subtype** | **Preferred Substrates** | **Inhibitor** | **Genetic Localization** | **Representative Enzymes** |
-|:----------:|------------|------------|------------|------------|------------|
+|:----------:|-------------------------|-----------------------------|-------------------------|--------------------------|-----------------------------------------------------------------------|
 | **A** | Gram-positive β-lactamase 2a | Penicillins | Clavulanic acid | Chromosome or plasmid | PC1 |
 | **A** | **Gram-negative β-lactamase 2b** | Penicillins, 1st-gen cephalosporins | Clavulanic acid | Plasmid or chromosomal | TEM-1, SHV-1 |
 | **A** | **Extended-spectrum β-lactamase 2be** | Penicillins, extended-spectrum cephalosporins, aztreonam | Clavulanic acid | Plasmid | TEM-24, SHV-12, CTX-M-15 |
@@ -239,8 +239,8 @@ Now we'll explore how penicillins actually kill bacteria. Understanding the mech
 
 <br>
 
-::::: columns
-::: {.column width="40%"}
+:::::: columns
+:::: {.column width="40%"}
 -   Target: Final step of peptidoglycan synthesis
 -   Mechanism: Penicillins inhibit bacterial cell wall synthesis by binding to penicillin-binding proteins (PBPs)
 -   Result: Weakened cell wall
@@ -250,12 +250,14 @@ Now we'll explore how penicillins actually kill bacteria. Understanding the mech
 ::: aside
 Penicillins are bactericidal, not bacteriostatic. However, they only kill actively growing bacteria that are synthesizing new cell wall. Dormant bacteria (persister cells) can survive penicillin treatment.
 :::
-:::
+::::
 
 ::: {.column width="60%"}
-<video src="images-betalactam1/pcn_moa.mov" controls style="width:100%; height:auto;"></video>
+<video src="images-betalactam1/pcn_moa.mov" autoplay loop muted controls style="width:100%; height:auto;">
+
+</video>
 :::
-:::::
+::::::
 
 ------------------------------------------------------------------------
 
@@ -263,12 +265,26 @@ Penicillins are bactericidal, not bacteriostatic. However, they only kill active
 
 <br>
 
+::::::: columns
+::: {.column width="50%"}
 -   Bacteria have **high internal osmotic pressure**
 -   Without cell wall → osmotic lysis
 -   Cell wall = **peptidoglycan polymer**
 -   Gram-positive: thick layer (50-100 molecules)
 -   Gram-negative: thin layer (1-2 molecules) + outer membrane
 -   **Human cells have no cell wall** → selective toxicity
+:::
+
+::::: {.column width="50%"}
+:::: columns
+::: {.column width="60%"}
+<video src="images-betalactam1/osmotic.mov" controls style="width:100%; height:auto;">
+
+</video>
+:::
+::::
+:::::
+:::::::
 
 ::: notes
 This is why penicillins have such a good safety profile. They target a structure (peptidoglycan) that human cells don't have. The selective toxicity ratio is excellent.
