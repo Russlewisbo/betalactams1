@@ -1,0 +1,3896 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="betalactam1-slides_files/libs/clipboard/clipboard.min.js"></script>
+<script src="betalactam1-slides_files/libs/quarto-html/tabby.min.js"></script>
+<script src="betalactam1-slides_files/libs/quarto-html/popper.min.js"></script>
+<script src="betalactam1-slides_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="betalactam1-slides_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="betalactam1-slides_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="betalactam1-slides_files/libs/quarto-html/quarto-syntax-highlighting-3f230b53dc93e4a04bf4a3505d77a42a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="betalactam1-slides_files/libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
+<link href="betalactam1-slides_files/libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
+<script src="betalactam1-slides_files/libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="betalactam1-slides_files/libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="betalactam1-slides_files/libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.35">
+
+  <meta name="author" content="Russell E. Lewis">
+  <meta name="dcterms.date" content="2026-04-10">
+  <title>Penicillins and β-Lactamase Inhibitors</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="betalactam1-slides_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="betalactam1-slides_files/libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="betalactam1-slides_files/libs/revealjs/dist/theme/quarto-e00a554e04fa58bc9b49c742d3283ee2.css">
+  <link href="betalactam1-slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="betalactam1-slides_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="betalactam1-slides_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="betalactam1-slides_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Penicillins and β-Lactamase Inhibitors</h1>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Russell E. Lewis 
+</div>
+</div>
+</div>
+
+  <p class="date">2026-04-10</p>
+</section>
+<section id="penicillins-and-β-lactamase-inhibitors" class="slide level2" data-background-color="#9B0014">
+<h2>Penicillins and β-Lactamase Inhibitors</h2>
+<p><br></p>
+<p><br> <br></p>
+<center>
+<p><strong>Russell E. Lewis</strong> <br> Associate Professor of Infectious Diseases <br> Department of Molecular Medicine <br> University of Padua</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><img data-src="images-betalactam1/dmmunipd_logo.jpeg" width="100"></td>
+<td><img data-src="images-betalactam1/unipd_seal_white.svg" width="100"></td>
+</tr>
+</tbody>
+</table>
+<p><br> <i class="fa-solid fa-envelope fa-1x" aria-label="envelope"></i> russelledward.lewis@unipd.it <br> <i class="fa-brands fa-github fa-1x" aria-label="github"></i> <a href="https://github.com/Russlewisbo/ESCMID_2022_talk">https://github.com/Russlewisbo</a> <br> Slides and course materials: <a href="https://padovaid.com/">www.padovaid.com</a></p>
+</center>
+</section>
+<section id="learning-objectives" class="slide level2">
+<h2>Learning Objectives</h2>
+<p><br></p>
+<p><strong>By the end of this lecture, you should be able to:</strong></p>
+<ol type="1">
+<li>Describe the basic chemical structure of penicillins</li>
+<li>Explain how the side chain determines spectrum and stability</li>
+<li>Describe the mechanism of action involving PBPs</li>
+<li>Explain peptidoglycan synthesis and cross-linking</li>
+<li>List and explain the four mechanisms of β-lactam resistance</li>
+<li>Classify β-lactamases by Ambler molecular class</li>
+<li>Differentiate the five classes of penicillins by spectrum</li>
+<li>Describe pharmacokinetic properties and dosing adjustments</li>
+<li>Recognize adverse effects and hypersensitivity reactions</li>
+<li>Select appropriate β-lactam/β-lactamase inhibitor combinations</li>
+</ol>
+</section>
+<section>
+<section id="part-1-history-and-chemistry" class="title-slide slide level1 center" data-background-color="#9B0014">
+<h1>PART 1: History and chemistry</h1>
+<aside class="notes">
+<p>We’ll begin with the historical discovery and chemical basis of penicillins. Understanding structure is essential for understanding function.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="the-discovery-of-penicillin" class="slide level2">
+<h2>The Discovery of penicillin</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:60%;">
+<ul>
+<li><strong>September 1928</strong></li>
+<li>Alexander Fleming at St.&nbsp;Mary’s Hospital, London</li>
+<li>Noticed bacterial lysis around <em>Penicillium</em> mold contamination</li>
+<li>Published findings in 1929</li>
+<li>Initially unable to purify the active compound</li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><a href="https://i.makeagif.com/media/7-05-2015/V0HT6G.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="https://i.makeagif.com/media/7-05-2015/V0HT6G.gif"></a></p>
+</div></div>
+
+<aside><div>
+<p>Fleming was studying staphylococcal colonies when he noticed a contaminating mold had created a zone of bacterial inhibition. He named the antibacterial substance “penicillin” but couldn’t purify it for clinical use.</p>
+</div></aside></section>
+<section id="from-discovery-to-clinical-use" class="slide level2">
+<h2>From Discovery to Clinical Use</h2>
+<p><br> <br></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Year</th>
+<th>Milestone</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1928</td>
+<td>Fleming discovers penicillin</td>
+</tr>
+<tr class="even">
+<td>1929</td>
+<td>Fleming publishes findings</td>
+</tr>
+<tr class="odd">
+<td>1940</td>
+<td>Florey &amp; Chain purify penicillin</td>
+</tr>
+<tr class="even">
+<td>1941</td>
+<td>First human treated</td>
+</tr>
+<tr class="odd">
+<td>1943</td>
+<td>Mass production begins</td>
+</tr>
+<tr class="even">
+<td>1945</td>
+<td>Nobel Prize awarded</td>
+</tr>
+</tbody>
+</table>
+
+<aside><div>
+<p>The gap between discovery (1928) and clinical use (1941) was 13 years. Florey and Chain at Oxford developed the purification process. The first patient treated was a policeman with staphylococcal sepsis. Mass production was driven by WWII needs.</p>
+</div></aside></section>
+<section id="the-impact-of-penicillin" class="slide level2">
+<h2>The Impact of penicillin</h2>
+<p><br></p>
+<ul>
+<li><strong>Before penicillin</strong>: Minor infections could be fatal</li>
+<li><strong>Bacterial endocarditis</strong>: 100% mortality</li>
+<li><strong>Pneumococcal pneumonia</strong>: 30% mortality</li>
+<li><strong>Staphylococcal sepsis</strong>: Often fatal</li>
+<li>Penicillin transformed infectious disease medicine</li>
+<li>Initiated the “antibiotic era”</li>
+</ul>
+<aside class="notes">
+<p>It’s hard to overstate the impact. Diseases that were death sentences became curable. Surgery became safer. Emphasize that despite being nearly 100 years old, penicillins remain essential antibiotics.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="basic-penicillin-structure" class="slide level2">
+<h2>Basic Penicillin Structure</h2>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images-betalactam1/structure.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src="images-betalactam1/structure.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+
+<aside><div>
+<p>Thiazolidine ring (5-membered with sulfur), β-lactam ring (4-membered, essential for activity), and the side chain (R group). The carboxylic acid makes penicillins weak acids.</p>
+</div></aside></section>
+<section id="the-three-key-structural-components" class="slide level2">
+<h2>The three key structural components</h2>
+<p><br></p>
+<ol type="1">
+<li><strong>Thiazolidine ring</strong>
+<ul>
+<li>5-membered ring containing sulfur</li>
+<li>Provides structural stability</li>
+</ul></li>
+<li><strong>β-Lactam ring</strong>
+<ul>
+<li>4-membered ring under strain</li>
+<li>ESSENTIAL for antibacterial activity</li>
+<li>Target of β-lactamases</li>
+</ul></li>
+<li><strong>Side chain (R group)</strong>
+<ul>
+<li>Variable component</li>
+<li>Determines properties of each penicillin</li>
+</ul></li>
+</ol>
+
+<aside><div>
+<p>The β-lactam ring is under considerable strain due to its geometry. This strain makes it reactive with PBPs but also susceptible to β-lactamase attack. The side chain is where all the modifications occur to create different penicillins.</p>
+</div></aside></section>
+<section id="the-β-lactam-ring-why-it-matters" class="slide level2">
+<h2>The β-Lactam ring: Why it matters</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><strong>Strained 4-membered ring</strong> — chemically reactive</li>
+<li><strong>Mimics D-Ala-D-Ala</strong> terminus of peptidoglycan</li>
+<li><strong>Covalently binds</strong> to PBP active site serine</li>
+<li><strong>Opening the ring</strong> = loss of activity</li>
+<li>This is why β-lactamases cause resistance</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images-betalactam1/Beta-lactam.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img data-src="images-betalactam1/Beta-lactam.svg" class="quarto-figure quarto-figure-center" width="300"></a></p>
+</figure>
+</div>
+</div></div>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p>No β-lactam ring = No antibacterial activity</p>
+</div>
+</div>
+</div>
+
+<aside><div>
+<p>The β-lactam ring mimics the natural substrate of PBPs, which is the D-alanyl-D-alanine terminus of the peptidoglycan pentapeptide. When the ring opens (either by PBP binding or β-lactamase hydrolysis), the compound changes structure.</p>
+</div></aside></section>
+<section id="classification-of-β-lactamases" class="slide level2">
+<h2>Classification of β-lactamases</h2>
+<p><br></p>
+<div style="font-size: 0.75em">
+<table class="caption-top" style="width:100%;">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"><strong>Ambler Class</strong></th>
+<th><strong>Major Subtype</strong></th>
+<th><strong>Preferred Substrates</strong></th>
+<th><strong>Inhibitor</strong></th>
+<th><strong>Genetic Localization</strong></th>
+<th><strong>Representative Enzymes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><strong>A</strong></td>
+<td>Gram-positive β-lactamase 2a</td>
+<td>Penicillins</td>
+<td>Clavulanic acid</td>
+<td>Chromosome or plasmid</td>
+<td>PC1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>A</strong></td>
+<td><strong>Gram-negative β-lactamase 2b</strong></td>
+<td>Penicillins, 1st-gen cephalosporins</td>
+<td>Clavulanic acid</td>
+<td>Plasmid or chromosomal</td>
+<td>TEM-1, SHV-1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>A</strong></td>
+<td><strong>Extended-spectrum β-lactamase 2be</strong></td>
+<td>Penicillins, extended-spectrum cephalosporins, aztreonam</td>
+<td>Clavulanic acid</td>
+<td>Plasmid</td>
+<td>TEM-24, SHV-12, CTX-M-15</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>A</strong></td>
+<td><strong>Inhibitor-resistant TEM β-lactamase 2br</strong></td>
+<td>Penicillins</td>
+<td>Clavulanic acid<sup>c</sup></td>
+<td>Plasmid</td>
+<td>TEM-30, SHV-10</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>A</strong></td>
+<td><strong>Carbenicillin-hydrolyzing β-lactamase 2c</strong></td>
+<td>Carbenicillin</td>
+<td>Clavulanic acid<sup>c</sup></td>
+<td>Plasmid</td>
+<td>PSE-1, CARB-3</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>A</strong></td>
+<td><strong>Cephalosporin-hydrolyzing β-lactamase 2e</strong></td>
+<td>Extended-spectrum cephalosporins</td>
+<td>Clavulanic acid</td>
+<td>Chromosome</td>
+<td>CepA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>A</strong></td>
+<td><strong>Carbapenem-hydrolyzing β-lactamase 2f</strong></td>
+<td>Carbapenems</td>
+<td>Avibactam, Relebactam, Vaborbactam</td>
+<td>Chromosome or plasmid</td>
+<td>KPC-2, SME-1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>B</strong></td>
+<td>Metallo-β-lactamase 3a</td>
+<td>All β-lactams except monobactam</td>
+<td>EDTA, divalent cation chelators</td>
+<td>Chromosome or plasmid</td>
+<td>IMP-1, VIM-2, NDM-1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>C</strong></td>
+<td>AmpC-type β-lactamase</td>
+<td>Cephalosporins</td>
+<td>Cloxacillin, avibactam, relebactam, vaborbactam</td>
+<td>Chromosome or plasmid</td>
+<td>AmpC, CMY-2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="the-side-chain-determining-properties" class="slide level2">
+<h2>The side chain: Determining properties</h2>
+<p><br></p>
+<p>The side chain modifications determine:</p>
+<ul>
+<li><strong>Acid stability</strong> — Can it survive gastric acid? (oral absorption)</li>
+<li><strong>β-Lactamase stability</strong> — Is it protected from enzymatic destruction?</li>
+<li><strong>Spectrum of activity</strong> — Which bacteria are susceptible?</li>
+<li><strong>Protein binding</strong> — How much free drug is available?</li>
+<li><strong>Tissue penetration</strong> — Where does the drug distribute?</li>
+<li><strong>Cross-reactivity</strong> - Risk of allergies?</li>
+</ul>
+
+<aside><div>
+<p>All the different penicillin classes arise from different side chain modifications. A bulky side chain near the β-lactam ring provides steric protection against β-lactamases.</p>
+</div></aside></section>
+<section id="aminopenicillanic-acid-6-apa" class="slide level2">
+<h2>6-Aminopenicillanic Acid (6-APA)</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>The <strong>penicillin nucleus</strong> (core structure without side chain)</li>
+<li>Isolated from <em>Penicillium chrysogenum</em> fermentation</li>
+<li>Allowed creation of <strong>semisynthetic penicillins</strong></li>
+<li>Enabled systematic modification of the side chain</li>
+<li>Led to development of all modern penicillins</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><a href="images-betalactam1/6-APA.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img data-src="images-betalactam1/6-APA.png"></a></p>
+</div></div>
+<aside class="notes">
+<p>The isolation of 6-APA was a breakthrough. By attaching different side chains to this nucleus, chemists could create penicillins with different properties. This is how we got methicillin, ampicillin, and all the other semisynthetic penicillins.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="part-2-mechanism-of-action" class="title-slide slide level1 center" data-background-color="#9B0014">
+<h1>PART 2: Mechanism of Action</h1>
+<aside class="notes">
+<p>Now we’ll explore how penicillins actually kill bacteria. Understanding the mechanism helps explain why they’re bactericidal and why certain bacteria are resistant.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="overview-how-penicillins-work" class="slide level2">
+<h2>Overview: How penicillins work</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>Target: Final step of peptidoglycan synthesis</li>
+<li>Mechanism: Penicillins inhibit bacterial cell wall synthesis by binding to penicillin-binding proteins (PBPs)</li>
+<li>Result: Weakened cell wall</li>
+<li>Outcome: Osmotic lysis and cell death</li>
+<li>Effect: <strong>Bactericidal</strong> (kills bacteria)</li>
+</ul>
+
+</div><div class="column" style="width:60%;">
+<video src="images-betalactam1/pcn_moa.mov" controls="" style="width:100%; height:auto;">
+</video>
+</div></div>
+<aside><div>
+<p>Penicillins are bactericidal, not bacteriostatic. However, they only kill actively growing bacteria that are synthesizing new cell wall. Dormant bacteria (persister cells) can survive penicillin treatment.</p>
+</div></aside></section>
+<section id="why-bacteria-need-cell-walls" class="slide level2">
+<h2>Why Bacteria Need Cell Walls</h2>
+<p><br></p>
+<ul>
+<li>Bacteria have <strong>high internal osmotic pressure</strong></li>
+<li>Without cell wall → osmotic lysis</li>
+<li>Cell wall = <strong>peptidoglycan polymer</strong></li>
+<li>Gram-positive: thick layer (50-100 molecules)</li>
+<li>Gram-negative: thin layer (1-2 molecules) + outer membrane</li>
+<li><strong>Human cells have no cell wall</strong> → selective toxicity</li>
+</ul>
+<aside class="notes">
+<p>This is why penicillins have such a good safety profile. They target a structure (peptidoglycan) that human cells don’t have. The selective toxicity ratio is excellent.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="peptidoglycan-structure" class="slide level2">
+<h2>Peptidoglycan Structure</h2>
+<p><br></p>
+<ul>
+<li><strong>Backbone</strong>: Alternating NAG-NAM disaccharides
+<ul>
+<li>NAG = N-acetylglucosamine</li>
+<li>NAM = N-acetylmuramic acid</li>
+</ul></li>
+<li><strong>Pentapeptide stems</strong>: Attached to NAM
+<ul>
+<li>Terminate in D-Ala-D-Ala</li>
+</ul></li>
+<li><strong>Cross-links</strong>: Connect adjacent chains
+<ul>
+<li>Provide strength and rigidity</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>The cross-links are what give peptidoglycan its strength. Without cross-linking, the cell wall is weak and the bacterium lyses. This is exactly what penicillins prevent.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="peptidoglycan-synthesis-overview" class="slide level2">
+<h2>Peptidoglycan Synthesis: Overview</h2>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/fig20-2-08.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="PBP transpeptidation reaction cross-linking bacterial cell wall. NAG = N-acetylglucosamine; NAM = N-acetylmuramic acid."><img data-src="images/fig20-2-08.png" style="width:75.0%" alt="PBP transpeptidation reaction cross-linking bacterial cell wall. NAG = N-acetylglucosamine; NAM = N-acetylmuramic acid."></a></p>
+<figcaption>PBP transpeptidation reaction cross-linking bacterial cell wall. NAG = N-acetylglucosamine; NAM = N-acetylmuramic acid.</figcaption>
+</figure>
+</div>
+<aside class="notes">
+<p>Walk through the diagram showing how NAG-NAM chains are cross-linked. Point out that the transpeptidation reaction removes the terminal D-alanine while forming the cross-link.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="transpeptidation-the-target-reaction" class="slide level2">
+<h2>Transpeptidation: The Target Reaction</h2>
+<p><br></p>
+<ol type="1">
+<li>Pentapeptide ends in <strong>D-Ala-D-Ala</strong></li>
+<li>Transpeptidase (PBP) binds to D-Ala-D-Ala</li>
+<li>Forms <strong>covalent intermediate</strong> with penultimate D-Ala</li>
+<li>Terminal D-Ala is released</li>
+<li>Cross-link formed with adjacent chain</li>
+<li><strong>Penicillin mimics D-Ala-D-Ala</strong> and gets stuck</li>
+</ol>
+<aside class="notes">
+<p>This is the key concept. Penicillin structurally mimics the D-Ala-D-Ala substrate. When the PBP tries to bind penicillin, it forms a stable covalent complex instead of completing the reaction. The enzyme is “stuck.”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="what-are-penicillin-binding-proteins-pbps" class="slide level2">
+<h2>What Are Penicillin-Binding Proteins (PBPs)?</h2>
+<p><br></p>
+<ul>
+<li><strong>Membrane-bound enzymes</strong> in all bacteria</li>
+<li>Catalyze final steps of cell wall synthesis</li>
+<li><strong>Serine proteases</strong> — related to β-lactamases!</li>
+<li>Named for their ability to bind penicillin</li>
+<li>Multiple PBPs in each bacterial species</li>
+<li>Different PBPs have different functions</li>
+</ul>
+<aside class="notes">
+<p>The evolutionary relationship between PBPs and β-lactamases is important. β-lactamases evolved from PBPs but developed the ability to rapidly hydrolyze (rather than be inhibited by) β-lactams.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="classes-of-pbps" class="slide level2">
+<h2>Classes of PBPs</h2>
+<p><br></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Class</th>
+<th>Size</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>High-MW Class A</strong></td>
+<td>&gt;50 kDa</td>
+<td>Bifunctional: transglycosylase + transpeptidase</td>
+</tr>
+<tr class="even">
+<td><strong>High-MW Class B</strong></td>
+<td>&gt;50 kDa</td>
+<td>Transpeptidase only</td>
+</tr>
+<tr class="odd">
+<td><strong>Low-MW</strong></td>
+<td>&lt;50 kDa</td>
+<td>Carboxypeptidases</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p>High-molecular-weight PBPs are the essential targets. Class A PBPs can do both glycan chain elongation and cross-linking. Class B only do cross-linking. Low-MW PBPs are carboxypeptidases that trim the peptidoglycan.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="pbp-functions-in-e.-coli" class="slide level2">
+<h2>PBP Functions in <em>E. coli</em></h2>
+<p><br></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>PBP</th>
+<th>Function</th>
+<th>Inhibition Result</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>PBP1a/1b</td>
+<td>Transglycosylase + transpeptidase</td>
+<td>Rapid cell lysis</td>
+</tr>
+<tr class="even">
+<td>PBP2</td>
+<td>Cell elongation, rod shape</td>
+<td>Round cells (cocci)</td>
+</tr>
+<tr class="odd">
+<td>PBP3</td>
+<td>Septum formation, cell division</td>
+<td>Long filaments</td>
+</tr>
+<tr class="even">
+<td>PBP4-6</td>
+<td>Carboxypeptidases</td>
+<td>Minor effects</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p>Different β-lactams have different affinities for different PBPs, which explains why some cause rapid lysis while others cause filamentation. The essential PBPs are 1, 2, and 3.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="pbps-vs-β-lactamases-key-difference" class="slide level2">
+<h2>PBPs vs β-Lactamases: Key Difference</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>PBPs (Cell Wall Synthesis)</strong></p>
+<ul>
+<li>Bind penicillin tightly</li>
+<li><strong>Slow deacylation</strong> rate</li>
+<li>Enzyme stays inhibited</li>
+<li>= Antibacterial effect</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>β-Lactamases (Resistance)</strong></p>
+<ul>
+<li>Bind penicillin</li>
+<li><strong>Fast deacylation</strong> rate</li>
+<li>Enzyme regenerates quickly</li>
+<li>= Drug destruction</li>
+</ul>
+</div></div>
+<aside class="notes">
+<p>This is the crucial biochemical distinction. Both enzymes bind penicillin via an active-site serine. The difference is how fast they release it. PBPs hold on (inhibition); β-lactamases let go quickly (resistance).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="why-penicillins-are-bactericidal" class="slide level2">
+<h2>Why Penicillins Are Bactericidal</h2>
+<p><br></p>
+<ol type="1">
+<li>PBP inhibition stops cross-link formation</li>
+<li>Existing autolysins continue degrading old peptidoglycan</li>
+<li>New peptidoglycan is weak (not cross-linked)</li>
+<li>Cell wall loses integrity</li>
+<li>Osmotic pressure causes lysis</li>
+<li><strong>Death is irreversible</strong></li>
+</ol>
+<aside class="notes">
+<p>The bactericidal effect requires active cell wall synthesis. Dormant bacteria that aren’t making new cell wall are “tolerant” to penicillin. This is clinically relevant for treating certain infections.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="tolerance-vs-resistance" class="slide level2">
+<h2>Tolerance vs Resistance</h2>
+<p><br></p>
+<ul>
+<li><strong>Resistance</strong>: Bacteria grow in presence of antibiotic
+<ul>
+<li>MIC is high</li>
+</ul></li>
+<li><strong>Tolerance</strong>: Bacteria survive but don’t grow
+<ul>
+<li>MIC is low (susceptible)</li>
+<li>MBC is high (not killed)</li>
+<li>Examples: stationary phase cells, persisters</li>
+</ul></li>
+</ul>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>Tolerance explains why some infections relapse despite “susceptible” organisms</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>This distinction is important clinically. A “susceptible” organism may still cause treatment failure if many cells are tolerant (not actively growing). This is relevant for endocarditis and other difficult infections.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="part-3-resistance-mechanisms" class="title-slide slide level1 center" data-background-color="#9B0014">
+<h1>PART 3: Resistance Mechanisms</h1>
+<aside class="notes">
+<p>Understanding resistance mechanisms is essential for appropriate antibiotic selection. We’ll cover the four main mechanisms, with emphasis on β-lactamases.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="four-mechanisms-of-β-lactam-resistance" class="slide level2">
+<h2>Four Mechanisms of β-Lactam Resistance</h2>
+<p><br></p>
+<ol type="1">
+<li><strong>β-Lactamase production</strong> — enzymatic destruction</li>
+<li><strong>Decreased permeability</strong> — porin mutations</li>
+<li><strong>Efflux pumps</strong> — active drug removal</li>
+<li><strong>Altered PBPs</strong> — low-affinity binding</li>
+</ol>
+<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Warning</strong></p>
+</div>
+<div class="callout-content">
+<p>Multiple mechanisms often coexist, especially in MDR gram-negatives</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>We’ll discuss each mechanism in detail. β-Lactamase production is by far the most common and clinically important. The mechanisms can be additive or synergistic.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="mechanism-1-β-lactamases" class="slide level2">
+<h2>Mechanism 1: β-Lactamases</h2>
+<p><br></p>
+<ul>
+<li><strong>Most common resistance mechanism</strong></li>
+<li>Enzymes that hydrolyze the β-lactam ring</li>
+<li>Open the ring → inactive compound</li>
+<li><strong>Gram-positive</strong>: Secreted extracellularly</li>
+<li><strong>Gram-negative</strong>: Located in periplasmic space</li>
+<li>Can be chromosomal or plasmid-encoded</li>
+</ul>
+<aside class="notes">
+<p>The location matters. In gram-negatives, β-lactamases are concentrated in the periplasm where they can intercept drugs before they reach PBPs. In gram-positives, they’re secreted and protect nearby bacteria too.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="β-lactamase-mechanism" class="slide level2">
+<h2>β-Lactamase Mechanism</h2>
+<p><br></p>
+<ol type="1">
+<li>β-Lactamase binds penicillin (like a PBP)</li>
+<li>Forms acyl-enzyme intermediate</li>
+<li><strong>Rapid hydrolysis</strong> — water attacks the bond</li>
+<li>Ring opens, releasing penicilloic acid</li>
+<li>Enzyme regenerates immediately</li>
+<li>Cycle repeats (catalytic)</li>
+</ol>
+<aside class="notes">
+<p>One β-lactamase molecule can destroy thousands of penicillin molecules. This is why even low levels of β-lactamase can cause resistance. The key is the fast deacylation rate compared to PBPs.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="ambler-classification-of-β-lactamases" class="slide level2">
+<h2>Ambler Classification of β-Lactamases</h2>
+<p><br></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Class</th>
+<th>Active Site</th>
+<th>Mechanism</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>A</strong></td>
+<td>Serine</td>
+<td>Acyl intermediate</td>
+<td>TEM, SHV, CTX-M, KPC</td>
+</tr>
+<tr class="even">
+<td><strong>B</strong></td>
+<td>Zinc (metallo)</td>
+<td>Direct hydrolysis</td>
+<td>NDM, VIM, IMP</td>
+</tr>
+<tr class="odd">
+<td><strong>C</strong></td>
+<td>Serine</td>
+<td>Acyl intermediate</td>
+<td>AmpC, CMY</td>
+</tr>
+<tr class="even">
+<td><strong>D</strong></td>
+<td>Serine</td>
+<td>Acyl intermediate</td>
+<td>OXA enzymes</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p>The Ambler classification is based on amino acid sequence. Classes A, C, D are serine enzymes (evolved from PBPs). Class B uses zinc ions and has a completely different mechanism. This matters for inhibitor selection.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="class-a-β-lactamases-the-most-common" class="slide level2">
+<h2>Class A β-Lactamases: The Most Common</h2>
+<p><br></p>
+<ul>
+<li><strong>TEM-1</strong>: Most common plasmid enzyme worldwide</li>
+<li><strong>SHV-1</strong>: Common in <em>Klebsiella</em></li>
+<li><strong>CTX-M</strong>: Dominant ESBL globally</li>
+<li><strong>KPC</strong>: Carbapenemase (major threat)</li>
+<li>Generally <strong>inhibited by clavulanic acid</strong></li>
+<li>Exception: KPC (not well inhibited)</li>
+</ul>
+<aside class="notes">
+<p>TEM-1 was one of the first plasmid-encoded β-lactamases discovered. CTX-M-15 has become the dominant ESBL worldwide over the past 20 years. KPC is concerning because it hydrolyzes carbapenems.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="extended-spectrum-β-lactamases-esbls" class="slide level2">
+<h2>Extended-Spectrum β-Lactamases (ESBLs)</h2>
+<p><br></p>
+<ul>
+<li><strong>Definition</strong>: Class A enzymes that hydrolyze extended-spectrum cephalosporins and aztreonam</li>
+<li><strong>Evolution</strong>: Point mutations in TEM/SHV expanded spectrum</li>
+<li><strong>CTX-M family</strong>: Now most common ESBL</li>
+<li><strong>Inhibited by clavulanic acid</strong> (in vitro)</li>
+<li><strong>Plasmid-encoded</strong> — spread easily</li>
+</ul>
+<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Warning</strong></p>
+</div>
+<div class="callout-content">
+<p>Clinical outcomes with BLI combinations may be unpredictable for serious ESBL infections</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>ESBLs arose from mutations in TEM and SHV that expanded their substrate range. CTX-M enzymes are a separate family. Despite in vitro inhibition by clavulanic acid, treatment failures occur with serious infections.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="class-b-metallo-β-lactamases-mbls" class="slide level2">
+<h2>Class B: Metallo-β-Lactamases (MBLs)</h2>
+<p><br></p>
+<ul>
+<li><strong>Use zinc ions</strong> instead of serine</li>
+<li>Hydrolyze <strong>all β-lactams EXCEPT aztreonam</strong></li>
+<li><strong>NOT inhibited</strong> by current approved inhibitors</li>
+<li>Examples: NDM-1, VIM, IMP</li>
+<li>Major global health threat</li>
+<li>Limited treatment options</li>
+</ul>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p>The “aztreonam loophole” — MBLs cannot hydrolyze monobactams</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>NDM (New Delhi metallo-β-lactamase) is spreading globally. The lack of effective inhibitors is a major problem. The aztreonam exception is being exploited clinically (aztreonam + avibactam combinations).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="class-c-ampc-β-lactamases" class="slide level2">
+<h2>Class C: AmpC β-Lactamases</h2>
+<p><br></p>
+<ul>
+<li><strong>Cephalosporinases</strong> — preferentially hydrolyze cephalosporins</li>
+<li>Often <strong>chromosomally encoded</strong></li>
+<li>Can be <strong>inducible</strong> (expressed when exposed to β-lactams)</li>
+<li>“SPACE” organisms: <em>Serratia, Pseudomonas, Acinetobacter, Citrobacter, Enterobacter</em></li>
+<li><strong>NOT inhibited</strong> by clavulanic acid</li>
+<li>Inhibited by avibactam, relebactam, vaborbactam</li>
+</ul>
+<aside class="notes">
+<p>The SPACE organisms (or ESCPM) have inducible chromosomal AmpC. Exposure to certain β-lactams can induce high-level expression. Cefepime is more stable to AmpC hydrolysis than ceftriaxone.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="class-d-oxa-enzymes" class="slide level2">
+<h2>Class D: OXA Enzymes</h2>
+<p><br></p>
+<ul>
+<li>Named for ability to hydrolyze <strong>oxacillin</strong></li>
+<li>Heterogeneous group with variable spectra</li>
+<li>Some are <strong>carbapenemases</strong> (OXA-48, OXA-23)</li>
+<li>OXA-48: Poorly inhibited by most inhibitors
+<ul>
+<li>Exception: Avibactam inhibits OXA-48</li>
+</ul></li>
+<li>Increasingly important in <em>Acinetobacter</em> (OXA-23)</li>
+</ul>
+<aside class="notes">
+<p>OXA-48 is a challenging enzyme because it doesn’t dramatically elevate MICs to carbapenems but does cause clinical failures. It’s important in <em>K. pneumoniae</em> in certain geographic areas.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="carbapenemases-the-greatest-threat" class="slide level2">
+<h2>Carbapenemases: The Greatest Threat</h2>
+<p><br></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 9%">
+<col style="width: 29%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Enzyme</th>
+<th>Class</th>
+<th>Distribution</th>
+<th>Inhibitors</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>KPC</td>
+<td>A</td>
+<td>Americas, worldwide</td>
+<td>Avibactam, vaborbactam, relebactam</td>
+</tr>
+<tr class="even">
+<td>NDM</td>
+<td>B</td>
+<td>South Asia, global</td>
+<td>None approved</td>
+</tr>
+<tr class="odd">
+<td>VIM</td>
+<td>B</td>
+<td>Europe, global</td>
+<td>None approved</td>
+</tr>
+<tr class="even">
+<td>OXA-48</td>
+<td>D</td>
+<td>Middle East, Europe</td>
+<td>Avibactam</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p>Carbapenemases compromise our “last-resort” antibiotics. Geographic distribution varies. KPC is most common in the US. NDM is dominant in South Asia. Treatment options are limited.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="mechanism-2-decreased-permeability" class="slide level2">
+<h2>Mechanism 2: Decreased Permeability</h2>
+<p><br></p>
+<ul>
+<li>Relevant only for <strong>gram-negative bacteria</strong></li>
+<li>Outer membrane = barrier to drug entry</li>
+<li><strong>Porins</strong> = channels for drug entry</li>
+<li>Porin mutations/loss → reduced drug entry</li>
+<li>Common in <em>Pseudomonas aeruginosa</em>
+<ul>
+<li>OprD loss → carbapenem resistance</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>The gram-negative outer membrane is an additional barrier. Drugs must pass through porin channels. Loss or modification of porins reduces drug accumulation. This alone usually causes low-level resistance.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="mechanism-3-efflux-pumps" class="slide level2">
+<h2>Mechanism 3: Efflux Pumps</h2>
+<p><br></p>
+<ul>
+<li><strong>Active transport</strong> of drugs out of the cell</li>
+<li>Use energy (proton motive force or ATP)</li>
+<li>Can be <strong>constitutive or inducible</strong></li>
+<li>Often have <strong>broad substrate specificity</strong></li>
+<li>Example: MexAB-OprM in <em>P. aeruginosa</em></li>
+<li>Contribute to <strong>multidrug resistance</strong></li>
+</ul>
+<aside class="notes">
+<p>Efflux pumps often work with other mechanisms. In <em>Pseudomonas</em>, efflux + β-lactamases + porin loss creates high-level resistance. Efflux pumps can affect multiple drug classes simultaneously.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="mechanism-4-altered-pbps" class="slide level2">
+<h2>Mechanism 4: Altered PBPs</h2>
+<p><br></p>
+<ul>
+<li>PBPs with <strong>low affinity</strong> for β-lactams</li>
+<li>Drug binds poorly → ineffective inhibition</li>
+<li>Examples:
+<ul>
+<li><strong>MRSA</strong>: Acquires PBP2a (mecA gene)</li>
+<li><strong>Penicillin-resistant pneumococci</strong>: Mosaic PBP genes</li>
+<li><strong>Enterococcus faecium</strong>: Low-affinity PBP5</li>
+</ul></li>
+</ul>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p>MRSA resistance is NOT due to β-lactamases — it’s due to PBP2a</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>This is a critical concept. MRSA produces a novel PBP (PBP2a) with very low affinity for most β-lactams. No amount of β-lactamase inhibitor will help. That’s why MRSA requires different antibiotics.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="mrsa-mechanism-of-resistance" class="slide level2">
+<h2>MRSA: Mechanism of Resistance</h2>
+<p><br></p>
+<ol type="1">
+<li>MRSA carries <strong>mecA gene</strong> (on SCCmec element)</li>
+<li>mecA encodes <strong>PBP2a</strong> (also called PBP2’)</li>
+<li>PBP2a has <strong>very low affinity</strong> for β-lactams</li>
+<li>Native PBPs are inhibited, but PBP2a continues working</li>
+<li>Cell wall synthesis continues</li>
+<li><strong>All β-lactams ineffective</strong> (except ceftaroline, ceftobiprole)</li>
+</ol>
+<aside class="notes">
+<p>Understanding this mechanism explains why we need different drugs for MRSA. The newer cephalosporins ceftaroline and ceftobiprole have enhanced binding to PBP2a, which is why they’re active against MRSA.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="part-4-classification-of-penicillins" class="title-slide slide level1 center" data-background-color="#9B0014">
+<h1>PART 4: Classification of Penicillins</h1>
+<aside class="notes">
+<p>Now we’ll classify penicillins by their antibacterial spectrum. Understanding the classes helps with drug selection.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="five-classes-of-penicillins" class="slide level2">
+<h2>Five Classes of Penicillins</h2>
+<p><br></p>
+<ol type="1">
+<li><strong>Natural penicillins</strong> — Penicillin G, Penicillin V</li>
+<li><strong>Penicillinase-resistant</strong> — Nafcillin, Oxacillin, Dicloxacillin</li>
+<li><strong>Aminopenicillins</strong> — Ampicillin, Amoxicillin</li>
+<li><strong>Carboxypenicillins</strong> — Ticarcillin (obsolete)</li>
+<li><strong>Ureidopenicillins</strong> — Piperacillin</li>
+</ol>
+<aside class="notes">
+<p>Each class has different side chain modifications. The modifications determine spectrum, stability, and pharmacokinetics. We’ll discuss each class in detail.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="class-1-natural-penicillins" class="slide level2">
+<h2>Class 1: Natural Penicillins</h2>
+<p><br></p>
+<p><strong>Penicillin G</strong> (parenteral) and <strong>Penicillin V</strong> (oral)</p>
+<ul>
+<li>The original penicillins</li>
+<li><strong>Narrowest spectrum</strong> but highest potency against susceptible organisms</li>
+<li><strong>Acid-labile</strong> (Pen G) vs <strong>Acid-stable</strong> (Pen V)</li>
+<li>Susceptible to β-lactamases</li>
+<li>Still drugs of choice for many infections</li>
+</ul>
+<aside class="notes">
+<p>Natural penicillins are still very important. They have the highest intrinsic activity against susceptible organisms. Narrow spectrum can be an advantage (less collateral damage to microbiome).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="natural-penicillins-spectrum" class="slide level2">
+<h2>Natural Penicillins: Spectrum</h2>
+<p><br></p>
+<p><strong>Excellent activity:</strong></p>
+<ul>
+<li><em>Streptococcus pyogenes</em> (Group A strep)</li>
+<li><em>Streptococcus agalactiae</em> (Group B strep)</li>
+<li><em>Streptococcus pneumoniae</em> (susceptible strains)</li>
+<li><em>Neisseria meningitidis</em></li>
+<li><em>Treponema pallidum</em> (syphilis)</li>
+<li>Most oral anaerobes</li>
+<li><em>Listeria monocytogenes</em></li>
+</ul>
+<aside class="notes">
+<p>Group A strep has essentially 100% susceptibility to penicillin. Penicillin G remains first-line for syphilis. These are important “penicillin G diseases” to remember.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="natural-penicillins-clinical-uses" class="slide level2">
+<h2>Natural Penicillins: Clinical Uses</h2>
+<p><br></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Infection</th>
+<th>Drug of Choice</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Group A strep pharyngitis</td>
+<td>Penicillin V</td>
+</tr>
+<tr class="even">
+<td>Syphilis (all stages)</td>
+<td>Penicillin G</td>
+</tr>
+<tr class="odd">
+<td>Neurosyphilis</td>
+<td>IV Penicillin G</td>
+</tr>
+<tr class="even">
+<td>Meningococcal meningitis</td>
+<td>Penicillin G</td>
+</tr>
+<tr class="odd">
+<td>Actinomycosis</td>
+<td>Penicillin G</td>
+</tr>
+<tr class="even">
+<td>Gas gangrene (<em>C. perfringens</em>)</td>
+<td>Penicillin G</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p>These are infections where natural penicillins remain preferred. For syphilis, there is no alternative as effective as penicillin G. Penicillin-allergic patients with syphilis should undergo desensitization.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="class-2-penicillinase-resistant-penicillins" class="slide level2">
+<h2>Class 2: Penicillinase-Resistant Penicillins</h2>
+<p><br></p>
+<p><strong>Nafcillin, Oxacillin, Dicloxacillin, Flucloxacillin</strong></p>
+<ul>
+<li><strong>Bulky side chains</strong> create steric hindrance</li>
+<li>Resist hydrolysis by staphylococcal β-lactamases</li>
+<li>Spectrum: <strong>MSSA and streptococci</strong></li>
+<li>No gram-negative activity</li>
+<li><strong>NOT effective against MRSA</strong></li>
+</ul>
+<aside class="notes">
+<p>The bulky side chain physically blocks β-lactamase access to the β-lactam ring. They’re designed specifically for staphylococcal infections. Remember: they don’t work against MRSA because MRSA resistance is PBP-mediated, not β-lactamase-mediated.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="antistaphylococcal-penicillins-details" class="slide level2">
+<h2>Antistaphylococcal Penicillins: Details</h2>
+<p><br></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Drug</th>
+<th>Route</th>
+<th>Protein Binding</th>
+<th>Elimination</th>
+<th>Special Considerations</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nafcillin</td>
+<td>IV</td>
+<td>90%</td>
+<td>Hepatic</td>
+<td>Hypokalemia, phlebitis</td>
+</tr>
+<tr class="even">
+<td>Oxacillin</td>
+<td>IV</td>
+<td>90%</td>
+<td>Mixed</td>
+<td>Hepatotoxicity</td>
+</tr>
+<tr class="odd">
+<td>Dicloxacillin</td>
+<td>PO</td>
+<td>96%</td>
+<td>Renal/hepatic</td>
+<td>Highest protein binding</td>
+</tr>
+<tr class="even">
+<td>Flucloxacillin</td>
+<td>PO/IV</td>
+<td>96%</td>
+<td>Renal</td>
+<td>Not available in US</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p>Nafcillin is primarily hepatically eliminated, so no renal dose adjustment needed. Oxacillin can cause hepatotoxicity. Dicloxacillin has the highest protein binding of any penicillin.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="class-3-aminopenicillins" class="slide level2">
+<h2>Class 3: Aminopenicillins</h2>
+<p><br></p>
+<p><strong>Ampicillin and Amoxicillin</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/fig20-6-25.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Aminopenicillins: Ampicillin and Amoxicillin differ only in the hydroxyl group."><img data-src="images/fig20-6-25.png" style="width:70.0%" alt="Aminopenicillins: Ampicillin and Amoxicillin differ only in the hydroxyl group."></a></p>
+<figcaption>Aminopenicillins: Ampicillin and Amoxicillin differ only in the hydroxyl group.</figcaption>
+</figure>
+</div>
+<aside class="notes">
+<p>The amino group on the side chain improves penetration through gram-negative outer membranes. Amoxicillin’s hydroxyl group improves oral absorption. Both are susceptible to β-lactamases.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="aminopenicillins-expanded-spectrum" class="slide level2">
+<h2>Aminopenicillins: Expanded Spectrum</h2>
+<p><br></p>
+<ul>
+<li><strong>Same as natural penicillins PLUS:</strong>
+<ul>
+<li><em>Enterococcus faecalis</em></li>
+<li><em>Haemophilus influenzae</em> (non-β-lactamase producing)</li>
+<li><em>Escherichia coli</em> (non-β-lactamase producing)</li>
+<li><em>Proteus mirabilis</em></li>
+<li><em>Salmonella</em> and <em>Shigella</em> spp.</li>
+<li><em>Listeria monocytogenes</em></li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>The expanded gram-negative coverage is useful but limited by β-lactamase production. Many <em>E. coli</em> are now resistant due to β-lactamases. Enterococcal coverage makes ampicillin important for certain infections.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="ampicillin-vs-amoxicillin" class="slide level2">
+<h2>Ampicillin vs Amoxicillin</h2>
+<p><br></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Property</th>
+<th>Ampicillin</th>
+<th>Amoxicillin</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Oral absorption</td>
+<td>30-55%</td>
+<td>74-92%</td>
+</tr>
+<tr class="even">
+<td>Effect of food</td>
+<td>Decreased</td>
+<td>None</td>
+</tr>
+<tr class="odd">
+<td>Preferred route</td>
+<td>IV</td>
+<td>Oral</td>
+</tr>
+<tr class="even">
+<td>Bioequivalence</td>
+<td>—</td>
+<td>Better than ampicillin</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>For oral therapy, amoxicillin is almost always preferred</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>This is an important practical point. Oral amoxicillin achieves much better levels than oral ampicillin. Unless IV is needed, amoxicillin is the better choice.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="classes-4-5-antipseudomonal-penicillins" class="slide level2">
+<h2>Classes 4 &amp; 5: Antipseudomonal Penicillins</h2>
+<p><br></p>
+<p><strong>Carboxypenicillins</strong> (ticarcillin) — largely obsolete <strong>Ureidopenicillins</strong> (piperacillin) — in wide use</p>
+<ul>
+<li>Extended gram-negative spectrum</li>
+<li>Activity against <em>Pseudomonas aeruginosa</em></li>
+<li>Excellent anaerobic coverage</li>
+<li>Susceptible to β-lactamases</li>
+<li>Now used with β-lactamase inhibitors</li>
+</ul>
+<aside class="notes">
+<p>Ticarcillin is no longer manufactured. Piperacillin is only used combined with tazobactam. These drugs have the broadest spectrum of the penicillins but require large doses.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="piperacillin-spectrum" class="slide level2">
+<h2>Piperacillin: Spectrum</h2>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/fig20-7-31.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Penicillins active against gram-negative bacteria including Pseudomonas."><img data-src="images/fig20-7-31.png" style="width:70.0%" alt="Penicillins active against gram-negative bacteria including Pseudomonas."></a></p>
+<figcaption>Penicillins active against gram-negative bacteria including Pseudomonas.</figcaption>
+</figure>
+</div>
+<aside class="notes">
+<p>Piperacillin has the broadest spectrum of any penicillin. Activity against <em>P. aeruginosa</em>, most Enterobacterales, and excellent anaerobic coverage. Always used with tazobactam now.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="spectrum-summary-table" class="slide level2">
+<h2>Spectrum Summary Table</h2>
+<p><br></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 28%">
+<col style="width: 17%">
+<col style="width: 10%">
+<col style="width: 18%">
+<col style="width: 15%">
+<col style="width: 8%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Class</th>
+<th>Gram+</th>
+<th>Gram-</th>
+<th>Pseudomonas</th>
+<th>Anaerobes</th>
+<th>MRSA</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Natural</td>
+<td>+++</td>
+<td>-</td>
+<td>-</td>
+<td>++</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>Antistaphylococcal</td>
+<td>++ (Staph)</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>Aminopenicillins</td>
+<td>++</td>
+<td>+</td>
+<td>-</td>
+<td>++</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>Antipseudomonal</td>
+<td>+</td>
+<td>++</td>
+<td>++</td>
+<td>+++</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p>This summary helps with quick selection. Note that NONE of the penicillins work against MRSA. Antistaphylococcal penicillins are narrow but highly effective against MSSA.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="part-5-pharmacokinetics" class="title-slide slide level1 center" data-background-color="#9B0014">
+<h1>PART 5: Pharmacokinetics</h1>
+<aside class="notes">
+<p>Understanding pharmacokinetics is essential for appropriate dosing. We’ll cover absorption, distribution, metabolism, and excretion.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="oral-absorption" class="slide level2">
+<h2>Oral Absorption</h2>
+<p><br></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Penicillin</th>
+<th>Absorption (%)</th>
+<th>Food Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Penicillin V</td>
+<td>60</td>
+<td>None</td>
+</tr>
+<tr class="even">
+<td>Ampicillin</td>
+<td>30-55</td>
+<td>Decreased</td>
+</tr>
+<tr class="odd">
+<td>Amoxicillin</td>
+<td>74-92</td>
+<td>None</td>
+</tr>
+<tr class="even">
+<td>Dicloxacillin</td>
+<td>37</td>
+<td>Decreased</td>
+</tr>
+<tr class="odd">
+<td>Flucloxacillin</td>
+<td>44</td>
+<td>Decreased</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>Amoxicillin has the best oral bioavailability</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Absorption varies dramatically. This determines which penicillins can be used orally. Amoxicillin is exceptional with 74-92% absorption unaffected by food. Most others should be taken on an empty stomach.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="protein-binding" class="slide level2">
+<h2>Protein Binding</h2>
+<p><br></p>
+<ul>
+<li>Ranges from <strong>17% (aminopenicillins) to 97% (dicloxacillin)</strong></li>
+<li><strong>Only free drug is active</strong></li>
+<li>High protein binding:
+<ul>
+<li>Reduces active drug concentration</li>
+<li>Prolongs half-life</li>
+<li>May reduce tissue penetration</li>
+</ul></li>
+<li>Clinical significance debated</li>
+</ul>
+<aside class="notes">
+<p>Protein binding affects interpretation of serum levels. A drug with 96% protein binding has only 4% free drug. Whether this is clinically significant is debated, but it may matter for deep-seated infections.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="distribution" class="slide level2">
+<h2>Distribution</h2>
+<p><br></p>
+<ul>
+<li>Generally <strong>good tissue penetration</strong></li>
+<li>Achieve therapeutic levels in:
+<ul>
+<li>Lung, liver, kidney, muscle</li>
+<li>Pleural, peritoneal, synovial fluid</li>
+<li>Bone (variable)</li>
+</ul></li>
+<li><strong>Poor penetration without inflammation</strong>:
+<ul>
+<li>CNS, eye, prostate</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>Penicillins are polar molecules with limited lipid solubility. They distribute well to most tissues but penetrate the CNS poorly. Inflammation increases CNS penetration (important for meningitis treatment).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="cns-penetration" class="slide level2">
+<h2>CNS Penetration</h2>
+<p><br></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Condition</th>
+<th>Penicillin G</th>
+<th>Ampicillin</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Normal meninges</td>
+<td>&lt;1%</td>
+<td>&lt;1%</td>
+</tr>
+<tr class="even">
+<td>Inflamed meninges</td>
+<td>5-10%</td>
+<td>13-14%</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>Inflammation is required for adequate CNS levels. As meningitis resolves, drug penetration decreases.</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>This has clinical implications. Meningitis treatment requires high doses because penetration is still limited even with inflammation. As treatment succeeds and inflammation decreases, drug levels in CSF decrease too.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="elimination" class="slide level2">
+<h2>Elimination</h2>
+<p><br></p>
+<ul>
+<li><strong>Most penicillins</strong>: Primarily renal excretion
+<ul>
+<li>Glomerular filtration + tubular secretion</li>
+<li>Short half-lives (0.5-1.5 hours)</li>
+<li>Probenecid can block tubular secretion</li>
+</ul></li>
+<li><strong>Exceptions</strong>:
+<ul>
+<li>Nafcillin: Primarily hepatic</li>
+<li>Oxacillin: Mixed hepatic/renal</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>The short half-lives necessitate frequent dosing (every 4-6 hours). Renal impairment requires dose adjustment for most penicillins. Nafcillin is the exception—no renal adjustment needed.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="renal-dosing-when-to-adjust" class="slide level2">
+<h2>Renal Dosing: When to Adjust</h2>
+<p><br></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>CrCl (mL/min)</th>
+<th>Adjustment Needed?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>&gt;50</td>
+<td>Usually no</td>
+</tr>
+<tr class="even">
+<td>30-50</td>
+<td>Consider for some agents</td>
+</tr>
+<tr class="odd">
+<td>10-30</td>
+<td>Yes for most agents</td>
+</tr>
+<tr class="even">
+<td>&lt;10</td>
+<td>Yes, significant reduction</td>
+</tr>
+<tr class="odd">
+<td>Hemodialysis</td>
+<td>Dose after dialysis</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p>The threshold for dose adjustment varies by agent. Natural penicillins and aminopenicillins need adjustment below 30 mL/min. Antistaphylococcal penicillins (except oxacillin) generally don’t need adjustment.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="dosing-in-renal-failure" class="slide level2">
+<h2>Dosing in Renal Failure</h2>
+<p><br></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Agent</th>
+<th>CrCl 10-29</th>
+<th>Hemodialysis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Penicillin G</td>
+<td>75% dose</td>
+<td>Dose post-HD</td>
+</tr>
+<tr class="even">
+<td>Ampicillin</td>
+<td>0.5-2g q12h</td>
+<td>0.5-1g q12-24h</td>
+</tr>
+<tr class="odd">
+<td>Amoxicillin</td>
+<td>500mg q12h</td>
+<td>500mg q12-24h</td>
+</tr>
+<tr class="even">
+<td>Piperacillin</td>
+<td>3g q8-12h</td>
+<td>3g q12h</td>
+</tr>
+<tr class="odd">
+<td>Nafcillin</td>
+<td>No change</td>
+<td>No change</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p>Memorize that nafcillin doesn’t require renal adjustment. For dialysis patients, give the dose after dialysis to avoid drug removal. Extended-spectrum agents like piperacillin require adjustment.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="optimizing-β-lactam-dosing" class="slide level2">
+<h2>Optimizing β-Lactam Dosing</h2>
+<p><br></p>
+<ul>
+<li>β-Lactams are <strong>time-dependent killers</strong></li>
+<li>Efficacy correlates with <strong>%T&gt;MIC</strong> (time above MIC)</li>
+<li>Target: 40-70% of dosing interval above MIC</li>
+<li>Strategies to optimize:
+<ul>
+<li>More frequent dosing</li>
+<li>Extended infusions (3-4 hours)</li>
+<li>Continuous infusions</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>This PK/PD concept is fundamental. Unlike aminoglycosides (concentration-dependent), β-lactams need to maintain levels above MIC for as long as possible. Extended infusions are now standard for piperacillin-tazobactam.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="extended-infusion-dosing" class="slide level2">
+<h2>Extended Infusion Dosing</h2>
+<p><br></p>
+<p><strong>Piperacillin-Tazobactam Example:</strong></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Traditional</th>
+<th>Extended Infusion</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>4.5g over 30 min q6h</td>
+<td>4.5g over 4 hours q8h</td>
+</tr>
+<tr class="even">
+<td>Higher peak, lower trough</td>
+<td>Lower peak, higher trough</td>
+</tr>
+<tr class="odd">
+<td>Less time above MIC</td>
+<td>More time above MIC</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>Extended infusion may improve outcomes, especially for organisms with higher MICs</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Extended infusion dosing has become standard of care in many institutions. The total daily dose may be similar or even lower, but the pharmacodynamics are superior.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="part-6-adverse-effects" class="title-slide slide level1 center" data-background-color="#9B0014">
+<h1>PART 6: Adverse Effects</h1>
+<aside class="notes">
+<p>Penicillins are generally safe, but adverse effects do occur. Hypersensitivity is the most important concern.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="overview-of-adverse-effects" class="slide level2">
+<h2>Overview of Adverse Effects</h2>
+<p><br></p>
+<ul>
+<li><strong>Hypersensitivity reactions</strong> — most important</li>
+<li>Gastrointestinal effects</li>
+<li>Hematologic effects</li>
+<li>Neurologic effects</li>
+<li>Nephrotoxicity</li>
+<li>Hepatotoxicity</li>
+<li>Electrolyte disturbances</li>
+</ul>
+<aside class="notes">
+<p>We’ll discuss each category. Hypersensitivity is the most clinically significant concern. Most other effects are dose-related or specific to certain agents.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="hypersensitivity-types" class="slide level2">
+<h2>Hypersensitivity: Types</h2>
+<p><br></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Timing</th>
+<th>Mechanism</th>
+<th>Manifestations</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Type I</td>
+<td>Minutes-hours</td>
+<td>IgE-mediated</td>
+<td>Anaphylaxis, urticaria, angioedema</td>
+</tr>
+<tr class="even">
+<td>Type II</td>
+<td>Days</td>
+<td>Antibody-mediated</td>
+<td>Hemolytic anemia, cytopenia</td>
+</tr>
+<tr class="odd">
+<td>Type III</td>
+<td>1-3 weeks</td>
+<td>Immune complex</td>
+<td>Serum sickness, drug fever</td>
+</tr>
+<tr class="even">
+<td>Type IV</td>
+<td>Days-weeks</td>
+<td>T-cell mediated</td>
+<td>Maculopapular rash, contact dermatitis</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p>Type I reactions are the most dangerous and require avoidance. Type IV reactions (delayed maculopapular rashes) are most common and generally don’t preclude future use.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="penicillin-allergy-by-the-numbers" class="slide level2">
+<h2>Penicillin Allergy: By the Numbers</h2>
+<p><br></p>
+<ul>
+<li><strong>~10%</strong> of patients report penicillin allergy</li>
+<li><strong>&lt;1%</strong> have true IgE-mediated allergy when tested</li>
+<li><strong>~2%</strong> will react if challenged</li>
+<li><strong>True anaphylaxis: &lt;0.01%</strong></li>
+<li>Allergy often wanes over time
+<ul>
+<li>50% lose sensitivity within 5 years</li>
+<li>80% lose sensitivity within 10 years</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>These numbers are important. Most “penicillin allergy” labels are inaccurate. Over-labeling leads to use of broader-spectrum, more toxic, and more expensive antibiotics. De-labeling is an important intervention.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="penicillin-allergy-de-labeling" class="slide level2">
+<h2>Penicillin Allergy De-Labeling</h2>
+<p><br></p>
+<ol type="1">
+<li><strong>History assessment</strong> — Was it really an allergic reaction?</li>
+<li><strong>Risk stratification</strong> — High risk vs low risk features</li>
+<li><strong>Skin testing</strong> — Detects IgE-mediated allergy</li>
+<li><strong>Graded oral challenge</strong> — Confirms tolerance</li>
+<li><strong>Update medical record</strong> — Remove incorrect allergy label</li>
+</ol>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>De-labeling programs are safe and improve patient care</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Penicillin allergy de-labeling is an important quality improvement initiative. Many patients can safely receive penicillins after proper evaluation. This improves outcomes and reduces costs.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="cross-reactivity-with-cephalosporins" class="slide level2">
+<h2>Cross-Reactivity with Cephalosporins</h2>
+<p><br></p>
+<ul>
+<li><strong>Historical estimates</strong>: 10% cross-reactivity (overestimate)</li>
+<li><strong>Current data</strong>: ~1-2% cross-reactivity</li>
+<li>Cross-reactivity relates to <strong>side chain similarity</strong></li>
+<li>Highest risk: Similar R1 side chains
+<ul>
+<li>Ampicillin → Cephalexin, Cefadroxil</li>
+</ul></li>
+<li>Lower risk: Dissimilar side chains
+<ul>
+<li>Ceftriaxone, cefepime</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>The 10% cross-reactivity rate was based on flawed data. Current evidence suggests much lower rates. Side chain similarity predicts cross-reactivity better than the β-lactam ring alone.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="other-adverse-effects" class="slide level2">
+<h2>Other Adverse Effects</h2>
+<p><br></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Effect</th>
+<th>Most Common With</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Diarrhea</td>
+<td>Ampicillin, amoxicillin-clav</td>
+<td>Disruption of gut flora</td>
+</tr>
+<tr class="even">
+<td><em>C. difficile</em></td>
+<td>All</td>
+<td>Risk with any antibiotic</td>
+</tr>
+<tr class="odd">
+<td>Neutropenia</td>
+<td>Prolonged high-dose therapy</td>
+<td>Reversible</td>
+</tr>
+<tr class="even">
+<td>Seizures</td>
+<td>High-dose penicillin G</td>
+<td>Especially in renal failure</td>
+</tr>
+<tr class="odd">
+<td>Interstitial nephritis</td>
+<td>Methicillin, nafcillin</td>
+<td>Allergic mechanism</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p>GI effects are common with oral penicillins. Neutropenia is associated with prolonged courses (&gt;2 weeks). Seizures occur with very high doses, especially in patients with renal impairment.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="agent-specific-toxicities" class="slide level2">
+<h2>Agent-Specific Toxicities</h2>
+<p><br></p>
+<ul>
+<li><strong>Nafcillin</strong>: Hypokalemia, phlebitis</li>
+<li><strong>Oxacillin</strong>: Hepatotoxicity, interstitial nephritis</li>
+<li><strong>Ampicillin</strong>: Maculopapular rash (especially with EBV)</li>
+<li><strong>Amoxicillin-clavulanate</strong>: Diarrhea, hepatotoxicity</li>
+<li><strong>Piperacillin</strong>: Platelet dysfunction, hypokalemia</li>
+<li><strong>High-dose Penicillin G (K+ salt)</strong>: Hyperkalemia</li>
+</ul>
+<aside class="notes">
+<p>Know these agent-specific effects. The ampicillin rash with infectious mononucleosis is not a true allergy and doesn’t predict future reactions. Piperacillin can cause platelet dysfunction with prolonged use.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="part-7-β-lactamase-inhibitors" class="title-slide slide level1 center" data-background-color="#9B0014">
+<h1>PART 7: β-Lactamase Inhibitors</h1>
+<aside class="notes">
+<p>β-Lactamase inhibitors restore penicillin activity against resistant organisms. Understanding their spectrum is essential.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="β-lactamase-inhibitor-classes" class="slide level2">
+<h2>β-Lactamase Inhibitor Classes</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Traditional (β-lactam)</strong></p>
+<ul>
+<li>Clavulanic acid</li>
+<li>Sulbactam</li>
+<li>Tazobactam</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Novel (non-β-lactam)</strong></p>
+<ul>
+<li>Avibactam</li>
+<li>Relebactam</li>
+<li>Vaborbactam</li>
+</ul>
+</div></div>
+<aside class="notes">
+<p>The traditional inhibitors are β-lactam compounds themselves that act as “suicide substrates.” The novel inhibitors have different mechanisms and broader coverage, including KPC and AmpC.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="mechanism-traditional-inhibitors" class="slide level2">
+<h2>Mechanism: Traditional Inhibitors</h2>
+<p><br></p>
+<ol type="1">
+<li>Inhibitor binds to β-lactamase active site</li>
+<li>Forms stable <strong>acyl-enzyme complex</strong></li>
+<li>Complex undergoes <strong>irreversible fragmentation</strong></li>
+<li>Enzyme is permanently inactivated</li>
+<li>“<strong>Suicide inhibitor</strong>” mechanism</li>
+<li>One inhibitor molecule = one enzyme molecule</li>
+</ol>
+<aside class="notes">
+<p>The traditional inhibitors sacrifice themselves to inactivate the β-lactamase. This is different from competitive inhibition—the enzyme is destroyed, not just temporarily blocked.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="traditional-inhibitor-combinations" class="slide level2">
+<h2>Traditional Inhibitor Combinations</h2>
+<p><br></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Inhibitor</th>
+<th>Partner</th>
+<th>Formulations</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Clavulanic acid</td>
+<td>Amoxicillin</td>
+<td>Oral (US), IV (elsewhere)</td>
+</tr>
+<tr class="even">
+<td>Sulbactam</td>
+<td>Ampicillin</td>
+<td>IV</td>
+</tr>
+<tr class="odd">
+<td>Tazobactam</td>
+<td>Piperacillin</td>
+<td>IV</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p>In the US, amoxicillin-clavulanate is only available orally. It’s available IV in other countries. Sulbactam has intrinsic activity against <em>Acinetobacter</em>. Tazobactam is always used with piperacillin.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="spectrum-of-traditional-inhibitors" class="slide level2">
+<h2>Spectrum of Traditional Inhibitors</h2>
+<p><br></p>
+<p><strong>Inhibited:</strong></p>
+<ul>
+<li>Class A β-lactamases (TEM, SHV, many ESBLs)</li>
+<li><em>S. aureus</em> β-lactamase</li>
+<li><em>Bacteroides</em> β-lactamase</li>
+</ul>
+<p><strong>NOT inhibited:</strong></p>
+<ul>
+<li>Class B (metallo-β-lactamases)</li>
+<li>Class C (AmpC)</li>
+<li>KPC (weak inhibition)</li>
+</ul>
+<aside class="notes">
+<p>This is a critical limitation. Traditional inhibitors don’t work against AmpC or carbapenemases. That’s why piperacillin-tazobactam doesn’t work reliably against AmpC-producing organisms or KPC producers.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="novel-β-lactamase-inhibitors" class="slide level2">
+<h2>Novel β-Lactamase Inhibitors</h2>
+<p><br></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Inhibitor</th>
+<th>Partner</th>
+<th>Unique Feature</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Avibactam</td>
+<td>Ceftazidime</td>
+<td>Inhibits KPC, OXA-48, AmpC</td>
+</tr>
+<tr class="even">
+<td>Relebactam</td>
+<td>Imipenem</td>
+<td>Inhibits KPC, AmpC</td>
+</tr>
+<tr class="odd">
+<td>Vaborbactam</td>
+<td>Meropenem</td>
+<td>Inhibits KPC, AmpC</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p>None inhibit metallo-β-lactamases (NDM, VIM, IMP)</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>These newer combinations have expanded activity against carbapenemases and AmpC. They’re important for treating CRE. However, the gap remains for metallo-β-lactamases.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="inhibitor-spectrum-summary" class="slide level2">
+<h2>Inhibitor Spectrum Summary</h2>
+<p><br></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Inhibitor</th>
+<th>Class A</th>
+<th>ESBLs</th>
+<th>KPC</th>
+<th>AmpC</th>
+<th>MBLs</th>
+<th>OXA-48</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Clavulanate</td>
+<td>✓</td>
+<td>±</td>
+<td>✗</td>
+<td>✗</td>
+<td>✗</td>
+<td>✗</td>
+</tr>
+<tr class="even">
+<td>Tazobactam</td>
+<td>✓</td>
+<td>±</td>
+<td>✗</td>
+<td>✗</td>
+<td>✗</td>
+<td>✗</td>
+</tr>
+<tr class="odd">
+<td>Avibactam</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✗</td>
+<td>✓</td>
+</tr>
+<tr class="even">
+<td>Vaborbactam</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✗</td>
+<td>✗</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p>Use this table for quick reference. Note that metallo-β-lactamases (MBLs) are not inhibited by any approved inhibitor. Avibactam has the broadest spectrum, including OXA-48.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="mic-values-bli-combinations" class="slide level2">
+<h2>MIC Values: BLI Combinations</h2>
+<p><br></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Organism</th>
+<th>Amp/Amox</th>
+<th>Amox-Clav</th>
+<th>Pip-Tazo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>S. aureus</em> (MSSA)</td>
+<td>16</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td><em>H. influenzae</em> (BL+)</td>
+<td>&gt;16</td>
+<td>0.5</td>
+<td>0.06</td>
+</tr>
+<tr class="odd">
+<td><em>E. coli</em></td>
+<td>&gt;16</td>
+<td>4</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td><em>K. pneumoniae</em></td>
+<td>&gt;16</td>
+<td>2</td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td><em>B. fragilis</em></td>
+<td>&gt;16</td>
+<td>0.5</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td><em>P. aeruginosa</em></td>
+<td>&gt;16</td>
+<td>&gt;16</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p>These MICs show how inhibitors restore activity. Note that <em>P. aeruginosa</em> remains relatively resistant even to pip-tazo—the MIC is at the breakpoint. This explains why pip-tazo may fail for serious <em>Pseudomonas</em> infections.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="clinical-limitations-of-bli-combinations" class="slide level2">
+<h2>Clinical Limitations of BLI Combinations</h2>
+<p><br></p>
+<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Warning</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>In vitro activity does not guarantee clinical success</strong></p>
+</div>
+</div>
+</div>
+<ul>
+<li><strong>ESBL infections</strong>: Treatment failures reported with BLI combinations</li>
+<li><strong>Inoculum effect</strong>: High bacterial loads may overwhelm inhibitor</li>
+<li><strong>Serious infections</strong>: Carbapenems often preferred for ESBL bacteremia</li>
+<li><strong>AmpC producers</strong>: Traditional inhibitors ineffective</li>
+</ul>
+<aside class="notes">
+<p>This is an important nuance. Just because an organism tests “susceptible” to pip-tazo doesn’t mean it’s the best choice for serious infections. The inoculum effect means that with high bacterial loads, β-lactamases can overwhelm the inhibitor.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="part-8-clinical-application" class="title-slide slide level1 center" data-background-color="#9B0014">
+<h1>PART 8: Clinical Application</h1>
+<aside class="notes">
+<p>Let’s apply what we’ve learned to clinical scenarios. We’ll work through several cases covering different infection types.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="clinical-case-1-skin-infection" class="slide level2">
+<h2>Clinical Case 1: Skin Infection</h2>
+<p><br></p>
+<p><strong>55-year-old man with cellulitis</strong></p>
+<ul>
+<li>Erythema, warmth, swelling of left lower leg</li>
+<li>No drainage, no crepitus</li>
+<li>No systemic symptoms</li>
+<li>No diabetes, no recent hospitalization</li>
+<li>No history of MRSA</li>
+</ul>
+<p><strong>What is the most appropriate oral therapy?</strong></p>
+<aside class="notes">
+<p>Pause for discussion. What organisms cause cellulitis? What are the risk factors for MRSA? What’s the narrowest effective spectrum?</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="case-1-answer" class="slide level2">
+<h2>Case 1: Answer</h2>
+<p><br></p>
+<ul>
+<li><strong>Likely pathogens</strong>: <em>S. aureus</em>, Group A strep</li>
+<li><strong>MRSA risk</strong>: Low (no risk factors)</li>
+<li><strong>Best choice</strong>: <strong>Dicloxacillin 500mg QID</strong> or <strong>Cephalexin 500mg QID</strong></li>
+<li><strong>Rationale</strong>: Narrow spectrum, covers MSSA + strep</li>
+<li><strong>Avoid</strong>: Amoxicillin-clavulanate (too broad), Fluoroquinolones (no added benefit)</li>
+</ul>
+<aside class="notes">
+<p>This case illustrates appropriate narrow-spectrum selection. Without MRSA risk factors, we should target MSSA and streptococci. Broader agents aren’t better and contribute to resistance.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="clinical-case-2-pneumonia" class="slide level2">
+<h2>Clinical Case 2: Pneumonia</h2>
+<p><br></p>
+<p><strong>68-year-old woman with community-acquired pneumonia</strong></p>
+<ul>
+<li>Cough, fever, dyspnea for 3 days</li>
+<li>CXR: Right lower lobe infiltrate</li>
+<li>O2 sat 94% on room air</li>
+<li>COPD (mild), no recent antibiotics</li>
+<li>Outpatient treatment appropriate</li>
+</ul>
+<p><strong>What is the most appropriate oral therapy?</strong></p>
+<aside class="notes">
+<p>Consider the likely pathogens, resistance patterns, and guideline recommendations. Is she low or high risk for resistant organisms?</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="case-2-answer" class="slide level2">
+<h2>Case 2: Answer</h2>
+<p><br></p>
+<ul>
+<li><strong>Most likely pathogen</strong>: <em>S. pneumoniae</em></li>
+<li><strong>Other possibilities</strong>: <em>H. influenzae</em>, atypicals</li>
+<li><strong>COPD</strong>: Increases <em>H. influenzae</em> risk</li>
+<li><strong>Best choice</strong>: <strong>Amoxicillin-clavulanate 875mg BID</strong> + <strong>Azithromycin</strong> (for atypicals)</li>
+<li><strong>Alternative</strong>: Respiratory fluoroquinolone (moxifloxacin)</li>
+<li><strong>Rationale</strong>: Covers pneumococcus (including most resistant strains), <em>H. influenzae</em></li>
+</ul>
+<aside class="notes">
+<p>For CAP with COPD, coverage for H. influenzae is important. Amoxicillin-clavulanate provides this. Adding a macrolide covers atypical pathogens. This follows IDSA/ATS guidelines.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="clinical-case-3-uti" class="slide level2">
+<h2>Clinical Case 3: UTI</h2>
+<p><br></p>
+<p><strong>32-year-old woman with uncomplicated cystitis</strong></p>
+<ul>
+<li>Dysuria, frequency for 2 days</li>
+<li>No fever, no flank pain</li>
+<li>No recent antibiotics</li>
+<li>No structural urinary abnormalities</li>
+</ul>
+<p><strong>What is the most appropriate therapy?</strong></p>
+<aside class="notes">
+<p>Is this a case where penicillins are first-line? Consider resistance patterns in uropathogens.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="case-3-answer" class="slide level2">
+<h2>Case 3: Answer</h2>
+<p><br></p>
+<ul>
+<li><strong>Most likely pathogen</strong>: <em>E. coli</em> (75-95% of uncomplicated UTIs)</li>
+<li><strong>Resistance concern</strong>: &gt;40% of <em>E. coli</em> resistant to ampicillin</li>
+<li><strong>First-line options</strong> (per guidelines):
+<ul>
+<li>Nitrofurantoin 100mg BID x 5 days</li>
+<li>TMP-SMX (if local resistance &lt;20%)</li>
+<li>Fosfomycin single dose</li>
+</ul></li>
+<li><strong>Amoxicillin/ampicillin</strong>: NOT first-line due to resistance</li>
+</ul>
+<aside class="notes">
+<p>This illustrates that penicillins aren’t always the right choice. For uncomplicated UTI, resistance to ampicillin is too high to use empirically. Nitrofurantoin has maintained good activity.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="clinical-case-4-intra-abdominal-infection" class="slide level2">
+<h2>Clinical Case 4: Intra-Abdominal Infection</h2>
+<p><br></p>
+<p><strong>52-year-old man with perforated appendicitis</strong></p>
+<ul>
+<li>Post-operative day 1, now febrile</li>
+<li>WBC 18,000</li>
+<li>CT shows pelvic abscess</li>
+<li>No recent antibiotics, no recent hospitalization</li>
+</ul>
+<p><strong>What is the most appropriate empiric therapy?</strong></p>
+<aside class="notes">
+<p>Consider the polymicrobial nature of intra-abdominal infections. What organisms need to be covered? What about resistance?</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="case-4-answer" class="slide level2">
+<h2>Case 4: Answer</h2>
+<p><br></p>
+<ul>
+<li><strong>Pathogens</strong>: Gram-negatives (Enterobacterales), Anaerobes (<em>B. fragilis</em>), possibly Enterococcus</li>
+<li><strong>Best choice</strong>: <strong>Piperacillin-tazobactam 4.5g IV q6h</strong> (extended infusion)</li>
+<li><strong>Alternative</strong>: Ceftriaxone + metronidazole</li>
+<li><strong>Rationale</strong>: Broad gram-negative coverage + anaerobes</li>
+<li><strong>Duration</strong>: Until source controlled, then course completion</li>
+</ul>
+<aside class="notes">
+<p>Pip-tazo is an excellent choice for community-acquired intra-abdominal infections. It covers all the expected pathogens. Extended infusion dosing optimizes pharmacodynamics.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="clinical-case-5-endocarditis" class="slide level2">
+<h2>Clinical Case 5: Endocarditis</h2>
+<p><br></p>
+<p><strong>45-year-old man with <em>S. aureus</em> bacteremia</strong></p>
+<ul>
+<li>IV drug user, new murmur</li>
+<li>TEE: Tricuspid vegetation</li>
+<li>Blood culture: MSSA (oxacillin MIC 0.25)</li>
+<li>No contraindications to β-lactams</li>
+</ul>
+<p><strong>What is the most appropriate therapy?</strong></p>
+<aside class="notes">
+<p>This is a serious infection requiring prolonged therapy. What’s the optimal agent for MSSA endocarditis?</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="case-5-answer" class="slide level2">
+<h2>Case 5: Answer</h2>
+<p><br></p>
+<ul>
+<li><strong>Diagnosis</strong>: MSSA tricuspid valve endocarditis</li>
+<li><strong>Duration</strong>: 4-6 weeks IV therapy</li>
+<li><strong>Best choice</strong>: <strong>Nafcillin 2g IV q4h</strong> or <strong>Oxacillin 2g IV q4h</strong>
+<ul>
+<li>Often given as continuous infusion</li>
+</ul></li>
+<li><strong>NOT vancomycin</strong>: Inferior outcomes for MSSA</li>
+<li><strong>Monitoring</strong>: Renal function, signs of drug fever, eosinophilia</li>
+</ul>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p>For MSSA, nafcillin/oxacillin are superior to vancomycin</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>This is important: vancomycin is inferior to nafcillin for MSSA infections. The antistaphylococcal penicillins penetrate better and have faster bactericidal activity. Don’t use vancomycin for MSSA just because it’s “easier.”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="clinical-case-6-meningitis" class="slide level2">
+<h2>Clinical Case 6: Meningitis</h2>
+<p><br></p>
+<p><strong>22-year-old college student with meningitis</strong></p>
+<ul>
+<li>Headache, fever, stiff neck, rash</li>
+<li>CSF: 2000 WBC (95% PMN), protein 250, glucose 20</li>
+<li>Gram stain: Gram-negative diplococci</li>
+<li>Suspected <em>Neisseria meningitidis</em></li>
+</ul>
+<p><strong>What is the most appropriate therapy?</strong></p>
+<aside class="notes">
+<p>This is a medical emergency. What are the first-line agents for meningococcal meningitis?</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="case-6-answer" class="slide level2">
+<h2>Case 6: Answer</h2>
+<p><br></p>
+<ul>
+<li><strong>Diagnosis</strong>: Meningococcal meningitis</li>
+<li><strong>Best choice</strong>: <strong>Penicillin G 4 million units IV q4h</strong></li>
+<li><strong>Alternative</strong>: Ceftriaxone 2g IV q12h</li>
+<li><strong>Duration</strong>: 7 days</li>
+<li><strong>Chemoprophylaxis</strong>: Close contacts need rifampin, ciprofloxacin, or ceftriaxone</li>
+<li><strong>Dexamethasone</strong>: Controversial for meningococcus (consider for pneumococcus)</li>
+</ul>
+<aside class="notes">
+<p>Penicillin G remains excellent for meningococcal meningitis. The narrow spectrum is actually an advantage here. Ceftriaxone is often used empirically before organism identification.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="clinical-case-7-syphilis" class="slide level2">
+<h2>Clinical Case 7: Syphilis</h2>
+<p><br></p>
+<p><strong>28-year-old man with primary syphilis</strong></p>
+<ul>
+<li>Painless chancre on penis</li>
+<li>RPR reactive, TP-PA positive</li>
+<li>Reports penicillin allergy: “rash as a child”</li>
+</ul>
+<p><strong>What is the most appropriate management?</strong></p>
+<aside class="notes">
+<p>This case combines two important topics: syphilis treatment and penicillin allergy management.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="case-7-answer" class="slide level2">
+<h2>Case 7: Answer</h2>
+<p><br></p>
+<ul>
+<li><strong>Treatment of choice</strong>: <strong>Benzathine penicillin G 2.4 million units IM x 1</strong></li>
+<li><strong>No adequate alternative</strong> for syphilis</li>
+<li><strong>Penicillin allergy</strong>: Likely not true allergy (childhood rash)</li>
+<li><strong>Management options</strong>:
+<ol type="1">
+<li>Penicillin skin testing → if negative, treat with penicillin</li>
+<li>Penicillin desensitization → then treat</li>
+</ol></li>
+<li><strong>NOT acceptable</strong>: Doxycycline or azithromycin (inferior efficacy)</li>
+</ul>
+<aside class="notes">
+<p>Penicillin is the only proven treatment for syphilis, especially neurosyphilis. If a patient has documented penicillin allergy, desensitization is recommended. This is one of the few infections where there’s no acceptable alternative.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="quick-selection-guide" class="slide level2">
+<h2>Quick Selection Guide</h2>
+<p><br></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Infection</th>
+<th>First-Line Penicillin</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Strep pharyngitis</td>
+<td>Penicillin V</td>
+</tr>
+<tr class="even">
+<td>MSSA skin/soft tissue</td>
+<td>Dicloxacillin</td>
+</tr>
+<tr class="odd">
+<td>MSSA bacteremia/endocarditis</td>
+<td>Nafcillin</td>
+</tr>
+<tr class="even">
+<td>CAP (outpatient, no comorbidity)</td>
+<td>Amoxicillin</td>
+</tr>
+<tr class="odd">
+<td>CAP (outpatient, with COPD)</td>
+<td>Amoxicillin-clavulanate</td>
+</tr>
+<tr class="even">
+<td>Intra-abdominal infection</td>
+<td>Piperacillin-tazobactam</td>
+</tr>
+<tr class="odd">
+<td>Syphilis</td>
+<td>Benzathine penicillin G</td>
+</tr>
+<tr class="even">
+<td>Listeria meningitis</td>
+<td>Ampicillin</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p>This quick reference summarizes the preferred penicillin for common infections. Emphasize matching the narrowest effective spectrum to the infection.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="summary-and-key-takeaways" class="title-slide slide level1 center" data-background-color="#9B0014">
+<h1>Summary and Key Takeaways</h1>
+
+</section>
+<section id="key-point-1-structure-determines-function" class="slide level2">
+<h2>Key Point 1: Structure Determines Function</h2>
+<p><br></p>
+<ul>
+<li><strong>β-Lactam ring</strong> is essential for activity</li>
+<li><strong>Side chain</strong> determines spectrum, stability, and pharmacokinetics</li>
+<li>Modifications create different penicillin classes</li>
+<li>Understanding structure explains clinical properties</li>
+</ul>
+</section>
+<section id="key-point-2-know-the-resistance-mechanisms" class="slide level2">
+<h2>Key Point 2: Know the Resistance Mechanisms</h2>
+<p><br></p>
+<ul>
+<li><strong>β-Lactamases</strong>: Most common; hydrolize β-lactam ring</li>
+<li><strong>Permeability</strong>: Porin changes in gram-negatives</li>
+<li><strong>Efflux</strong>: Active drug removal</li>
+<li><strong>Altered PBPs</strong>: Low-affinity binding (MRSA, PRP)</li>
+<li>Multiple mechanisms often coexist</li>
+</ul>
+</section>
+<section id="key-point-3-match-spectrum-to-pathogen" class="slide level2">
+<h2>Key Point 3: Match Spectrum to Pathogen</h2>
+<p><br></p>
+<ul>
+<li><strong>Natural penicillins</strong>: Streptococci, syphilis, meningococcus</li>
+<li><strong>Antistaphylococcal</strong>: MSSA only</li>
+<li><strong>Aminopenicillins</strong>: Add enterococci, some gram-negatives</li>
+<li><strong>Pip-tazo</strong>: Broad including <em>Pseudomonas</em>, anaerobes</li>
+<li><strong>None work against MRSA</strong></li>
+</ul>
+</section>
+<section id="key-point-4-β-lactamase-inhibitors-have-limits" class="slide level2">
+<h2>Key Point 4: β-Lactamase Inhibitors Have Limits</h2>
+<p><br></p>
+<ul>
+<li>Traditional inhibitors: Class A only</li>
+<li><strong>NOT effective against</strong>:
+<ul>
+<li>AmpC (Class C)</li>
+<li>Metallo-β-lactamases (Class B)</li>
+<li>KPC (limited)</li>
+</ul></li>
+<li>Newer inhibitors: Broader coverage but still gaps</li>
+<li>In vitro activity ≠ clinical success</li>
+</ul>
+</section>
+<section id="key-point-5-de-label-penicillin-allergies" class="slide level2">
+<h2>Key Point 5: De-Label Penicillin Allergies</h2>
+<p><br></p>
+<ul>
+<li>Most reported allergies are NOT true allergies</li>
+<li>True IgE-mediated allergy is rare (&lt;1%)</li>
+<li>Skin testing can identify true allergy</li>
+<li>De-labeling improves patient care</li>
+<li>Don’t avoid penicillins unnecessarily</li>
+</ul>
+</section>
+<section id="questions-for-review" class="slide level2">
+<h2>Questions for Review</h2>
+<p><br></p>
+<ol type="1">
+<li><p>Why does MRSA resistance to β-lactams NOT respond to β-lactamase inhibitors?</p></li>
+<li><p>A patient with KPC-producing <em>K. pneumoniae</em> bacteremia—which BLI combinations might be effective?</p></li>
+<li><p>Why might pip-tazo fail for serious ESBL <em>E. coli</em> bacteremia despite susceptibility on testing?</p></li>
+</ol>
+<aside class="notes">
+<p>Use these for discussion. Q1: MRSA has altered PBP, not β-lactamase. Q2: Ceftazidime-avibactam, meropenem-vaborbactam, imipenem-relebactam. Q3: Inoculum effect, need for higher drug exposure in serious infections.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="additional-review-questions" class="slide level2">
+<h2>Additional Review Questions</h2>
+<p><br></p>
+<ol start="4" type="1">
+<li><p>Which penicillin does NOT require dose adjustment in renal failure and why?</p></li>
+<li><p>A patient needs IV antibiotics for MSSA osteomyelitis. Why is nafcillin preferred over vancomycin?</p></li>
+<li><p>Why is amoxicillin preferred over ampicillin for oral therapy?</p></li>
+</ol>
+<aside class="notes">
+<p>Q4: Nafcillin—hepatic elimination. Q5: Better bactericidal activity, better bone penetration, lower treatment failure rates. Q6: Much better oral bioavailability (75-92% vs 30-55%), unaffected by food.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="recommended-reading" class="slide level2">
+<h2>Recommended Reading</h2>
+<p><br></p>
+<ul>
+<li>Bush K, Jacoby GA. Updated functional classification of β-lactamases. <em>Antimicrobial Agents and Chemotherapy</em> 2010.</li>
+<li>Shenoy ES, et al.&nbsp;Evaluation and management of penicillin allergy. <em>JAMA</em> 2019.</li>
+<li>IDSA/ATS Community-Acquired Pneumonia Guidelines</li>
+<li>IDSA Skin and Soft Tissue Infection Guidelines</li>
+<li>Mandell, Douglas, and Bennett’s <em>Principles and Practice of Infectious Diseases</em>, 9th ed.</li>
+</ul>
+</section>
+<section id="thank-you" class="slide level2">
+<h2>Thank You!</h2>
+<p><br></p>
+<p><strong>Questions?</strong></p>
+<p>Contact: [Your contact information]</p>
+<aside class="notes">
+<p>Allow 5-10 minutes for questions. Be prepared to discuss specific dosing scenarios, cross-reactivity questions, and case-based problems.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="betalactam1-slides_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="betalactam1-slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="betalactam1-slides_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="betalactam1-slides_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="betalactam1-slides_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="betalactam1-slides_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="betalactam1-slides_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="betalactam1-slides_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="betalactam1-slides_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="betalactam1-slides_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': false,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1280,
+
+        height: 720,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 8.0e-2,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+    (function() {
+      let previousOnload = window.onload;
+      window.onload = () => {
+        if (previousOnload) {
+          previousOnload();
+        }
+        lightboxQuarto.on('slide_before_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          const href = trigger.getAttribute('href');
+          if (href !== null) {
+            const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+            if (imgEl !== null) {
+              const srcAttr = imgEl.getAttribute("src");
+              if (srcAttr && srcAttr.startsWith("data:")) {
+                slideConfig.href = srcAttr;
+              }
+            }
+          } 
+        });
+      
+        lightboxQuarto.on('slide_after_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(slideNode);
+          }
+        });
+      
+      };
+      
+    })();
+              </script>
+    
+
+</body></html>

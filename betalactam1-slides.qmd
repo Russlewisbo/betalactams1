@@ -1,1701 +1,1803 @@
 ---
 title: "Penicillins and β-Lactamase Inhibitors"
-subtitle: "Chapter 20 — Antimicrobial Pharmacology"
 author:
-  - name: Ryan K. Shields
-  - name: Yohei Doi
+  - name: Russell E. Lewis
 date: today
 format:
   revealjs:
-    theme: simple
+    theme: [custom.scss]
     slide-number: true
-    progress: true
+    show-slide-number: all
+    hash: true
     controls: true
-    center: true
-    transition: slide
-    footer: "Penicillins and β-Lactamase Inhibitors"
-    smaller: false
-bibliography: references.bib
+    progress: true
+    history: true
+    background-transition: fade
+    highlight-style: github
+    fig-cap-location: bottom
+    lightbox: true
+    width: 1280
+    height: 720
+    margin: 0.08
+bibliography: betalactam-1references.bib
 ---
 
-## Learning Objectives (1 of 2) {.smaller}
+## Penicillins and β-Lactamase Inhibitors {background-color="#9B0014"}
 
-By the end of this lecture, you should be able to:
+<br>
 
-::: {.incremental}
-1. Describe the basic chemical structure of penicillins
-2. Explain how the side chain determines spectrum and stability
-3. Describe the mechanism of action involving PBPs
-4. Explain peptidoglycan synthesis and cross-linking
-:::
+<br> <br>
 
-::: {.notes}
-This is part 1 of learning objectives. We'll start with basic science concepts before moving to clinical applications. Allow about 1 minute per slide on average for a 1-hour lecture.
-:::
+<center>
 
----
+**Russell E. Lewis** <br> Associate Professor of Infectious Diseases <br> Department of Molecular Medicine <br> University of Padua
 
-## Learning Objectives (2 of 2) {.smaller}
+|  |  |
+|------------------------------------|------------------------------------|
+| ![](images-betalactam1/dmmunipd_logo.jpeg){width="100"} | ![](images-betalactam1/unipd_seal_white.svg){width="100"} |
 
-::: {.incremental}
-5. List and explain the four mechanisms of β-lactam resistance
-6. Classify β-lactamases by Ambler molecular class
-7. Differentiate the five classes of penicillins by spectrum
-8. Describe pharmacokinetic properties and dosing adjustments
-9. Recognize adverse effects and hypersensitivity reactions
+<br> {{< fa solid envelope size=1x >}} russelledward.lewis\@unipd.it <br> {{< fa brands github size=1x >}} [https://github.com/Russlewisbo](https://github.com/Russlewisbo/ESCMID_2022_talk) <br> Slides and course materials: [www.padovaid.com](https://padovaid.com/)
+
+</center>
+
+## Learning Objectives
+
+<br>
+
+**By the end of this lecture, you should be able to:**
+
+1.  Describe the basic chemical structure of penicillins
+2.  Explain how the side chain determines spectrum and stability
+3.  Describe the mechanism of action involving PBPs
+4.  Explain peptidoglycan synthesis and cross-linking
+5.  List and explain the four mechanisms of β-lactam resistance
+6.  Classify β-lactamases by Ambler molecular class
+7.  Differentiate the five classes of penicillins by spectrum
+8.  Describe pharmacokinetic properties and dosing adjustments
+9.  Recognize adverse effects and hypersensitivity reactions
 10. Select appropriate β-lactam/β-lactamase inhibitor combinations
-:::
 
-::: {.notes}
-Part 2 focuses on resistance, classification, pharmacology, and clinical decision-making. These objectives will guide our discussion throughout the lecture.
-:::
+# PART 1: History and chemistry {background-color="#9B0014"}
 
----
-
-# PART 1: History and Chemistry {background-color="#2c3e50"}
-
-::: {.notes}
+::: notes
 We'll begin with the historical discovery and chemical basis of penicillins. Understanding structure is essential for understanding function.
 :::
 
----
+## The Discovery of penicillin
 
-## The Discovery of Penicillin
+<br>
 
-:::: {.columns}
+::::: columns
 ::: {.column width="60%"}
-- **September 1928**: Alexander Fleming at St. Mary's Hospital, London
-- Noticed bacterial lysis around *Penicillium* mold contamination
-- Published findings in 1929
-- Initially unable to purify the active compound
+-   **September 1928**
+-   Alexander Fleming at St. Mary's Hospital, London
+-   Noticed bacterial lysis around *Penicillium* mold contamination
+-   Published findings in 1929
+-   Initially unable to purify the active compound
 :::
 
 ::: {.column width="40%"}
-<!-- IMAGE NEEDED: Fleming's original petri dish or portrait -->
+![](https://i.makeagif.com/media/7-05-2015/V0HT6G.gif)
 :::
-::::
+:::::
 
-::: {.notes}
+::: aside
 Fleming was studying staphylococcal colonies when he noticed a contaminating mold had created a zone of bacterial inhibition. He named the antibacterial substance "penicillin" but couldn't purify it for clinical use.
 :::
 
----
-
 ## From Discovery to Clinical Use
 
-| Year | Milestone |
-|------|-----------|
-| 1928 | Fleming discovers penicillin |
-| 1929 | Fleming publishes findings |
-| 1940 | Florey & Chain purify penicillin |
-| 1941 | First human treated |
-| 1943 | Mass production begins |
-| 1945 | Nobel Prize awarded |
+<br> <br>
 
-::: {.notes}
+| Year | Milestone                        |
+|------|----------------------------------|
+| 1928 | Fleming discovers penicillin     |
+| 1929 | Fleming publishes findings       |
+| 1940 | Florey & Chain purify penicillin |
+| 1941 | First human treated              |
+| 1943 | Mass production begins           |
+| 1945 | Nobel Prize awarded              |
+
+::: aside
 The gap between discovery (1928) and clinical use (1941) was 13 years. Florey and Chain at Oxford developed the purification process. The first patient treated was a policeman with staphylococcal sepsis. Mass production was driven by WWII needs.
 :::
 
----
+## The Impact of penicillin
 
-## The Impact of Penicillin
+<br>
 
-::: {.incremental}
-- **Before penicillin**: Minor infections could be fatal
-- **Bacterial endocarditis**: 100% mortality
-- **Pneumococcal pneumonia**: 30% mortality
-- **Staphylococcal sepsis**: Often fatal
-- Penicillin transformed infectious disease medicine
-- Initiated the "antibiotic era"
-:::
+-   **Before penicillin**: Minor infections could be fatal
+-   **Bacterial endocarditis**: 100% mortality
+-   **Pneumococcal pneumonia**: 30% mortality
+-   **Staphylococcal sepsis**: Often fatal
+-   Penicillin transformed infectious disease medicine
+-   Initiated the "antibiotic era"
 
-::: {.notes}
+::: notes
 It's hard to overstate the impact. Diseases that were death sentences became curable. Surgery became safer. Emphasize that despite being nearly 100 years old, penicillins remain essential antibiotics.
 :::
 
----
-
 ## Basic Penicillin Structure
 
-![Structure of penicillin showing the thiazolidine ring (1) and β-lactam ring (2). The R group represents the variable side chain.](images/fig20-1-06.png){width="85%"}
+<br>
 
-::: {.notes}
-Point out the three key components: thiazolidine ring (5-membered with sulfur), β-lactam ring (4-membered, essential for activity), and the side chain (R group). The carboxylic acid makes penicillins weak acids.
+![](images-betalactam1/structure.png){fig-align="center"}
+
+::: aside
+Thiazolidine ring (5-membered with sulfur), β-lactam ring (4-membered, essential for activity), and the side chain (R group). The carboxylic acid makes penicillins weak acids.
 :::
 
----
+## The three key structural components
 
-## The Three Key Structural Components
+<br>
 
-::: {.incremental}
-1. **Thiazolidine ring**
-   - 5-membered ring containing sulfur
-   - Provides structural stability
+1.  **Thiazolidine ring**
+    -   5-membered ring containing sulfur
+    -   Provides structural stability
+2.  **β-Lactam ring**
+    -   4-membered ring under strain
+    -   ESSENTIAL for antibacterial activity
+    -   Target of β-lactamases
+3.  **Side chain (R group)**
+    -   Variable component
+    -   Determines properties of each penicillin
 
-2. **β-Lactam ring**
-   - 4-membered ring under strain
-   - ESSENTIAL for antibacterial activity
-   - Target of β-lactamases
-
-3. **Side chain (R group)**
-   - Variable component
-   - Determines properties of each penicillin
-:::
-
-::: {.notes}
+::: aside
 The β-lactam ring is under considerable strain due to its geometry. This strain makes it reactive with PBPs but also susceptible to β-lactamase attack. The side chain is where all the modifications occur to create different penicillins.
 :::
 
----
+## The β-Lactam ring: Why it matters
 
-## The β-Lactam Ring: Why It Matters
+<br>
 
-::: {.incremental}
-- **Strained 4-membered ring** — chemically reactive
-- **Mimics D-Ala-D-Ala** terminus of peptidoglycan
-- **Covalently binds** to PBP active site serine
-- **Opening the ring** = loss of activity
-- This is why β-lactamases cause resistance
+::::: columns
+::: {.column width="50%"}
+-   **Strained 4-membered ring** — chemically reactive
+-   **Mimics D-Ala-D-Ala** terminus of peptidoglycan
+-   **Covalently binds** to PBP active site serine
+-   **Opening the ring** = loss of activity
+-   This is why β-lactamases cause resistance
 :::
 
-::: {.callout-important}
+::: {.column width="50%"}
+![](images-betalactam1/Beta-lactam.svg){fig-align="center" width="300"}
+:::
+:::::
+
+::: callout-important
 No β-lactam ring = No antibacterial activity
 :::
 
-::: {.notes}
+::: aside
 The β-lactam ring mimics the natural substrate of PBPs, which is the D-alanyl-D-alanine terminus of the peptidoglycan pentapeptide. When the ring opens (either by PBP binding or β-lactamase hydrolysis), the compound changes structure.
 :::
 
----
+## Classification of β-lactamases
 
-## The Side Chain: Determining Properties
+<br>
+
+::: {style="font-size: 0.75em"}
+| **Ambler Class** | **Major Subtype** | **Preferred Substrates** | **Inhibitor** | **Genetic Localization** | **Representative Enzymes** |
+|:----------:|------------|------------|------------|------------|------------|
+| **A** | Gram-positive β-lactamase 2a | Penicillins | Clavulanic acid | Chromosome or plasmid | PC1 |
+| **A** | **Gram-negative β-lactamase 2b** | Penicillins, 1st-gen cephalosporins | Clavulanic acid | Plasmid or chromosomal | TEM-1, SHV-1 |
+| **A** | **Extended-spectrum β-lactamase 2be** | Penicillins, extended-spectrum cephalosporins, aztreonam | Clavulanic acid | Plasmid | TEM-24, SHV-12, CTX-M-15 |
+| **A** | **Inhibitor-resistant TEM β-lactamase 2br** | Penicillins | Clavulanic acid^c^ | Plasmid | TEM-30, SHV-10 |
+| **A** | **Carbenicillin-hydrolyzing β-lactamase 2c** | Carbenicillin | Clavulanic acid^c^ | Plasmid | PSE-1, CARB-3 |
+| **A** | **Cephalosporin-hydrolyzing β-lactamase 2e** | Extended-spectrum cephalosporins | Clavulanic acid | Chromosome | CepA |
+| **A** | **Carbapenem-hydrolyzing β-lactamase 2f** | Carbapenems | Avibactam, Relebactam, Vaborbactam | Chromosome or plasmid | KPC-2, SME-1 |
+| **B** | Metallo-β-lactamase 3a | All β-lactams except monobactam | EDTA, divalent cation chelators | Chromosome or plasmid | IMP-1, VIM-2, NDM-1 |
+| **C** | AmpC-type β-lactamase | Cephalosporins | Cloxacillin, avibactam, relebactam, vaborbactam | Chromosome or plasmid | AmpC, CMY-2 |
+:::
+
+## The side chain: Determining properties
+
+<br>
 
 The side chain modifications determine:
 
-::: {.incremental}
-- **Acid stability** — Can it survive gastric acid? (oral absorption)
-- **β-Lactamase stability** — Is it protected from enzymatic destruction?
-- **Spectrum of activity** — Which bacteria are susceptible?
-- **Protein binding** — How much free drug is available?
-- **Tissue penetration** — Where does the drug distribute?
-:::
+-   **Acid stability** — Can it survive gastric acid? (oral absorption)
+-   **β-Lactamase stability** — Is it protected from enzymatic destruction?
+-   **Spectrum of activity** — Which bacteria are susceptible?
+-   **Protein binding** — How much free drug is available?
+-   **Tissue penetration** — Where does the drug distribute?
+-   **Cross-reactivity** - Risk of allergies?
 
-::: {.notes}
-This concept is fundamental. All the different penicillin classes arise from different side chain modifications. A bulky side chain near the β-lactam ring provides steric protection against β-lactamases.
+::: aside
+All the different penicillin classes arise from different side chain modifications. A bulky side chain near the β-lactam ring provides steric protection against β-lactamases.
 :::
-
----
 
 ## 6-Aminopenicillanic Acid (6-APA)
 
-::: {.incremental}
-- The **penicillin nucleus** (core structure without side chain)
-- Isolated from *Penicillium chrysogenum* fermentation
-- Allowed creation of **semisynthetic penicillins**
-- Enabled systematic modification of the side chain
-- Led to development of all modern penicillins
+<br>
+
+::::: columns
+::: {.column width="50%"}
+-   The **penicillin nucleus** (core structure without side chain)
+-   Isolated from *Penicillium chrysogenum* fermentation
+-   Allowed creation of **semisynthetic penicillins**
+-   Enabled systematic modification of the side chain
+-   Led to development of all modern penicillins
 :::
 
-::: {.notes}
+::: {.column width="50%"}
+![](images-betalactam1/6-APA.png)
+:::
+:::::
+
+::: notes
 The isolation of 6-APA was a breakthrough. By attaching different side chains to this nucleus, chemists could create penicillins with different properties. This is how we got methicillin, ampicillin, and all the other semisynthetic penicillins.
 :::
 
----
+# PART 2: Mechanism of Action {background-color="#9B0014"}
 
-# PART 2: Mechanism of Action {background-color="#2c3e50"}
-
-::: {.notes}
+::: notes
 Now we'll explore how penicillins actually kill bacteria. Understanding the mechanism helps explain why they're bactericidal and why certain bacteria are resistant.
 :::
 
----
+## Overview: How penicillins work
 
-## Overview: How Penicillins Work
+<br>
 
-::: {.callout-important}
-**Central Concept**: Penicillins inhibit bacterial cell wall synthesis by binding to penicillin-binding proteins (PBPs)
-:::
+::::: columns
+::: {.column width="40%"}
+-   Target: Final step of peptidoglycan synthesis
+-   Mechanism: Penicillins inhibit bacterial cell wall synthesis by binding to penicillin-binding proteins (PBPs)
+-   Result: Weakened cell wall
+-   Outcome: Osmotic lysis and cell death
+-   Effect: **Bactericidal** (kills bacteria)
 
-::: {.incremental}
-- Target: Final step of peptidoglycan synthesis
-- Result: Weakened cell wall
-- Outcome: Osmotic lysis and cell death
-- Effect: **Bactericidal** (kills bacteria)
-:::
-
-::: {.notes}
+::: aside
 Penicillins are bactericidal, not bacteriostatic. However, they only kill actively growing bacteria that are synthesizing new cell wall. Dormant bacteria (persister cells) can survive penicillin treatment.
 :::
+:::
 
----
+::: {.column width="60%"}
+<video src="images-betalactam1/pcn_moa.mov" controls style="width:100%; height:auto;"></video>
+:::
+:::::
+
+------------------------------------------------------------------------
 
 ## Why Bacteria Need Cell Walls
 
-::: {.incremental}
-- Bacteria have **high internal osmotic pressure**
-- Without cell wall → osmotic lysis
-- Cell wall = **peptidoglycan polymer**
-- Gram-positive: thick layer (50-100 molecules)
-- Gram-negative: thin layer (1-2 molecules) + outer membrane
-- **Human cells have no cell wall** → selective toxicity
-:::
+<br>
 
-::: {.notes}
+-   Bacteria have **high internal osmotic pressure**
+-   Without cell wall → osmotic lysis
+-   Cell wall = **peptidoglycan polymer**
+-   Gram-positive: thick layer (50-100 molecules)
+-   Gram-negative: thin layer (1-2 molecules) + outer membrane
+-   **Human cells have no cell wall** → selective toxicity
+
+::: notes
 This is why penicillins have such a good safety profile. They target a structure (peptidoglycan) that human cells don't have. The selective toxicity ratio is excellent.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Peptidoglycan Structure
 
-::: {.incremental}
-- **Backbone**: Alternating NAG-NAM disaccharides
-  - NAG = N-acetylglucosamine
-  - NAM = N-acetylmuramic acid
-- **Pentapeptide stems**: Attached to NAM
-  - Terminate in D-Ala-D-Ala
-- **Cross-links**: Connect adjacent chains
-  - Provide strength and rigidity
-:::
+<br>
 
-::: {.notes}
+-   **Backbone**: Alternating NAG-NAM disaccharides
+    -   NAG = N-acetylglucosamine
+    -   NAM = N-acetylmuramic acid
+-   **Pentapeptide stems**: Attached to NAM
+    -   Terminate in D-Ala-D-Ala
+-   **Cross-links**: Connect adjacent chains
+    -   Provide strength and rigidity
+
+::: notes
 The cross-links are what give peptidoglycan its strength. Without cross-linking, the cell wall is weak and the bacterium lyses. This is exactly what penicillins prevent.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Peptidoglycan Synthesis: Overview
 
+<br>
+
 ![PBP transpeptidation reaction cross-linking bacterial cell wall. NAG = N-acetylglucosamine; NAM = N-acetylmuramic acid.](images/fig20-2-08.png){width="75%"}
 
-::: {.notes}
+::: notes
 Walk through the diagram showing how NAG-NAM chains are cross-linked. Point out that the transpeptidation reaction removes the terminal D-alanine while forming the cross-link.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Transpeptidation: The Target Reaction
 
-::: {.incremental}
-1. Pentapeptide ends in **D-Ala-D-Ala**
-2. Transpeptidase (PBP) binds to D-Ala-D-Ala
-3. Forms **covalent intermediate** with penultimate D-Ala
-4. Terminal D-Ala is released
-5. Cross-link formed with adjacent chain
-6. **Penicillin mimics D-Ala-D-Ala** and gets stuck
-:::
+<br>
 
-::: {.notes}
+1.  Pentapeptide ends in **D-Ala-D-Ala**
+2.  Transpeptidase (PBP) binds to D-Ala-D-Ala
+3.  Forms **covalent intermediate** with penultimate D-Ala
+4.  Terminal D-Ala is released
+5.  Cross-link formed with adjacent chain
+6.  **Penicillin mimics D-Ala-D-Ala** and gets stuck
+
+::: notes
 This is the key concept. Penicillin structurally mimics the D-Ala-D-Ala substrate. When the PBP tries to bind penicillin, it forms a stable covalent complex instead of completing the reaction. The enzyme is "stuck."
 :::
 
----
+------------------------------------------------------------------------
 
 ## What Are Penicillin-Binding Proteins (PBPs)?
 
-::: {.incremental}
-- **Membrane-bound enzymes** in all bacteria
-- Catalyze final steps of cell wall synthesis
-- **Serine proteases** — related to β-lactamases!
-- Named for their ability to bind penicillin
-- Multiple PBPs in each bacterial species
-- Different PBPs have different functions
-:::
+<br>
 
-::: {.notes}
+-   **Membrane-bound enzymes** in all bacteria
+-   Catalyze final steps of cell wall synthesis
+-   **Serine proteases** — related to β-lactamases!
+-   Named for their ability to bind penicillin
+-   Multiple PBPs in each bacterial species
+-   Different PBPs have different functions
+
+::: notes
 The evolutionary relationship between PBPs and β-lactamases is important. β-lactamases evolved from PBPs but developed the ability to rapidly hydrolyze (rather than be inhibited by) β-lactams.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Classes of PBPs
 
-| Class | Size | Function |
-|-------|------|----------|
-| **High-MW Class A** | >50 kDa | Bifunctional: transglycosylase + transpeptidase |
-| **High-MW Class B** | >50 kDa | Transpeptidase only |
-| **Low-MW** | <50 kDa | Carboxypeptidases |
+<br>
 
-::: {.notes}
+| Class | Size | Function |
+|------------------------|------------------------|------------------------|
+| **High-MW Class A** | \>50 kDa | Bifunctional: transglycosylase + transpeptidase |
+| **High-MW Class B** | \>50 kDa | Transpeptidase only |
+| **Low-MW** | \<50 kDa | Carboxypeptidases |
+
+::: notes
 High-molecular-weight PBPs are the essential targets. Class A PBPs can do both glycan chain elongation and cross-linking. Class B only do cross-linking. Low-MW PBPs are carboxypeptidases that trim the peptidoglycan.
 :::
 
----
+------------------------------------------------------------------------
 
 ## PBP Functions in *E. coli*
 
-| PBP | Function | Inhibition Result |
-|-----|----------|-------------------|
-| PBP1a/1b | Transglycosylase + transpeptidase | Rapid cell lysis |
-| PBP2 | Cell elongation, rod shape | Round cells (cocci) |
-| PBP3 | Septum formation, cell division | Long filaments |
-| PBP4-6 | Carboxypeptidases | Minor effects |
+<br>
 
-::: {.notes}
+| PBP      | Function                          | Inhibition Result   |
+|----------|-----------------------------------|---------------------|
+| PBP1a/1b | Transglycosylase + transpeptidase | Rapid cell lysis    |
+| PBP2     | Cell elongation, rod shape        | Round cells (cocci) |
+| PBP3     | Septum formation, cell division   | Long filaments      |
+| PBP4-6   | Carboxypeptidases                 | Minor effects       |
+
+::: notes
 Different β-lactams have different affinities for different PBPs, which explains why some cause rapid lysis while others cause filamentation. The essential PBPs are 1, 2, and 3.
 :::
 
----
+------------------------------------------------------------------------
 
 ## PBPs vs β-Lactamases: Key Difference
 
-:::: {.columns}
+<br>
+
+::::: columns
 ::: {.column width="50%"}
 **PBPs (Cell Wall Synthesis)**
 
-- Bind penicillin tightly
-- **Slow deacylation** rate
-- Enzyme stays inhibited
-- = Antibacterial effect
+-   Bind penicillin tightly
+-   **Slow deacylation** rate
+-   Enzyme stays inhibited
+-   = Antibacterial effect
 :::
 
 ::: {.column width="50%"}
 **β-Lactamases (Resistance)**
 
-- Bind penicillin
-- **Fast deacylation** rate
-- Enzyme regenerates quickly
-- = Drug destruction
+-   Bind penicillin
+-   **Fast deacylation** rate
+-   Enzyme regenerates quickly
+-   = Drug destruction
 :::
-::::
+:::::
 
-::: {.notes}
+::: notes
 This is the crucial biochemical distinction. Both enzymes bind penicillin via an active-site serine. The difference is how fast they release it. PBPs hold on (inhibition); β-lactamases let go quickly (resistance).
 :::
 
----
+------------------------------------------------------------------------
 
 ## Why Penicillins Are Bactericidal
 
-::: {.incremental}
-1. PBP inhibition stops cross-link formation
-2. Existing autolysins continue degrading old peptidoglycan
-3. New peptidoglycan is weak (not cross-linked)
-4. Cell wall loses integrity
-5. Osmotic pressure causes lysis
-6. **Death is irreversible**
-:::
+<br>
 
-::: {.notes}
+1.  PBP inhibition stops cross-link formation
+2.  Existing autolysins continue degrading old peptidoglycan
+3.  New peptidoglycan is weak (not cross-linked)
+4.  Cell wall loses integrity
+5.  Osmotic pressure causes lysis
+6.  **Death is irreversible**
+
+::: notes
 The bactericidal effect requires active cell wall synthesis. Dormant bacteria that aren't making new cell wall are "tolerant" to penicillin. This is clinically relevant for treating certain infections.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Tolerance vs Resistance
 
-::: {.incremental}
-- **Resistance**: Bacteria grow in presence of antibiotic
-  - MIC is high
+<br>
 
-- **Tolerance**: Bacteria survive but don't grow
-  - MIC is low (susceptible)
-  - MBC is high (not killed)
-  - Examples: stationary phase cells, persisters
-:::
+-   **Resistance**: Bacteria grow in presence of antibiotic
+    -   MIC is high
+-   **Tolerance**: Bacteria survive but don't grow
+    -   MIC is low (susceptible)
+    -   MBC is high (not killed)
+    -   Examples: stationary phase cells, persisters
 
-::: {.callout-tip}
+::: callout-tip
 Tolerance explains why some infections relapse despite "susceptible" organisms
 :::
 
-::: {.notes}
+::: notes
 This distinction is important clinically. A "susceptible" organism may still cause treatment failure if many cells are tolerant (not actively growing). This is relevant for endocarditis and other difficult infections.
 :::
 
----
+------------------------------------------------------------------------
 
-# PART 3: Resistance Mechanisms {background-color="#2c3e50"}
+# PART 3: Resistance Mechanisms {background-color="#9B0014"}
 
-::: {.notes}
+::: notes
 Understanding resistance mechanisms is essential for appropriate antibiotic selection. We'll cover the four main mechanisms, with emphasis on β-lactamases.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Four Mechanisms of β-Lactam Resistance
 
-::: {.incremental}
-1. **β-Lactamase production** — enzymatic destruction
-2. **Decreased permeability** — porin mutations
-3. **Efflux pumps** — active drug removal
-4. **Altered PBPs** — low-affinity binding
-:::
+<br>
 
-::: {.callout-warning}
+1.  **β-Lactamase production** — enzymatic destruction
+2.  **Decreased permeability** — porin mutations
+3.  **Efflux pumps** — active drug removal
+4.  **Altered PBPs** — low-affinity binding
+
+::: callout-warning
 Multiple mechanisms often coexist, especially in MDR gram-negatives
 :::
 
-::: {.notes}
+::: notes
 We'll discuss each mechanism in detail. β-Lactamase production is by far the most common and clinically important. The mechanisms can be additive or synergistic.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Mechanism 1: β-Lactamases
 
-::: {.incremental}
-- **Most common resistance mechanism**
-- Enzymes that hydrolyze the β-lactam ring
-- Open the ring → inactive compound
-- **Gram-positive**: Secreted extracellularly
-- **Gram-negative**: Located in periplasmic space
-- Can be chromosomal or plasmid-encoded
-:::
+<br>
 
-::: {.notes}
+-   **Most common resistance mechanism**
+-   Enzymes that hydrolyze the β-lactam ring
+-   Open the ring → inactive compound
+-   **Gram-positive**: Secreted extracellularly
+-   **Gram-negative**: Located in periplasmic space
+-   Can be chromosomal or plasmid-encoded
+
+::: notes
 The location matters. In gram-negatives, β-lactamases are concentrated in the periplasm where they can intercept drugs before they reach PBPs. In gram-positives, they're secreted and protect nearby bacteria too.
 :::
 
----
+------------------------------------------------------------------------
 
 ## β-Lactamase Mechanism
 
-::: {.incremental}
-1. β-Lactamase binds penicillin (like a PBP)
-2. Forms acyl-enzyme intermediate
-3. **Rapid hydrolysis** — water attacks the bond
-4. Ring opens, releasing penicilloic acid
-5. Enzyme regenerates immediately
-6. Cycle repeats (catalytic)
-:::
+<br>
 
-::: {.notes}
+1.  β-Lactamase binds penicillin (like a PBP)
+2.  Forms acyl-enzyme intermediate
+3.  **Rapid hydrolysis** — water attacks the bond
+4.  Ring opens, releasing penicilloic acid
+5.  Enzyme regenerates immediately
+6.  Cycle repeats (catalytic)
+
+::: notes
 One β-lactamase molecule can destroy thousands of penicillin molecules. This is why even low levels of β-lactamase can cause resistance. The key is the fast deacylation rate compared to PBPs.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Ambler Classification of β-Lactamases
 
-| Class | Active Site | Mechanism | Examples |
-|-------|-------------|-----------|----------|
-| **A** | Serine | Acyl intermediate | TEM, SHV, CTX-M, KPC |
-| **B** | Zinc (metallo) | Direct hydrolysis | NDM, VIM, IMP |
-| **C** | Serine | Acyl intermediate | AmpC, CMY |
-| **D** | Serine | Acyl intermediate | OXA enzymes |
+<br>
 
-::: {.notes}
+| Class | Active Site    | Mechanism         | Examples             |
+|-------|----------------|-------------------|----------------------|
+| **A** | Serine         | Acyl intermediate | TEM, SHV, CTX-M, KPC |
+| **B** | Zinc (metallo) | Direct hydrolysis | NDM, VIM, IMP        |
+| **C** | Serine         | Acyl intermediate | AmpC, CMY            |
+| **D** | Serine         | Acyl intermediate | OXA enzymes          |
+
+::: notes
 The Ambler classification is based on amino acid sequence. Classes A, C, D are serine enzymes (evolved from PBPs). Class B uses zinc ions and has a completely different mechanism. This matters for inhibitor selection.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Class A β-Lactamases: The Most Common
 
-::: {.incremental}
-- **TEM-1**: Most common plasmid enzyme worldwide
-- **SHV-1**: Common in *Klebsiella*
-- **CTX-M**: Dominant ESBL globally
-- **KPC**: Carbapenemase (major threat)
-- Generally **inhibited by clavulanic acid**
-- Exception: KPC (not well inhibited)
-:::
+<br>
 
-::: {.notes}
+-   **TEM-1**: Most common plasmid enzyme worldwide
+-   **SHV-1**: Common in *Klebsiella*
+-   **CTX-M**: Dominant ESBL globally
+-   **KPC**: Carbapenemase (major threat)
+-   Generally **inhibited by clavulanic acid**
+-   Exception: KPC (not well inhibited)
+
+::: notes
 TEM-1 was one of the first plasmid-encoded β-lactamases discovered. CTX-M-15 has become the dominant ESBL worldwide over the past 20 years. KPC is concerning because it hydrolyzes carbapenems.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Extended-Spectrum β-Lactamases (ESBLs)
 
-::: {.incremental}
-- **Definition**: Class A enzymes that hydrolyze extended-spectrum cephalosporins and aztreonam
-- **Evolution**: Point mutations in TEM/SHV expanded spectrum
-- **CTX-M family**: Now most common ESBL
-- **Inhibited by clavulanic acid** (in vitro)
-- **Plasmid-encoded** — spread easily
-:::
+<br>
 
-::: {.callout-warning}
+-   **Definition**: Class A enzymes that hydrolyze extended-spectrum cephalosporins and aztreonam
+-   **Evolution**: Point mutations in TEM/SHV expanded spectrum
+-   **CTX-M family**: Now most common ESBL
+-   **Inhibited by clavulanic acid** (in vitro)
+-   **Plasmid-encoded** — spread easily
+
+::: callout-warning
 Clinical outcomes with BLI combinations may be unpredictable for serious ESBL infections
 :::
 
-::: {.notes}
+::: notes
 ESBLs arose from mutations in TEM and SHV that expanded their substrate range. CTX-M enzymes are a separate family. Despite in vitro inhibition by clavulanic acid, treatment failures occur with serious infections.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Class B: Metallo-β-Lactamases (MBLs)
 
-::: {.incremental}
-- **Use zinc ions** instead of serine
-- Hydrolyze **all β-lactams EXCEPT aztreonam**
-- **NOT inhibited** by current approved inhibitors
-- Examples: NDM-1, VIM, IMP
-- Major global health threat
-- Limited treatment options
-:::
+<br>
 
-::: {.callout-important}
+-   **Use zinc ions** instead of serine
+-   Hydrolyze **all β-lactams EXCEPT aztreonam**
+-   **NOT inhibited** by current approved inhibitors
+-   Examples: NDM-1, VIM, IMP
+-   Major global health threat
+-   Limited treatment options
+
+::: callout-important
 The "aztreonam loophole" — MBLs cannot hydrolyze monobactams
 :::
 
-::: {.notes}
+::: notes
 NDM (New Delhi metallo-β-lactamase) is spreading globally. The lack of effective inhibitors is a major problem. The aztreonam exception is being exploited clinically (aztreonam + avibactam combinations).
 :::
 
----
+------------------------------------------------------------------------
 
 ## Class C: AmpC β-Lactamases
 
-::: {.incremental}
-- **Cephalosporinases** — preferentially hydrolyze cephalosporins
-- Often **chromosomally encoded**
-- Can be **inducible** (expressed when exposed to β-lactams)
-- "SPACE" organisms: *Serratia, Pseudomonas, Acinetobacter, Citrobacter, Enterobacter*
-- **NOT inhibited** by clavulanic acid
-- Inhibited by avibactam, relebactam, vaborbactam
-:::
+<br>
 
-::: {.notes}
+-   **Cephalosporinases** — preferentially hydrolyze cephalosporins
+-   Often **chromosomally encoded**
+-   Can be **inducible** (expressed when exposed to β-lactams)
+-   "SPACE" organisms: *Serratia, Pseudomonas, Acinetobacter, Citrobacter, Enterobacter*
+-   **NOT inhibited** by clavulanic acid
+-   Inhibited by avibactam, relebactam, vaborbactam
+
+::: notes
 The SPACE organisms (or ESCPM) have inducible chromosomal AmpC. Exposure to certain β-lactams can induce high-level expression. Cefepime is more stable to AmpC hydrolysis than ceftriaxone.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Class D: OXA Enzymes
 
-::: {.incremental}
-- Named for ability to hydrolyze **oxacillin**
-- Heterogeneous group with variable spectra
-- Some are **carbapenemases** (OXA-48, OXA-23)
-- OXA-48: Poorly inhibited by most inhibitors
-  - Exception: Avibactam inhibits OXA-48
-- Increasingly important in *Acinetobacter* (OXA-23)
-:::
+<br>
 
-::: {.notes}
+-   Named for ability to hydrolyze **oxacillin**
+-   Heterogeneous group with variable spectra
+-   Some are **carbapenemases** (OXA-48, OXA-23)
+-   OXA-48: Poorly inhibited by most inhibitors
+    -   Exception: Avibactam inhibits OXA-48
+-   Increasingly important in *Acinetobacter* (OXA-23)
+
+::: notes
 OXA-48 is a challenging enzyme because it doesn't dramatically elevate MICs to carbapenems but does cause clinical failures. It's important in *K. pneumoniae* in certain geographic areas.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Carbapenemases: The Greatest Threat
 
-| Enzyme | Class | Distribution | Inhibitors |
-|--------|-------|--------------|------------|
-| KPC | A | Americas, worldwide | Avibactam, vaborbactam, relebactam |
-| NDM | B | South Asia, global | None approved |
-| VIM | B | Europe, global | None approved |
-| OXA-48 | D | Middle East, Europe | Avibactam |
+<br>
 
-::: {.notes}
+| Enzyme | Class | Distribution        | Inhibitors                         |
+|--------|-------|---------------------|------------------------------------|
+| KPC    | A     | Americas, worldwide | Avibactam, vaborbactam, relebactam |
+| NDM    | B     | South Asia, global  | None approved                      |
+| VIM    | B     | Europe, global      | None approved                      |
+| OXA-48 | D     | Middle East, Europe | Avibactam                          |
+
+::: notes
 Carbapenemases compromise our "last-resort" antibiotics. Geographic distribution varies. KPC is most common in the US. NDM is dominant in South Asia. Treatment options are limited.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Mechanism 2: Decreased Permeability
 
-::: {.incremental}
-- Relevant only for **gram-negative bacteria**
-- Outer membrane = barrier to drug entry
-- **Porins** = channels for drug entry
-- Porin mutations/loss → reduced drug entry
-- Common in *Pseudomonas aeruginosa*
-  - OprD loss → carbapenem resistance
-:::
+<br>
 
-::: {.notes}
+-   Relevant only for **gram-negative bacteria**
+-   Outer membrane = barrier to drug entry
+-   **Porins** = channels for drug entry
+-   Porin mutations/loss → reduced drug entry
+-   Common in *Pseudomonas aeruginosa*
+    -   OprD loss → carbapenem resistance
+
+::: notes
 The gram-negative outer membrane is an additional barrier. Drugs must pass through porin channels. Loss or modification of porins reduces drug accumulation. This alone usually causes low-level resistance.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Mechanism 3: Efflux Pumps
 
-::: {.incremental}
-- **Active transport** of drugs out of the cell
-- Use energy (proton motive force or ATP)
-- Can be **constitutive or inducible**
-- Often have **broad substrate specificity**
-- Example: MexAB-OprM in *P. aeruginosa*
-- Contribute to **multidrug resistance**
-:::
+<br>
 
-::: {.notes}
+-   **Active transport** of drugs out of the cell
+-   Use energy (proton motive force or ATP)
+-   Can be **constitutive or inducible**
+-   Often have **broad substrate specificity**
+-   Example: MexAB-OprM in *P. aeruginosa*
+-   Contribute to **multidrug resistance**
+
+::: notes
 Efflux pumps often work with other mechanisms. In *Pseudomonas*, efflux + β-lactamases + porin loss creates high-level resistance. Efflux pumps can affect multiple drug classes simultaneously.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Mechanism 4: Altered PBPs
 
-::: {.incremental}
-- PBPs with **low affinity** for β-lactams
-- Drug binds poorly → ineffective inhibition
-- Examples:
-  - **MRSA**: Acquires PBP2a (mecA gene)
-  - **Penicillin-resistant pneumococci**: Mosaic PBP genes
-  - **Enterococcus faecium**: Low-affinity PBP5
-:::
+<br>
 
-::: {.callout-important}
+-   PBPs with **low affinity** for β-lactams
+-   Drug binds poorly → ineffective inhibition
+-   Examples:
+    -   **MRSA**: Acquires PBP2a (mecA gene)
+    -   **Penicillin-resistant pneumococci**: Mosaic PBP genes
+    -   **Enterococcus faecium**: Low-affinity PBP5
+
+::: callout-important
 MRSA resistance is NOT due to β-lactamases — it's due to PBP2a
 :::
 
-::: {.notes}
+::: notes
 This is a critical concept. MRSA produces a novel PBP (PBP2a) with very low affinity for most β-lactams. No amount of β-lactamase inhibitor will help. That's why MRSA requires different antibiotics.
 :::
 
----
+------------------------------------------------------------------------
 
 ## MRSA: Mechanism of Resistance
 
-::: {.incremental}
-1. MRSA carries **mecA gene** (on SCCmec element)
-2. mecA encodes **PBP2a** (also called PBP2')
-3. PBP2a has **very low affinity** for β-lactams
-4. Native PBPs are inhibited, but PBP2a continues working
-5. Cell wall synthesis continues
-6. **All β-lactams ineffective** (except ceftaroline, ceftobiprole)
-:::
+<br>
 
-::: {.notes}
+1.  MRSA carries **mecA gene** (on SCCmec element)
+2.  mecA encodes **PBP2a** (also called PBP2')
+3.  PBP2a has **very low affinity** for β-lactams
+4.  Native PBPs are inhibited, but PBP2a continues working
+5.  Cell wall synthesis continues
+6.  **All β-lactams ineffective** (except ceftaroline, ceftobiprole)
+
+::: notes
 Understanding this mechanism explains why we need different drugs for MRSA. The newer cephalosporins ceftaroline and ceftobiprole have enhanced binding to PBP2a, which is why they're active against MRSA.
 :::
 
----
+------------------------------------------------------------------------
 
-# PART 4: Classification of Penicillins {background-color="#2c3e50"}
+# PART 4: Classification of Penicillins {background-color="#9B0014"}
 
-::: {.notes}
+::: notes
 Now we'll classify penicillins by their antibacterial spectrum. Understanding the classes helps with drug selection.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Five Classes of Penicillins
 
-::: {.incremental}
-1. **Natural penicillins** — Penicillin G, Penicillin V
-2. **Penicillinase-resistant** — Nafcillin, Oxacillin, Dicloxacillin
-3. **Aminopenicillins** — Ampicillin, Amoxicillin
-4. **Carboxypenicillins** — Ticarcillin (obsolete)
-5. **Ureidopenicillins** — Piperacillin
-:::
+<br>
 
-::: {.notes}
+1.  **Natural penicillins** — Penicillin G, Penicillin V
+2.  **Penicillinase-resistant** — Nafcillin, Oxacillin, Dicloxacillin
+3.  **Aminopenicillins** — Ampicillin, Amoxicillin
+4.  **Carboxypenicillins** — Ticarcillin (obsolete)
+5.  **Ureidopenicillins** — Piperacillin
+
+::: notes
 Each class has different side chain modifications. The modifications determine spectrum, stability, and pharmacokinetics. We'll discuss each class in detail.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Class 1: Natural Penicillins
 
+<br>
+
 **Penicillin G** (parenteral) and **Penicillin V** (oral)
 
-::: {.incremental}
-- The original penicillins
-- **Narrowest spectrum** but highest potency against susceptible organisms
-- **Acid-labile** (Pen G) vs **Acid-stable** (Pen V)
-- Susceptible to β-lactamases
-- Still drugs of choice for many infections
-:::
+-   The original penicillins
+-   **Narrowest spectrum** but highest potency against susceptible organisms
+-   **Acid-labile** (Pen G) vs **Acid-stable** (Pen V)
+-   Susceptible to β-lactamases
+-   Still drugs of choice for many infections
 
-::: {.notes}
+::: notes
 Natural penicillins are still very important. They have the highest intrinsic activity against susceptible organisms. Narrow spectrum can be an advantage (less collateral damage to microbiome).
 :::
 
----
+------------------------------------------------------------------------
 
 ## Natural Penicillins: Spectrum
 
+<br>
+
 **Excellent activity:**
 
-::: {.incremental}
-- *Streptococcus pyogenes* (Group A strep)
-- *Streptococcus agalactiae* (Group B strep)
-- *Streptococcus pneumoniae* (susceptible strains)
-- *Neisseria meningitidis*
-- *Treponema pallidum* (syphilis)
-- Most oral anaerobes
-- *Listeria monocytogenes*
-:::
+-   *Streptococcus pyogenes* (Group A strep)
+-   *Streptococcus agalactiae* (Group B strep)
+-   *Streptococcus pneumoniae* (susceptible strains)
+-   *Neisseria meningitidis*
+-   *Treponema pallidum* (syphilis)
+-   Most oral anaerobes
+-   *Listeria monocytogenes*
 
-::: {.notes}
+::: notes
 Group A strep has essentially 100% susceptibility to penicillin. Penicillin G remains first-line for syphilis. These are important "penicillin G diseases" to remember.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Natural Penicillins: Clinical Uses
 
-| Infection | Drug of Choice |
-|-----------|----------------|
-| Group A strep pharyngitis | Penicillin V |
-| Syphilis (all stages) | Penicillin G |
-| Neurosyphilis | IV Penicillin G |
-| Meningococcal meningitis | Penicillin G |
-| Actinomycosis | Penicillin G |
-| Gas gangrene (*C. perfringens*) | Penicillin G |
+<br>
 
-::: {.notes}
+| Infection                       | Drug of Choice  |
+|---------------------------------|-----------------|
+| Group A strep pharyngitis       | Penicillin V    |
+| Syphilis (all stages)           | Penicillin G    |
+| Neurosyphilis                   | IV Penicillin G |
+| Meningococcal meningitis        | Penicillin G    |
+| Actinomycosis                   | Penicillin G    |
+| Gas gangrene (*C. perfringens*) | Penicillin G    |
+
+::: notes
 These are infections where natural penicillins remain preferred. For syphilis, there is no alternative as effective as penicillin G. Penicillin-allergic patients with syphilis should undergo desensitization.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Class 2: Penicillinase-Resistant Penicillins
 
+<br>
+
 **Nafcillin, Oxacillin, Dicloxacillin, Flucloxacillin**
 
-::: {.incremental}
-- **Bulky side chains** create steric hindrance
-- Resist hydrolysis by staphylococcal β-lactamases
-- Spectrum: **MSSA and streptococci**
-- No gram-negative activity
-- **NOT effective against MRSA**
-:::
+-   **Bulky side chains** create steric hindrance
+-   Resist hydrolysis by staphylococcal β-lactamases
+-   Spectrum: **MSSA and streptococci**
+-   No gram-negative activity
+-   **NOT effective against MRSA**
 
-::: {.notes}
+::: notes
 The bulky side chain physically blocks β-lactamase access to the β-lactam ring. They're designed specifically for staphylococcal infections. Remember: they don't work against MRSA because MRSA resistance is PBP-mediated, not β-lactamase-mediated.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Antistaphylococcal Penicillins: Details
 
-| Drug | Route | Protein Binding | Elimination | Special Considerations |
-|------|-------|-----------------|-------------|----------------------|
-| Nafcillin | IV | 90% | Hepatic | Hypokalemia, phlebitis |
-| Oxacillin | IV | 90% | Mixed | Hepatotoxicity |
-| Dicloxacillin | PO | 96% | Renal/hepatic | Highest protein binding |
-| Flucloxacillin | PO/IV | 96% | Renal | Not available in US |
+<br>
 
-::: {.notes}
+| Drug           | Route | Protein Binding | Elimination   | Special Considerations  |
+|---------------|---------------|---------------|---------------|---------------|
+| Nafcillin      | IV    | 90%             | Hepatic       | Hypokalemia, phlebitis  |
+| Oxacillin      | IV    | 90%             | Mixed         | Hepatotoxicity          |
+| Dicloxacillin  | PO    | 96%             | Renal/hepatic | Highest protein binding |
+| Flucloxacillin | PO/IV | 96%             | Renal         | Not available in US     |
+
+::: notes
 Nafcillin is primarily hepatically eliminated, so no renal dose adjustment needed. Oxacillin can cause hepatotoxicity. Dicloxacillin has the highest protein binding of any penicillin.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Class 3: Aminopenicillins
+
+<br>
 
 **Ampicillin and Amoxicillin**
 
 ![Aminopenicillins: Ampicillin and Amoxicillin differ only in the hydroxyl group.](images/fig20-6-25.png){width="70%"}
 
-::: {.notes}
+::: notes
 The amino group on the side chain improves penetration through gram-negative outer membranes. Amoxicillin's hydroxyl group improves oral absorption. Both are susceptible to β-lactamases.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Aminopenicillins: Expanded Spectrum
 
-::: {.incremental}
-- **Same as natural penicillins PLUS:**
-  - *Enterococcus faecalis*
-  - *Haemophilus influenzae* (non-β-lactamase producing)
-  - *Escherichia coli* (non-β-lactamase producing)
-  - *Proteus mirabilis*
-  - *Salmonella* and *Shigella* spp.
-  - *Listeria monocytogenes*
-:::
+<br>
 
-::: {.notes}
+-   **Same as natural penicillins PLUS:**
+    -   *Enterococcus faecalis*
+    -   *Haemophilus influenzae* (non-β-lactamase producing)
+    -   *Escherichia coli* (non-β-lactamase producing)
+    -   *Proteus mirabilis*
+    -   *Salmonella* and *Shigella* spp.
+    -   *Listeria monocytogenes*
+
+::: notes
 The expanded gram-negative coverage is useful but limited by β-lactamase production. Many *E. coli* are now resistant due to β-lactamases. Enterococcal coverage makes ampicillin important for certain infections.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Ampicillin vs Amoxicillin
 
-| Property | Ampicillin | Amoxicillin |
-|----------|------------|-------------|
-| Oral absorption | 30-55% | 74-92% |
-| Effect of food | Decreased | None |
-| Preferred route | IV | Oral |
-| Bioequivalence | — | Better than ampicillin |
+<br>
 
-::: {.callout-tip}
+| Property        | Ampicillin | Amoxicillin            |
+|-----------------|------------|------------------------|
+| Oral absorption | 30-55%     | 74-92%                 |
+| Effect of food  | Decreased  | None                   |
+| Preferred route | IV         | Oral                   |
+| Bioequivalence  | —          | Better than ampicillin |
+
+::: callout-tip
 For oral therapy, amoxicillin is almost always preferred
 :::
 
-::: {.notes}
+::: notes
 This is an important practical point. Oral amoxicillin achieves much better levels than oral ampicillin. Unless IV is needed, amoxicillin is the better choice.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Classes 4 & 5: Antipseudomonal Penicillins
 
-**Carboxypenicillins** (ticarcillin) — largely obsolete
-**Ureidopenicillins** (piperacillin) — in wide use
+<br>
 
-::: {.incremental}
-- Extended gram-negative spectrum
-- Activity against *Pseudomonas aeruginosa*
-- Excellent anaerobic coverage
-- Susceptible to β-lactamases
-- Now used with β-lactamase inhibitors
-:::
+**Carboxypenicillins** (ticarcillin) — largely obsolete **Ureidopenicillins** (piperacillin) — in wide use
 
-::: {.notes}
+-   Extended gram-negative spectrum
+-   Activity against *Pseudomonas aeruginosa*
+-   Excellent anaerobic coverage
+-   Susceptible to β-lactamases
+-   Now used with β-lactamase inhibitors
+
+::: notes
 Ticarcillin is no longer manufactured. Piperacillin is only used combined with tazobactam. These drugs have the broadest spectrum of the penicillins but require large doses.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Piperacillin: Spectrum
 
+<br>
+
 ![Penicillins active against gram-negative bacteria including Pseudomonas.](images/fig20-7-31.png){width="70%"}
 
-::: {.notes}
+::: notes
 Piperacillin has the broadest spectrum of any penicillin. Activity against *P. aeruginosa*, most Enterobacterales, and excellent anaerobic coverage. Always used with tazobactam now.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Spectrum Summary Table
 
-| Class | Gram+ | Gram- | Pseudomonas | Anaerobes | MRSA |
-|-------|-------|-------|-------------|-----------|------|
-| Natural | +++ | - | - | ++ | - |
-| Antistaphylococcal | ++ (Staph) | - | - | - | - |
-| Aminopenicillins | ++ | + | - | ++ | - |
-| Antipseudomonal | + | ++ | ++ | +++ | - |
+<br>
 
-::: {.notes}
+| Class              | Gram+      | Gram- | Pseudomonas | Anaerobes | MRSA |
+|--------------------|------------|-------|-------------|-----------|------|
+| Natural            | +++        | \-    | \-          | ++        | \-   |
+| Antistaphylococcal | ++ (Staph) | \-    | \-          | \-        | \-   |
+| Aminopenicillins   | ++         | \+    | \-          | ++        | \-   |
+| Antipseudomonal    | \+         | ++    | ++          | +++       | \-   |
+
+::: notes
 This summary helps with quick selection. Note that NONE of the penicillins work against MRSA. Antistaphylococcal penicillins are narrow but highly effective against MSSA.
 :::
 
----
+------------------------------------------------------------------------
 
-# PART 5: Pharmacokinetics {background-color="#2c3e50"}
+# PART 5: Pharmacokinetics {background-color="#9B0014"}
 
-::: {.notes}
+::: notes
 Understanding pharmacokinetics is essential for appropriate dosing. We'll cover absorption, distribution, metabolism, and excretion.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Oral Absorption
 
-| Penicillin | Absorption (%) | Food Effect |
-|------------|----------------|-------------|
-| Penicillin V | 60 | None |
-| Ampicillin | 30-55 | Decreased |
-| Amoxicillin | 74-92 | None |
-| Dicloxacillin | 37 | Decreased |
-| Flucloxacillin | 44 | Decreased |
+<br>
 
-::: {.callout-tip}
+| Penicillin     | Absorption (%) | Food Effect |
+|----------------|----------------|-------------|
+| Penicillin V   | 60             | None        |
+| Ampicillin     | 30-55          | Decreased   |
+| Amoxicillin    | 74-92          | None        |
+| Dicloxacillin  | 37             | Decreased   |
+| Flucloxacillin | 44             | Decreased   |
+
+::: callout-tip
 Amoxicillin has the best oral bioavailability
 :::
 
-::: {.notes}
+::: notes
 Absorption varies dramatically. This determines which penicillins can be used orally. Amoxicillin is exceptional with 74-92% absorption unaffected by food. Most others should be taken on an empty stomach.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Protein Binding
 
-::: {.incremental}
-- Ranges from **17% (aminopenicillins) to 97% (dicloxacillin)**
-- **Only free drug is active**
-- High protein binding:
-  - Reduces active drug concentration
-  - Prolongs half-life
-  - May reduce tissue penetration
-- Clinical significance debated
-:::
+<br>
 
-::: {.notes}
+-   Ranges from **17% (aminopenicillins) to 97% (dicloxacillin)**
+-   **Only free drug is active**
+-   High protein binding:
+    -   Reduces active drug concentration
+    -   Prolongs half-life
+    -   May reduce tissue penetration
+-   Clinical significance debated
+
+::: notes
 Protein binding affects interpretation of serum levels. A drug with 96% protein binding has only 4% free drug. Whether this is clinically significant is debated, but it may matter for deep-seated infections.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Distribution
 
-::: {.incremental}
-- Generally **good tissue penetration**
-- Achieve therapeutic levels in:
-  - Lung, liver, kidney, muscle
-  - Pleural, peritoneal, synovial fluid
-  - Bone (variable)
-- **Poor penetration without inflammation**:
-  - CNS, eye, prostate
-:::
+<br>
 
-::: {.notes}
+-   Generally **good tissue penetration**
+-   Achieve therapeutic levels in:
+    -   Lung, liver, kidney, muscle
+    -   Pleural, peritoneal, synovial fluid
+    -   Bone (variable)
+-   **Poor penetration without inflammation**:
+    -   CNS, eye, prostate
+
+::: notes
 Penicillins are polar molecules with limited lipid solubility. They distribute well to most tissues but penetrate the CNS poorly. Inflammation increases CNS penetration (important for meningitis treatment).
 :::
 
----
+------------------------------------------------------------------------
 
 ## CNS Penetration
 
-| Condition | Penicillin G | Ampicillin |
-|-----------|--------------|------------|
-| Normal meninges | <1% | <1% |
-| Inflamed meninges | 5-10% | 13-14% |
+<br>
 
-::: {.callout-note}
+| Condition         | Penicillin G | Ampicillin |
+|-------------------|--------------|------------|
+| Normal meninges   | \<1%         | \<1%       |
+| Inflamed meninges | 5-10%        | 13-14%     |
+
+::: callout-note
 Inflammation is required for adequate CNS levels. As meningitis resolves, drug penetration decreases.
 :::
 
-::: {.notes}
+::: notes
 This has clinical implications. Meningitis treatment requires high doses because penetration is still limited even with inflammation. As treatment succeeds and inflammation decreases, drug levels in CSF decrease too.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Elimination
 
-::: {.incremental}
-- **Most penicillins**: Primarily renal excretion
-  - Glomerular filtration + tubular secretion
-  - Short half-lives (0.5-1.5 hours)
-  - Probenecid can block tubular secretion
-- **Exceptions**:
-  - Nafcillin: Primarily hepatic
-  - Oxacillin: Mixed hepatic/renal
-:::
+<br>
 
-::: {.notes}
+-   **Most penicillins**: Primarily renal excretion
+    -   Glomerular filtration + tubular secretion
+    -   Short half-lives (0.5-1.5 hours)
+    -   Probenecid can block tubular secretion
+-   **Exceptions**:
+    -   Nafcillin: Primarily hepatic
+    -   Oxacillin: Mixed hepatic/renal
+
+::: notes
 The short half-lives necessitate frequent dosing (every 4-6 hours). Renal impairment requires dose adjustment for most penicillins. Nafcillin is the exception—no renal adjustment needed.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Renal Dosing: When to Adjust
 
-| CrCl (mL/min) | Adjustment Needed? |
-|---------------|-------------------|
-| >50 | Usually no |
-| 30-50 | Consider for some agents |
-| 10-30 | Yes for most agents |
-| <10 | Yes, significant reduction |
-| Hemodialysis | Dose after dialysis |
+<br>
 
-::: {.notes}
+| CrCl (mL/min) | Adjustment Needed?         |
+|---------------|----------------------------|
+| \>50          | Usually no                 |
+| 30-50         | Consider for some agents   |
+| 10-30         | Yes for most agents        |
+| \<10          | Yes, significant reduction |
+| Hemodialysis  | Dose after dialysis        |
+
+::: notes
 The threshold for dose adjustment varies by agent. Natural penicillins and aminopenicillins need adjustment below 30 mL/min. Antistaphylococcal penicillins (except oxacillin) generally don't need adjustment.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Dosing in Renal Failure
 
-| Agent | CrCl 10-29 | Hemodialysis |
-|-------|------------|--------------|
-| Penicillin G | 75% dose | Dose post-HD |
-| Ampicillin | 0.5-2g q12h | 0.5-1g q12-24h |
-| Amoxicillin | 500mg q12h | 500mg q12-24h |
-| Piperacillin | 3g q8-12h | 3g q12h |
-| Nafcillin | No change | No change |
+<br>
 
-::: {.notes}
+| Agent        | CrCl 10-29  | Hemodialysis   |
+|--------------|-------------|----------------|
+| Penicillin G | 75% dose    | Dose post-HD   |
+| Ampicillin   | 0.5-2g q12h | 0.5-1g q12-24h |
+| Amoxicillin  | 500mg q12h  | 500mg q12-24h  |
+| Piperacillin | 3g q8-12h   | 3g q12h        |
+| Nafcillin    | No change   | No change      |
+
+::: notes
 Memorize that nafcillin doesn't require renal adjustment. For dialysis patients, give the dose after dialysis to avoid drug removal. Extended-spectrum agents like piperacillin require adjustment.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Optimizing β-Lactam Dosing
 
-::: {.incremental}
-- β-Lactams are **time-dependent killers**
-- Efficacy correlates with **%T>MIC** (time above MIC)
-- Target: 40-70% of dosing interval above MIC
-- Strategies to optimize:
-  - More frequent dosing
-  - Extended infusions (3-4 hours)
-  - Continuous infusions
-:::
+<br>
 
-::: {.notes}
+-   β-Lactams are **time-dependent killers**
+-   Efficacy correlates with **%T\>MIC** (time above MIC)
+-   Target: 40-70% of dosing interval above MIC
+-   Strategies to optimize:
+    -   More frequent dosing
+    -   Extended infusions (3-4 hours)
+    -   Continuous infusions
+
+::: notes
 This PK/PD concept is fundamental. Unlike aminoglycosides (concentration-dependent), β-lactams need to maintain levels above MIC for as long as possible. Extended infusions are now standard for piperacillin-tazobactam.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Extended Infusion Dosing
 
+<br>
+
 **Piperacillin-Tazobactam Example:**
 
-| Traditional | Extended Infusion |
-|-------------|-------------------|
-| 4.5g over 30 min q6h | 4.5g over 4 hours q8h |
+| Traditional               | Extended Infusion         |
+|---------------------------|---------------------------|
+| 4.5g over 30 min q6h      | 4.5g over 4 hours q8h     |
 | Higher peak, lower trough | Lower peak, higher trough |
-| Less time above MIC | More time above MIC |
+| Less time above MIC       | More time above MIC       |
 
-::: {.callout-tip}
+::: callout-tip
 Extended infusion may improve outcomes, especially for organisms with higher MICs
 :::
 
-::: {.notes}
+::: notes
 Extended infusion dosing has become standard of care in many institutions. The total daily dose may be similar or even lower, but the pharmacodynamics are superior.
 :::
 
----
+------------------------------------------------------------------------
 
-# PART 6: Adverse Effects {background-color="#2c3e50"}
+# PART 6: Adverse Effects {background-color="#9B0014"}
 
-::: {.notes}
+::: notes
 Penicillins are generally safe, but adverse effects do occur. Hypersensitivity is the most important concern.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Overview of Adverse Effects
 
-::: {.incremental}
-- **Hypersensitivity reactions** — most important
-- Gastrointestinal effects
-- Hematologic effects
-- Neurologic effects
-- Nephrotoxicity
-- Hepatotoxicity
-- Electrolyte disturbances
-:::
+<br>
 
-::: {.notes}
+-   **Hypersensitivity reactions** — most important
+-   Gastrointestinal effects
+-   Hematologic effects
+-   Neurologic effects
+-   Nephrotoxicity
+-   Hepatotoxicity
+-   Electrolyte disturbances
+
+::: notes
 We'll discuss each category. Hypersensitivity is the most clinically significant concern. Most other effects are dose-related or specific to certain agents.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Hypersensitivity: Types
 
+<br>
+
 | Type | Timing | Mechanism | Manifestations |
-|------|--------|-----------|----------------|
+|------------------|------------------|------------------|------------------|
 | Type I | Minutes-hours | IgE-mediated | Anaphylaxis, urticaria, angioedema |
 | Type II | Days | Antibody-mediated | Hemolytic anemia, cytopenia |
 | Type III | 1-3 weeks | Immune complex | Serum sickness, drug fever |
 | Type IV | Days-weeks | T-cell mediated | Maculopapular rash, contact dermatitis |
 
-::: {.notes}
+::: notes
 Type I reactions are the most dangerous and require avoidance. Type IV reactions (delayed maculopapular rashes) are most common and generally don't preclude future use.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Penicillin Allergy: By the Numbers
 
-::: {.incremental}
-- **~10%** of patients report penicillin allergy
-- **<1%** have true IgE-mediated allergy when tested
-- **~2%** will react if challenged
-- **True anaphylaxis: <0.01%**
-- Allergy often wanes over time
-  - 50% lose sensitivity within 5 years
-  - 80% lose sensitivity within 10 years
-:::
+<br>
 
-::: {.notes}
+-   **\~10%** of patients report penicillin allergy
+-   **\<1%** have true IgE-mediated allergy when tested
+-   **\~2%** will react if challenged
+-   **True anaphylaxis: \<0.01%**
+-   Allergy often wanes over time
+    -   50% lose sensitivity within 5 years
+    -   80% lose sensitivity within 10 years
+
+::: notes
 These numbers are important. Most "penicillin allergy" labels are inaccurate. Over-labeling leads to use of broader-spectrum, more toxic, and more expensive antibiotics. De-labeling is an important intervention.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Penicillin Allergy De-Labeling
 
-::: {.incremental}
-1. **History assessment** — Was it really an allergic reaction?
-2. **Risk stratification** — High risk vs low risk features
-3. **Skin testing** — Detects IgE-mediated allergy
-4. **Graded oral challenge** — Confirms tolerance
-5. **Update medical record** — Remove incorrect allergy label
-:::
+<br>
 
-::: {.callout-tip}
+1.  **History assessment** — Was it really an allergic reaction?
+2.  **Risk stratification** — High risk vs low risk features
+3.  **Skin testing** — Detects IgE-mediated allergy
+4.  **Graded oral challenge** — Confirms tolerance
+5.  **Update medical record** — Remove incorrect allergy label
+
+::: callout-tip
 De-labeling programs are safe and improve patient care
 :::
 
-::: {.notes}
+::: notes
 Penicillin allergy de-labeling is an important quality improvement initiative. Many patients can safely receive penicillins after proper evaluation. This improves outcomes and reduces costs.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Cross-Reactivity with Cephalosporins
 
-::: {.incremental}
-- **Historical estimates**: 10% cross-reactivity (overestimate)
-- **Current data**: ~1-2% cross-reactivity
-- Cross-reactivity relates to **side chain similarity**
-- Highest risk: Similar R1 side chains
-  - Ampicillin → Cephalexin, Cefadroxil
-- Lower risk: Dissimilar side chains
-  - Ceftriaxone, cefepime
-:::
+<br>
 
-::: {.notes}
+-   **Historical estimates**: 10% cross-reactivity (overestimate)
+-   **Current data**: \~1-2% cross-reactivity
+-   Cross-reactivity relates to **side chain similarity**
+-   Highest risk: Similar R1 side chains
+    -   Ampicillin → Cephalexin, Cefadroxil
+-   Lower risk: Dissimilar side chains
+    -   Ceftriaxone, cefepime
+
+::: notes
 The 10% cross-reactivity rate was based on flawed data. Current evidence suggests much lower rates. Side chain similarity predicts cross-reactivity better than the β-lactam ring alone.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Other Adverse Effects
 
+<br>
+
 | Effect | Most Common With | Notes |
-|--------|------------------|-------|
+|----|----|----|
 | Diarrhea | Ampicillin, amoxicillin-clav | Disruption of gut flora |
 | *C. difficile* | All | Risk with any antibiotic |
 | Neutropenia | Prolonged high-dose therapy | Reversible |
 | Seizures | High-dose penicillin G | Especially in renal failure |
 | Interstitial nephritis | Methicillin, nafcillin | Allergic mechanism |
 
-::: {.notes}
-GI effects are common with oral penicillins. Neutropenia is associated with prolonged courses (>2 weeks). Seizures occur with very high doses, especially in patients with renal impairment.
+::: notes
+GI effects are common with oral penicillins. Neutropenia is associated with prolonged courses (\>2 weeks). Seizures occur with very high doses, especially in patients with renal impairment.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Agent-Specific Toxicities
 
-::: {.incremental}
-- **Nafcillin**: Hypokalemia, phlebitis
-- **Oxacillin**: Hepatotoxicity, interstitial nephritis
-- **Ampicillin**: Maculopapular rash (especially with EBV)
-- **Amoxicillin-clavulanate**: Diarrhea, hepatotoxicity
-- **Piperacillin**: Platelet dysfunction, hypokalemia
-- **High-dose Penicillin G (K+ salt)**: Hyperkalemia
-:::
+<br>
 
-::: {.notes}
+-   **Nafcillin**: Hypokalemia, phlebitis
+-   **Oxacillin**: Hepatotoxicity, interstitial nephritis
+-   **Ampicillin**: Maculopapular rash (especially with EBV)
+-   **Amoxicillin-clavulanate**: Diarrhea, hepatotoxicity
+-   **Piperacillin**: Platelet dysfunction, hypokalemia
+-   **High-dose Penicillin G (K+ salt)**: Hyperkalemia
+
+::: notes
 Know these agent-specific effects. The ampicillin rash with infectious mononucleosis is not a true allergy and doesn't predict future reactions. Piperacillin can cause platelet dysfunction with prolonged use.
 :::
 
----
+------------------------------------------------------------------------
 
-# PART 7: β-Lactamase Inhibitors {background-color="#2c3e50"}
+# PART 7: β-Lactamase Inhibitors {background-color="#9B0014"}
 
-::: {.notes}
+::: notes
 β-Lactamase inhibitors restore penicillin activity against resistant organisms. Understanding their spectrum is essential.
 :::
 
----
+------------------------------------------------------------------------
 
 ## β-Lactamase Inhibitor Classes
 
-:::: {.columns}
+<br>
+
+::::: columns
 ::: {.column width="50%"}
 **Traditional (β-lactam)**
 
-- Clavulanic acid
-- Sulbactam
-- Tazobactam
+-   Clavulanic acid
+-   Sulbactam
+-   Tazobactam
 :::
 
 ::: {.column width="50%"}
 **Novel (non-β-lactam)**
 
-- Avibactam
-- Relebactam
-- Vaborbactam
+-   Avibactam
+-   Relebactam
+-   Vaborbactam
 :::
-::::
+:::::
 
-::: {.notes}
+::: notes
 The traditional inhibitors are β-lactam compounds themselves that act as "suicide substrates." The novel inhibitors have different mechanisms and broader coverage, including KPC and AmpC.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Mechanism: Traditional Inhibitors
 
-::: {.incremental}
-1. Inhibitor binds to β-lactamase active site
-2. Forms stable **acyl-enzyme complex**
-3. Complex undergoes **irreversible fragmentation**
-4. Enzyme is permanently inactivated
-5. "**Suicide inhibitor**" mechanism
-6. One inhibitor molecule = one enzyme molecule
-:::
+<br>
 
-::: {.notes}
+1.  Inhibitor binds to β-lactamase active site
+2.  Forms stable **acyl-enzyme complex**
+3.  Complex undergoes **irreversible fragmentation**
+4.  Enzyme is permanently inactivated
+5.  "**Suicide inhibitor**" mechanism
+6.  One inhibitor molecule = one enzyme molecule
+
+::: notes
 The traditional inhibitors sacrifice themselves to inactivate the β-lactamase. This is different from competitive inhibition—the enzyme is destroyed, not just temporarily blocked.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Traditional Inhibitor Combinations
 
-| Inhibitor | Partner | Formulations |
-|-----------|---------|--------------|
-| Clavulanic acid | Amoxicillin | Oral (US), IV (elsewhere) |
-| Sulbactam | Ampicillin | IV |
-| Tazobactam | Piperacillin | IV |
+<br>
 
-::: {.notes}
+| Inhibitor       | Partner      | Formulations              |
+|-----------------|--------------|---------------------------|
+| Clavulanic acid | Amoxicillin  | Oral (US), IV (elsewhere) |
+| Sulbactam       | Ampicillin   | IV                        |
+| Tazobactam      | Piperacillin | IV                        |
+
+::: notes
 In the US, amoxicillin-clavulanate is only available orally. It's available IV in other countries. Sulbactam has intrinsic activity against *Acinetobacter*. Tazobactam is always used with piperacillin.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Spectrum of Traditional Inhibitors
 
+<br>
+
 **Inhibited:**
 
-- Class A β-lactamases (TEM, SHV, many ESBLs)
-- *S. aureus* β-lactamase
-- *Bacteroides* β-lactamase
+-   Class A β-lactamases (TEM, SHV, many ESBLs)
+-   *S. aureus* β-lactamase
+-   *Bacteroides* β-lactamase
 
 **NOT inhibited:**
 
-- Class B (metallo-β-lactamases)
-- Class C (AmpC)
-- KPC (weak inhibition)
+-   Class B (metallo-β-lactamases)
+-   Class C (AmpC)
+-   KPC (weak inhibition)
 
-::: {.notes}
+::: notes
 This is a critical limitation. Traditional inhibitors don't work against AmpC or carbapenemases. That's why piperacillin-tazobactam doesn't work reliably against AmpC-producing organisms or KPC producers.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Novel β-Lactamase Inhibitors
 
-| Inhibitor | Partner | Unique Feature |
-|-----------|---------|----------------|
-| Avibactam | Ceftazidime | Inhibits KPC, OXA-48, AmpC |
-| Relebactam | Imipenem | Inhibits KPC, AmpC |
-| Vaborbactam | Meropenem | Inhibits KPC, AmpC |
+<br>
 
-::: {.callout-important}
+| Inhibitor   | Partner     | Unique Feature             |
+|-------------|-------------|----------------------------|
+| Avibactam   | Ceftazidime | Inhibits KPC, OXA-48, AmpC |
+| Relebactam  | Imipenem    | Inhibits KPC, AmpC         |
+| Vaborbactam | Meropenem   | Inhibits KPC, AmpC         |
+
+::: callout-important
 None inhibit metallo-β-lactamases (NDM, VIM, IMP)
 :::
 
-::: {.notes}
+::: notes
 These newer combinations have expanded activity against carbapenemases and AmpC. They're important for treating CRE. However, the gap remains for metallo-β-lactamases.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Inhibitor Spectrum Summary
 
-| Inhibitor | Class A | ESBLs | KPC | AmpC | MBLs | OXA-48 |
-|-----------|---------|-------|-----|------|------|--------|
-| Clavulanate | ✓ | ± | ✗ | ✗ | ✗ | ✗ |
-| Tazobactam | ✓ | ± | ✗ | ✗ | ✗ | ✗ |
-| Avibactam | ✓ | ✓ | ✓ | ✓ | ✗ | ✓ |
-| Vaborbactam | ✓ | ✓ | ✓ | ✓ | ✗ | ✗ |
+<br>
 
-::: {.notes}
+| Inhibitor   | Class A | ESBLs | KPC | AmpC | MBLs | OXA-48 |
+|-------------|---------|-------|-----|------|------|--------|
+| Clavulanate | ✓       | ±     | ✗   | ✗    | ✗    | ✗      |
+| Tazobactam  | ✓       | ±     | ✗   | ✗    | ✗    | ✗      |
+| Avibactam   | ✓       | ✓     | ✓   | ✓    | ✗    | ✓      |
+| Vaborbactam | ✓       | ✓     | ✓   | ✓    | ✗    | ✗      |
+
+::: notes
 Use this table for quick reference. Note that metallo-β-lactamases (MBLs) are not inhibited by any approved inhibitor. Avibactam has the broadest spectrum, including OXA-48.
 :::
 
----
+------------------------------------------------------------------------
 
 ## MIC Values: BLI Combinations
 
-| Organism | Amp/Amox | Amox-Clav | Pip-Tazo |
-|----------|----------|-----------|----------|
-| *S. aureus* (MSSA) | 16 | 1 | 1 |
-| *H. influenzae* (BL+) | >16 | 0.5 | 0.06 |
-| *E. coli* | >16 | 4 | 2 |
-| *K. pneumoniae* | >16 | 2 | 4 |
-| *B. fragilis* | >16 | 0.5 | 2 |
-| *P. aeruginosa* | >16 | >16 | 4 |
+<br>
 
-::: {.notes}
+| Organism              | Amp/Amox | Amox-Clav | Pip-Tazo |
+|-----------------------|----------|-----------|----------|
+| *S. aureus* (MSSA)    | 16       | 1         | 1        |
+| *H. influenzae* (BL+) | \>16     | 0.5       | 0.06     |
+| *E. coli*             | \>16     | 4         | 2        |
+| *K. pneumoniae*       | \>16     | 2         | 4        |
+| *B. fragilis*         | \>16     | 0.5       | 2        |
+| *P. aeruginosa*       | \>16     | \>16      | 4        |
+
+::: notes
 These MICs show how inhibitors restore activity. Note that *P. aeruginosa* remains relatively resistant even to pip-tazo—the MIC is at the breakpoint. This explains why pip-tazo may fail for serious *Pseudomonas* infections.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Clinical Limitations of BLI Combinations
 
-::: {.callout-warning}
+<br>
+
+::: callout-warning
 **In vitro activity does not guarantee clinical success**
 :::
 
-::: {.incremental}
-- **ESBL infections**: Treatment failures reported with BLI combinations
-- **Inoculum effect**: High bacterial loads may overwhelm inhibitor
-- **Serious infections**: Carbapenems often preferred for ESBL bacteremia
-- **AmpC producers**: Traditional inhibitors ineffective
-:::
+-   **ESBL infections**: Treatment failures reported with BLI combinations
+-   **Inoculum effect**: High bacterial loads may overwhelm inhibitor
+-   **Serious infections**: Carbapenems often preferred for ESBL bacteremia
+-   **AmpC producers**: Traditional inhibitors ineffective
 
-::: {.notes}
+::: notes
 This is an important nuance. Just because an organism tests "susceptible" to pip-tazo doesn't mean it's the best choice for serious infections. The inoculum effect means that with high bacterial loads, β-lactamases can overwhelm the inhibitor.
 :::
 
----
+------------------------------------------------------------------------
 
-# PART 8: Clinical Application {background-color="#2c3e50"}
+# PART 8: Clinical Application {background-color="#9B0014"}
 
-::: {.notes}
+::: notes
 Let's apply what we've learned to clinical scenarios. We'll work through several cases covering different infection types.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Clinical Case 1: Skin Infection
 
+<br>
+
 **55-year-old man with cellulitis**
 
-- Erythema, warmth, swelling of left lower leg
-- No drainage, no crepitus
-- No systemic symptoms
-- No diabetes, no recent hospitalization
-- No history of MRSA
+-   Erythema, warmth, swelling of left lower leg
+-   No drainage, no crepitus
+-   No systemic symptoms
+-   No diabetes, no recent hospitalization
+-   No history of MRSA
 
 **What is the most appropriate oral therapy?**
 
-::: {.notes}
+::: notes
 Pause for discussion. What organisms cause cellulitis? What are the risk factors for MRSA? What's the narrowest effective spectrum?
 :::
 
----
+------------------------------------------------------------------------
 
 ## Case 1: Answer
 
-::: {.incremental}
-- **Likely pathogens**: *S. aureus*, Group A strep
-- **MRSA risk**: Low (no risk factors)
-- **Best choice**: **Dicloxacillin 500mg QID** or **Cephalexin 500mg QID**
-- **Rationale**: Narrow spectrum, covers MSSA + strep
-- **Avoid**: Amoxicillin-clavulanate (too broad), Fluoroquinolones (no added benefit)
-:::
+<br>
 
-::: {.notes}
+-   **Likely pathogens**: *S. aureus*, Group A strep
+-   **MRSA risk**: Low (no risk factors)
+-   **Best choice**: **Dicloxacillin 500mg QID** or **Cephalexin 500mg QID**
+-   **Rationale**: Narrow spectrum, covers MSSA + strep
+-   **Avoid**: Amoxicillin-clavulanate (too broad), Fluoroquinolones (no added benefit)
+
+::: notes
 This case illustrates appropriate narrow-spectrum selection. Without MRSA risk factors, we should target MSSA and streptococci. Broader agents aren't better and contribute to resistance.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Clinical Case 2: Pneumonia
 
+<br>
+
 **68-year-old woman with community-acquired pneumonia**
 
-- Cough, fever, dyspnea for 3 days
-- CXR: Right lower lobe infiltrate
-- O2 sat 94% on room air
-- COPD (mild), no recent antibiotics
-- Outpatient treatment appropriate
+-   Cough, fever, dyspnea for 3 days
+-   CXR: Right lower lobe infiltrate
+-   O2 sat 94% on room air
+-   COPD (mild), no recent antibiotics
+-   Outpatient treatment appropriate
 
 **What is the most appropriate oral therapy?**
 
-::: {.notes}
+::: notes
 Consider the likely pathogens, resistance patterns, and guideline recommendations. Is she low or high risk for resistant organisms?
 :::
 
----
+------------------------------------------------------------------------
 
 ## Case 2: Answer
 
-::: {.incremental}
-- **Most likely pathogen**: *S. pneumoniae*
-- **Other possibilities**: *H. influenzae*, atypicals
-- **COPD**: Increases *H. influenzae* risk
-- **Best choice**: **Amoxicillin-clavulanate 875mg BID** + **Azithromycin** (for atypicals)
-- **Alternative**: Respiratory fluoroquinolone (moxifloxacin)
-- **Rationale**: Covers pneumococcus (including most resistant strains), *H. influenzae*
-:::
+<br>
 
-::: {.notes}
+-   **Most likely pathogen**: *S. pneumoniae*
+-   **Other possibilities**: *H. influenzae*, atypicals
+-   **COPD**: Increases *H. influenzae* risk
+-   **Best choice**: **Amoxicillin-clavulanate 875mg BID** + **Azithromycin** (for atypicals)
+-   **Alternative**: Respiratory fluoroquinolone (moxifloxacin)
+-   **Rationale**: Covers pneumococcus (including most resistant strains), *H. influenzae*
+
+::: notes
 For CAP with COPD, coverage for H. influenzae is important. Amoxicillin-clavulanate provides this. Adding a macrolide covers atypical pathogens. This follows IDSA/ATS guidelines.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Clinical Case 3: UTI
 
+<br>
+
 **32-year-old woman with uncomplicated cystitis**
 
-- Dysuria, frequency for 2 days
-- No fever, no flank pain
-- No recent antibiotics
-- No structural urinary abnormalities
+-   Dysuria, frequency for 2 days
+-   No fever, no flank pain
+-   No recent antibiotics
+-   No structural urinary abnormalities
 
 **What is the most appropriate therapy?**
 
-::: {.notes}
+::: notes
 Is this a case where penicillins are first-line? Consider resistance patterns in uropathogens.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Case 3: Answer
 
-::: {.incremental}
-- **Most likely pathogen**: *E. coli* (75-95% of uncomplicated UTIs)
-- **Resistance concern**: >40% of *E. coli* resistant to ampicillin
-- **First-line options** (per guidelines):
-  - Nitrofurantoin 100mg BID x 5 days
-  - TMP-SMX (if local resistance <20%)
-  - Fosfomycin single dose
-- **Amoxicillin/ampicillin**: NOT first-line due to resistance
-:::
+<br>
 
-::: {.notes}
+-   **Most likely pathogen**: *E. coli* (75-95% of uncomplicated UTIs)
+-   **Resistance concern**: \>40% of *E. coli* resistant to ampicillin
+-   **First-line options** (per guidelines):
+    -   Nitrofurantoin 100mg BID x 5 days
+    -   TMP-SMX (if local resistance \<20%)
+    -   Fosfomycin single dose
+-   **Amoxicillin/ampicillin**: NOT first-line due to resistance
+
+::: notes
 This illustrates that penicillins aren't always the right choice. For uncomplicated UTI, resistance to ampicillin is too high to use empirically. Nitrofurantoin has maintained good activity.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Clinical Case 4: Intra-Abdominal Infection
 
+<br>
+
 **52-year-old man with perforated appendicitis**
 
-- Post-operative day 1, now febrile
-- WBC 18,000
-- CT shows pelvic abscess
-- No recent antibiotics, no recent hospitalization
+-   Post-operative day 1, now febrile
+-   WBC 18,000
+-   CT shows pelvic abscess
+-   No recent antibiotics, no recent hospitalization
 
 **What is the most appropriate empiric therapy?**
 
-::: {.notes}
+::: notes
 Consider the polymicrobial nature of intra-abdominal infections. What organisms need to be covered? What about resistance?
 :::
 
----
+------------------------------------------------------------------------
 
 ## Case 4: Answer
 
-::: {.incremental}
-- **Pathogens**: Gram-negatives (Enterobacterales), Anaerobes (*B. fragilis*), possibly Enterococcus
-- **Best choice**: **Piperacillin-tazobactam 4.5g IV q6h** (extended infusion)
-- **Alternative**: Ceftriaxone + metronidazole
-- **Rationale**: Broad gram-negative coverage + anaerobes
-- **Duration**: Until source controlled, then course completion
-:::
+<br>
 
-::: {.notes}
+-   **Pathogens**: Gram-negatives (Enterobacterales), Anaerobes (*B. fragilis*), possibly Enterococcus
+-   **Best choice**: **Piperacillin-tazobactam 4.5g IV q6h** (extended infusion)
+-   **Alternative**: Ceftriaxone + metronidazole
+-   **Rationale**: Broad gram-negative coverage + anaerobes
+-   **Duration**: Until source controlled, then course completion
+
+::: notes
 Pip-tazo is an excellent choice for community-acquired intra-abdominal infections. It covers all the expected pathogens. Extended infusion dosing optimizes pharmacodynamics.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Clinical Case 5: Endocarditis
 
+<br>
+
 **45-year-old man with *S. aureus* bacteremia**
 
-- IV drug user, new murmur
-- TEE: Tricuspid vegetation
-- Blood culture: MSSA (oxacillin MIC 0.25)
-- No contraindications to β-lactams
+-   IV drug user, new murmur
+-   TEE: Tricuspid vegetation
+-   Blood culture: MSSA (oxacillin MIC 0.25)
+-   No contraindications to β-lactams
 
 **What is the most appropriate therapy?**
 
-::: {.notes}
+::: notes
 This is a serious infection requiring prolonged therapy. What's the optimal agent for MSSA endocarditis?
 :::
 
----
+------------------------------------------------------------------------
 
 ## Case 5: Answer
 
-::: {.incremental}
-- **Diagnosis**: MSSA tricuspid valve endocarditis
-- **Duration**: 4-6 weeks IV therapy
-- **Best choice**: **Nafcillin 2g IV q4h** or **Oxacillin 2g IV q4h**
-  - Often given as continuous infusion
-- **NOT vancomycin**: Inferior outcomes for MSSA
-- **Monitoring**: Renal function, signs of drug fever, eosinophilia
-:::
+<br>
 
-::: {.callout-important}
+-   **Diagnosis**: MSSA tricuspid valve endocarditis
+-   **Duration**: 4-6 weeks IV therapy
+-   **Best choice**: **Nafcillin 2g IV q4h** or **Oxacillin 2g IV q4h**
+    -   Often given as continuous infusion
+-   **NOT vancomycin**: Inferior outcomes for MSSA
+-   **Monitoring**: Renal function, signs of drug fever, eosinophilia
+
+::: callout-important
 For MSSA, nafcillin/oxacillin are superior to vancomycin
 :::
 
-::: {.notes}
+::: notes
 This is important: vancomycin is inferior to nafcillin for MSSA infections. The antistaphylococcal penicillins penetrate better and have faster bactericidal activity. Don't use vancomycin for MSSA just because it's "easier."
 :::
 
----
+------------------------------------------------------------------------
 
 ## Clinical Case 6: Meningitis
 
+<br>
+
 **22-year-old college student with meningitis**
 
-- Headache, fever, stiff neck, rash
-- CSF: 2000 WBC (95% PMN), protein 250, glucose 20
-- Gram stain: Gram-negative diplococci
-- Suspected *Neisseria meningitidis*
+-   Headache, fever, stiff neck, rash
+-   CSF: 2000 WBC (95% PMN), protein 250, glucose 20
+-   Gram stain: Gram-negative diplococci
+-   Suspected *Neisseria meningitidis*
 
 **What is the most appropriate therapy?**
 
-::: {.notes}
+::: notes
 This is a medical emergency. What are the first-line agents for meningococcal meningitis?
 :::
 
----
+------------------------------------------------------------------------
 
 ## Case 6: Answer
 
-::: {.incremental}
-- **Diagnosis**: Meningococcal meningitis
-- **Best choice**: **Penicillin G 4 million units IV q4h**
-- **Alternative**: Ceftriaxone 2g IV q12h
-- **Duration**: 7 days
-- **Chemoprophylaxis**: Close contacts need rifampin, ciprofloxacin, or ceftriaxone
-- **Dexamethasone**: Controversial for meningococcus (consider for pneumococcus)
-:::
+<br>
 
-::: {.notes}
+-   **Diagnosis**: Meningococcal meningitis
+-   **Best choice**: **Penicillin G 4 million units IV q4h**
+-   **Alternative**: Ceftriaxone 2g IV q12h
+-   **Duration**: 7 days
+-   **Chemoprophylaxis**: Close contacts need rifampin, ciprofloxacin, or ceftriaxone
+-   **Dexamethasone**: Controversial for meningococcus (consider for pneumococcus)
+
+::: notes
 Penicillin G remains excellent for meningococcal meningitis. The narrow spectrum is actually an advantage here. Ceftriaxone is often used empirically before organism identification.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Clinical Case 7: Syphilis
 
+<br>
+
 **28-year-old man with primary syphilis**
 
-- Painless chancre on penis
-- RPR reactive, TP-PA positive
-- Reports penicillin allergy: "rash as a child"
+-   Painless chancre on penis
+-   RPR reactive, TP-PA positive
+-   Reports penicillin allergy: "rash as a child"
 
 **What is the most appropriate management?**
 
-::: {.notes}
+::: notes
 This case combines two important topics: syphilis treatment and penicillin allergy management.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Case 7: Answer
 
-::: {.incremental}
-- **Treatment of choice**: **Benzathine penicillin G 2.4 million units IM x 1**
-- **No adequate alternative** for syphilis
-- **Penicillin allergy**: Likely not true allergy (childhood rash)
-- **Management options**:
-  1. Penicillin skin testing → if negative, treat with penicillin
-  2. Penicillin desensitization → then treat
-- **NOT acceptable**: Doxycycline or azithromycin (inferior efficacy)
-:::
+<br>
 
-::: {.notes}
+-   **Treatment of choice**: **Benzathine penicillin G 2.4 million units IM x 1**
+-   **No adequate alternative** for syphilis
+-   **Penicillin allergy**: Likely not true allergy (childhood rash)
+-   **Management options**:
+    1.  Penicillin skin testing → if negative, treat with penicillin
+    2.  Penicillin desensitization → then treat
+-   **NOT acceptable**: Doxycycline or azithromycin (inferior efficacy)
+
+::: notes
 Penicillin is the only proven treatment for syphilis, especially neurosyphilis. If a patient has documented penicillin allergy, desensitization is recommended. This is one of the few infections where there's no acceptable alternative.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Quick Selection Guide
 
-| Infection | First-Line Penicillin |
-|-----------|----------------------|
-| Strep pharyngitis | Penicillin V |
-| MSSA skin/soft tissue | Dicloxacillin |
-| MSSA bacteremia/endocarditis | Nafcillin |
-| CAP (outpatient, no comorbidity) | Amoxicillin |
-| CAP (outpatient, with COPD) | Amoxicillin-clavulanate |
-| Intra-abdominal infection | Piperacillin-tazobactam |
-| Syphilis | Benzathine penicillin G |
-| Listeria meningitis | Ampicillin |
+<br>
 
-::: {.notes}
+| Infection                        | First-Line Penicillin   |
+|----------------------------------|-------------------------|
+| Strep pharyngitis                | Penicillin V            |
+| MSSA skin/soft tissue            | Dicloxacillin           |
+| MSSA bacteremia/endocarditis     | Nafcillin               |
+| CAP (outpatient, no comorbidity) | Amoxicillin             |
+| CAP (outpatient, with COPD)      | Amoxicillin-clavulanate |
+| Intra-abdominal infection        | Piperacillin-tazobactam |
+| Syphilis                         | Benzathine penicillin G |
+| Listeria meningitis              | Ampicillin              |
+
+::: notes
 This quick reference summarizes the preferred penicillin for common infections. Emphasize matching the narrowest effective spectrum to the infection.
 :::
 
----
+------------------------------------------------------------------------
 
-# Summary and Key Takeaways {background-color="#2c3e50"}
+# Summary and Key Takeaways {background-color="#9B0014"}
 
----
+------------------------------------------------------------------------
 
 ## Key Point 1: Structure Determines Function
 
-::: {.incremental}
-- **β-Lactam ring** is essential for activity
-- **Side chain** determines spectrum, stability, and pharmacokinetics
-- Modifications create different penicillin classes
-- Understanding structure explains clinical properties
-:::
+<br>
 
----
+-   **β-Lactam ring** is essential for activity
+-   **Side chain** determines spectrum, stability, and pharmacokinetics
+-   Modifications create different penicillin classes
+-   Understanding structure explains clinical properties
+
+------------------------------------------------------------------------
 
 ## Key Point 2: Know the Resistance Mechanisms
 
-::: {.incremental}
-- **β-Lactamases**: Most common; hydrolize β-lactam ring
-- **Permeability**: Porin changes in gram-negatives
-- **Efflux**: Active drug removal
-- **Altered PBPs**: Low-affinity binding (MRSA, PRP)
-- Multiple mechanisms often coexist
-:::
+<br>
 
----
+-   **β-Lactamases**: Most common; hydrolize β-lactam ring
+-   **Permeability**: Porin changes in gram-negatives
+-   **Efflux**: Active drug removal
+-   **Altered PBPs**: Low-affinity binding (MRSA, PRP)
+-   Multiple mechanisms often coexist
+
+------------------------------------------------------------------------
 
 ## Key Point 3: Match Spectrum to Pathogen
 
-::: {.incremental}
-- **Natural penicillins**: Streptococci, syphilis, meningococcus
-- **Antistaphylococcal**: MSSA only
-- **Aminopenicillins**: Add enterococci, some gram-negatives
-- **Pip-tazo**: Broad including *Pseudomonas*, anaerobes
-- **None work against MRSA**
-:::
+<br>
 
----
+-   **Natural penicillins**: Streptococci, syphilis, meningococcus
+-   **Antistaphylococcal**: MSSA only
+-   **Aminopenicillins**: Add enterococci, some gram-negatives
+-   **Pip-tazo**: Broad including *Pseudomonas*, anaerobes
+-   **None work against MRSA**
+
+------------------------------------------------------------------------
 
 ## Key Point 4: β-Lactamase Inhibitors Have Limits
 
-::: {.incremental}
-- Traditional inhibitors: Class A only
-- **NOT effective against**:
-  - AmpC (Class C)
-  - Metallo-β-lactamases (Class B)
-  - KPC (limited)
-- Newer inhibitors: Broader coverage but still gaps
-- In vitro activity ≠ clinical success
-:::
+<br>
 
----
+-   Traditional inhibitors: Class A only
+-   **NOT effective against**:
+    -   AmpC (Class C)
+    -   Metallo-β-lactamases (Class B)
+    -   KPC (limited)
+-   Newer inhibitors: Broader coverage but still gaps
+-   In vitro activity ≠ clinical success
+
+------------------------------------------------------------------------
 
 ## Key Point 5: De-Label Penicillin Allergies
 
-::: {.incremental}
-- Most reported allergies are NOT true allergies
-- True IgE-mediated allergy is rare (<1%)
-- Skin testing can identify true allergy
-- De-labeling improves patient care
-- Don't avoid penicillins unnecessarily
-:::
+<br>
 
----
+-   Most reported allergies are NOT true allergies
+-   True IgE-mediated allergy is rare (\<1%)
+-   Skin testing can identify true allergy
+-   De-labeling improves patient care
+-   Don't avoid penicillins unnecessarily
+
+------------------------------------------------------------------------
 
 ## Questions for Review
 
-1. Why does MRSA resistance to β-lactams NOT respond to β-lactamase inhibitors?
+<br>
 
-2. A patient with KPC-producing *K. pneumoniae* bacteremia—which BLI combinations might be effective?
+1.  Why does MRSA resistance to β-lactams NOT respond to β-lactamase inhibitors?
 
-3. Why might pip-tazo fail for serious ESBL *E. coli* bacteremia despite susceptibility on testing?
+2.  A patient with KPC-producing *K. pneumoniae* bacteremia—which BLI combinations might be effective?
 
-::: {.notes}
+3.  Why might pip-tazo fail for serious ESBL *E. coli* bacteremia despite susceptibility on testing?
+
+::: notes
 Use these for discussion. Q1: MRSA has altered PBP, not β-lactamase. Q2: Ceftazidime-avibactam, meropenem-vaborbactam, imipenem-relebactam. Q3: Inoculum effect, need for higher drug exposure in serious infections.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Additional Review Questions
 
-4. Which penicillin does NOT require dose adjustment in renal failure and why?
+<br>
 
-5. A patient needs IV antibiotics for MSSA osteomyelitis. Why is nafcillin preferred over vancomycin?
+4.  Which penicillin does NOT require dose adjustment in renal failure and why?
 
-6. Why is amoxicillin preferred over ampicillin for oral therapy?
+5.  A patient needs IV antibiotics for MSSA osteomyelitis. Why is nafcillin preferred over vancomycin?
 
-::: {.notes}
+6.  Why is amoxicillin preferred over ampicillin for oral therapy?
+
+::: notes
 Q4: Nafcillin—hepatic elimination. Q5: Better bactericidal activity, better bone penetration, lower treatment failure rates. Q6: Much better oral bioavailability (75-92% vs 30-55%), unaffected by food.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Recommended Reading
 
-- Bush K, Jacoby GA. Updated functional classification of β-lactamases. *Antimicrobial Agents and Chemotherapy* 2010.
-- Shenoy ES, et al. Evaluation and management of penicillin allergy. *JAMA* 2019.
-- IDSA/ATS Community-Acquired Pneumonia Guidelines
-- IDSA Skin and Soft Tissue Infection Guidelines
-- Mandell, Douglas, and Bennett's *Principles and Practice of Infectious Diseases*, 9th ed.
+<br>
 
----
+-   Bush K, Jacoby GA. Updated functional classification of β-lactamases. *Antimicrobial Agents and Chemotherapy* 2010.
+-   Shenoy ES, et al. Evaluation and management of penicillin allergy. *JAMA* 2019.
+-   IDSA/ATS Community-Acquired Pneumonia Guidelines
+-   IDSA Skin and Soft Tissue Infection Guidelines
+-   Mandell, Douglas, and Bennett's *Principles and Practice of Infectious Diseases*, 9th ed.
+
+------------------------------------------------------------------------
 
 ## Thank You!
 
+<br>
+
 **Questions?**
 
-Contact: [Your contact information]
+Contact: \[Your contact information\]
 
-::: {.notes}
+::: notes
 Allow 5-10 minutes for questions. Be prepared to discuss specific dosing scenarios, cross-reactivity questions, and case-based problems.
 :::
