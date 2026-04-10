@@ -85,10 +85,12 @@ We'll begin with the historical discovery and chemical basis of penicillins. Und
 Fleming was studying staphylococcal colonies when he noticed a contaminating mold had created a zone of bacterial inhibition. He named the antibacterial substance "penicillin" but couldn't purify it for clinical use.
 :::
 
-## From Discovery to Clinical Use
+## From discovery to clinical use
 
 <br> <br>
 
+:::: {style="display: flex; justify-content: center;"}
+::: {style="width: 50%;"}
 | Year | Milestone                        |
 |------|----------------------------------|
 | 1928 | Fleming discovers penicillin     |
@@ -97,6 +99,8 @@ Fleming was studying staphylococcal colonies when he noticed a contaminating mol
 | 1941 | First human treated              |
 | 1943 | Mass production begins           |
 | 1945 | Nobel Prize awarded              |
+:::
+::::
 
 ::: aside
 The gap between discovery (1928) and clinical use (1941) was 13 years. Florey and Chain at Oxford developed the purification process. The first patient treated was a policeman with staphylococcal sepsis. Mass production was driven by WWII needs.
@@ -117,7 +121,7 @@ The gap between discovery (1928) and clinical use (1941) was 13 years. Florey an
 It's hard to overstate the impact. Diseases that were death sentences became curable. Surgery became safer. Emphasize that despite being nearly 100 years old, penicillins remain essential antibiotics.
 :::
 
-## Basic Penicillin Structure
+## Basic penicillin structure
 
 <br>
 
@@ -253,7 +257,7 @@ Penicillins are bactericidal, not bacteriostatic. However, they only kill active
 ::::
 
 ::: {.column width="60%"}
-<video src="images-betalactam1/pcn_moa.mov" controls style="width:100%; height:auto;">
+<video src="images-betalactam1/pcn_moa.mov" controls autoplay muted playsinline style="width:100%; height:auto;">
 
 </video>
 :::
@@ -265,7 +269,7 @@ Penicillins are bactericidal, not bacteriostatic. However, they only kill active
 
 <br>
 
-::::::: columns
+:::: columns
 ::: {.column width="50%"}
 -   Bacteria have **high internal osmotic pressure**
 -   Without cell wall → osmotic lysis
@@ -275,16 +279,13 @@ Penicillins are bactericidal, not bacteriostatic. However, they only kill active
 -   **Human cells have no cell wall** → selective toxicity
 :::
 
-::::: {.column width="50%"}
-:::: columns
-::: {.column width="60%"}
-<video src="images-betalactam1/osmotic.mov" controls style="width:100%; height:auto;">
+::: {.column width="50%"}
 
+
+<video src="images-betalactam1/osmotic.mov" controls autoplay muted playsinline style="width:100%; height:auto;">
 </video>
 :::
 ::::
-:::::
-:::::::
 
 ::: aside
 This is why penicillins have such a good safety profile. They target a structure (peptidoglycan) that human cells don't have. The selective toxicity ratio is excellent.
@@ -292,9 +293,10 @@ This is why penicillins have such a good safety profile. They target a structure
 
 ------------------------------------------------------------------------
 
-## Peptidoglycan Structure
+## Peptidoglycan structure
 
 <br>
+![](images-betalactam1/transpeptidation.png){fig-align="center"}
 
 -   **Backbone**: Alternating NAG-NAM disaccharides
     -   NAG = N-acetylglucosamine
@@ -308,27 +310,6 @@ This is why penicillins have such a good safety profile. They target a structure
 The cross-links are what give peptidoglycan its strength. Without cross-linking, the cell wall is weak and the bacterium lyses. This is exactly what penicillins prevent.
 :::
 
-------------------------------------------------------------------------
-
-## Peptidoglycan Synthesis: Overview
-
-<br>
-
-![](images-betalactam1/transpeptidation.png){fig-align="center"}
-
-::: notes
-Walk students through this diagram carefully — it contains the conceptual core of penicillin's mechanism.
-
-**The glycan backbone:** The horizontal chains are the NAG-NAM polymer. NAG (N-acetylglucosamine) and NAM (N-acetylmuramic acid) alternate and are linked by β-1,4-glycosidic bonds. These chains run parallel to the bacterial membrane. Alone, they provide no structural rigidity — that requires the cross-links.
-
-**The peptide stems:** Each NAM residue has a short peptide chain hanging off it — the pentapeptide stem — which terminates in **D-Ala–D-Ala**. These D-amino acids are unique to bacteria; mammals use only L-amino acids, which is a key reason penicillins have such selective toxicity.
-
-**The cross-linking reaction (transpeptidation):** The transpeptidase (a PBP) grabs the terminal D-Ala–D-Ala of one pentapeptide stem. It forms a transient covalent bond with the **penultimate D-Ala**, and in doing so **ejects the terminal D-Ala** as a leaving group. The reactive penultimate D-Ala is then attacked by a free amino group on an adjacent peptide stem, forming the **cross-bridge** that locks the two glycan chains together. One D-alanine is lost for every cross-link formed.
-
-**Why this matters:** Penicillins block only this cross-linking step. The rest of cell wall synthesis — NAG-NAM precursor production, glycan chain polymerization — continues unimpeded. Bacteria keep building structurally unstable, uncrosslinked wall until it can no longer withstand osmotic pressure, and the cell lyses.
-:::
-
-------------------------------------------------------------------------
 
 ## Transpeptidation: The target reaction
 
@@ -347,7 +328,7 @@ Penicillin structurally mimics the D-Ala-D-Ala substrate. When the PBP tries to 
 
 ------------------------------------------------------------------------
 
-## What Are penicillin-binding proteins (PBPs)?
+## What are penicillin-binding proteins (PBPs)?
 
 <br>
 
@@ -368,11 +349,15 @@ The evolutionary relationship between PBPs and β-lactamases is important. β-la
 
 <br> <br>
 
+:::: {style="display: flex; justify-content: center;"}
+::: {style="width: 65%;"}
 | Class | Size | Function |
 |------------------------|------------------------|------------------------|
 | **High-MW Class A** | \>50 kDa | Bifunctional: transglycosylase + transpeptidase |
 | **High-MW Class B** | \>50 kDa | Transpeptidase only |
 | **Low-MW** | \<50 kDa | Carboxypeptidases |
+:::
+::::
 
 ::: aside
 High-molecular-weight PBPs are the essential targets. Class A PBPs can do both glycan chain elongation and cross-linking. Class B only do cross-linking. Low-MW PBPs are carboxypeptidases that trim the peptidoglycan.
@@ -384,12 +369,16 @@ High-molecular-weight PBPs are the essential targets. Class A PBPs can do both g
 
 <br>
 
-| PBP      | Function                          | Inhibition Result   |
+:::: {style="display: flex; justify-content: center;"}
+::: {style="width: 65%;"}
+| PBP      | Function                          | Inhibition result   |
 |----------|-----------------------------------|---------------------|
 | PBP1a/1b | Transglycosylase + transpeptidase | Rapid cell lysis    |
 | PBP2     | Cell elongation, rod shape        | Round cells (cocci) |
 | PBP3     | Septum formation, cell division   | Long filaments      |
 | PBP4-6   | Carboxypeptidases                 | Minor effects       |
+:::
+::::
 
 ::: aside
 Different β-lactams have different affinities for different PBPs, which explains why some cause rapid lysis while others cause filamentation. The essential PBPs are 1, 2, and 3.
@@ -530,12 +519,16 @@ One β-lactamase molecule can destroy thousands of penicillin molecules. This is
 
 <br>
 
+:::: {style="display: flex; justify-content: center;"}
+::: {style="width: 65%;"}
 | Class | Active Site    | Mechanism         | Examples             |
 |-------|----------------|-------------------|----------------------|
 | **A** | Serine         | Acyl intermediate | TEM, SHV, CTX-M, KPC |
 | **B** | Zinc (metallo) | Direct hydrolysis | NDM, VIM, IMP        |
 | **C** | Serine         | Acyl intermediate | AmpC, CMY            |
 | **D** | Serine         | Acyl intermediate | OXA enzymes          |
+:::
+::::
 
 ::: notes
 The Ambler classification is based on amino acid sequence. Classes A, C, D are serine enzymes (evolved from PBPs). Class B uses zinc ions and has a completely different mechanism. This matters for inhibitor selection.
@@ -639,12 +632,16 @@ OXA-48 is a challenging enzyme because it doesn't dramatically elevate MICs to c
 
 <br>
 
+:::: {style="display: flex; justify-content: center;"}
+::: {style="width: 70%;"}
 | Enzyme | Class | Distribution        | Inhibitors                         |
 |--------|-------|---------------------|------------------------------------|
 | KPC    | A     | Americas, worldwide | Avibactam, vaborbactam, relebactam |
 | NDM    | B     | South Asia, global  | None approved                      |
 | VIM    | B     | Europe, global      | None approved                      |
 | OXA-48 | D     | Middle East, Europe | Avibactam                          |
+:::
+::::
 
 ::: notes
 Carbapenemases compromise our "last-resort" antibiotics. Geographic distribution varies. KPC is most common in the US. NDM is dominant in South Asia. Treatment options are limited.
@@ -790,6 +787,8 @@ Group A strep has essentially 100% susceptibility to penicillin. Penicillin G re
 
 <br>
 
+:::: {style="display: flex; justify-content: center;"}
+::: {style="width: 55%;"}
 | Infection                       | Drug of Choice  |
 |---------------------------------|-----------------|
 | Group A strep pharyngitis       | Penicillin V    |
@@ -798,6 +797,8 @@ Group A strep has essentially 100% susceptibility to penicillin. Penicillin G re
 | Meningococcal meningitis        | Penicillin G    |
 | Actinomycosis                   | Penicillin G    |
 | Gas gangrene (*C. perfringens*) | Penicillin G    |
+:::
+::::
 
 ::: notes
 These are infections where natural penicillins remain preferred. For syphilis, there is no alternative as effective as penicillin G. Penicillin-allergic patients with syphilis should undergo desensitization.
@@ -876,12 +877,16 @@ The expanded gram-negative coverage is useful but limited by β-lactamase produc
 
 <br>
 
+:::: {style="display: flex; justify-content: center;"}
+::: {style="width: 60%;"}
 | Property        | Ampicillin | Amoxicillin            |
 |-----------------|------------|------------------------|
 | Oral absorption | 30-55%     | 74-92%                 |
 | Effect of food  | Decreased  | None                   |
 | Preferred route | IV         | Oral                   |
 | Bioequivalence  | —          | Better than ampicillin |
+:::
+::::
 
 ::: callout-tip
 For oral therapy, amoxicillin is almost always preferred
@@ -952,6 +957,8 @@ Understanding pharmacokinetics is essential for appropriate dosing. We'll cover 
 
 <br>
 
+:::: {style="display: flex; justify-content: center;"}
+::: {style="width: 55%;"}
 | Penicillin     | Absorption (%) | Food Effect |
 |----------------|----------------|-------------|
 | Penicillin V   | 60             | None        |
@@ -959,6 +966,8 @@ Understanding pharmacokinetics is essential for appropriate dosing. We'll cover 
 | Amoxicillin    | 74-92          | None        |
 | Dicloxacillin  | 37             | Decreased   |
 | Flucloxacillin | 44             | Decreased   |
+:::
+::::
 
 ::: callout-tip
 Amoxicillin has the best oral bioavailability
@@ -1010,10 +1019,14 @@ Penicillins are polar molecules with limited lipid solubility. They distribute w
 
 <br>
 
+:::: {style="display: flex; justify-content: center;"}
+::: {style="width: 50%;"}
 | Condition         | Penicillin G | Ampicillin |
 |-------------------|--------------|------------|
 | Normal meninges   | \<1%         | \<1%       |
 | Inflamed meninges | 5-10%        | 13-14%     |
+:::
+::::
 
 ::: callout-note
 Inflammation is required for adequate CNS levels. As meningitis resolves, drug penetration decreases.
@@ -1047,6 +1060,8 @@ The short half-lives necessitate frequent dosing (every 4-6 hours). Renal impair
 
 <br>
 
+:::: {style="display: flex; justify-content: center;"}
+::: {style="width: 50%;"}
 | CrCl (mL/min) | Adjustment Needed?         |
 |---------------|----------------------------|
 | \>50          | Usually no                 |
@@ -1054,6 +1069,8 @@ The short half-lives necessitate frequent dosing (every 4-6 hours). Renal impair
 | 10-30         | Yes for most agents        |
 | \<10          | Yes, significant reduction |
 | Hemodialysis  | Dose after dialysis        |
+:::
+::::
 
 ::: notes
 The threshold for dose adjustment varies by agent. Natural penicillins and aminopenicillins need adjustment below 30 mL/min. Antistaphylococcal penicillins (except oxacillin) generally don't need adjustment.
@@ -1065,6 +1082,8 @@ The threshold for dose adjustment varies by agent. Natural penicillins and amino
 
 <br>
 
+:::: {style="display: flex; justify-content: center;"}
+::: {style="width: 60%;"}
 | Agent        | CrCl 10-29  | Hemodialysis   |
 |--------------|-------------|----------------|
 | Penicillin G | 75% dose    | Dose post-HD   |
@@ -1072,6 +1091,8 @@ The threshold for dose adjustment varies by agent. Natural penicillins and amino
 | Amoxicillin  | 500mg q12h  | 500mg q12-24h  |
 | Piperacillin | 3g q8-12h   | 3g q12h        |
 | Nafcillin    | No change   | No change      |
+:::
+::::
 
 ::: notes
 Memorize that nafcillin doesn't require renal adjustment. For dialysis patients, give the dose after dialysis to avoid drug removal. Extended-spectrum agents like piperacillin require adjustment.
@@ -1103,11 +1124,15 @@ This PK/PD concept is fundamental. Unlike aminoglycosides (concentration-depende
 
 **Piperacillin-Tazobactam Example:**
 
+:::: {style="display: flex; justify-content: center;"}
+::: {style="width: 60%;"}
 | Traditional               | Extended Infusion         |
 |---------------------------|---------------------------|
 | 4.5g over 30 min q6h      | 4.5g over 4 hours q8h     |
 | Higher peak, lower trough | Lower peak, higher trough |
 | Less time above MIC       | More time above MIC       |
+:::
+::::
 
 ::: callout-tip
 Extended infusion may improve outcomes, especially for organisms with higher MICs
@@ -1310,11 +1335,15 @@ The traditional inhibitors sacrifice themselves to inactivate the β-lactamase. 
 
 <br>
 
+:::: {style="display: flex; justify-content: center;"}
+::: {style="width: 60%;"}
 | Inhibitor       | Partner      | Formulations              |
 |-----------------|--------------|---------------------------|
 | Clavulanic acid | Amoxicillin  | Oral (US), IV (elsewhere) |
 | Sulbactam       | Ampicillin   | IV                        |
 | Tazobactam      | Piperacillin | IV                        |
+:::
+::::
 
 ::: notes
 In the US, amoxicillin-clavulanate is only available orally. It's available IV in other countries. Sulbactam has intrinsic activity against *Acinetobacter*. Tazobactam is always used with piperacillin.
@@ -1348,11 +1377,15 @@ This is a critical limitation. Traditional inhibitors don't work against AmpC or
 
 <br>
 
+:::: {style="display: flex; justify-content: center;"}
+::: {style="width: 60%;"}
 | Inhibitor   | Partner     | Unique Feature             |
 |-------------|-------------|----------------------------|
 | Avibactam   | Ceftazidime | Inhibits KPC, OXA-48, AmpC |
 | Relebactam  | Imipenem    | Inhibits KPC, AmpC         |
 | Vaborbactam | Meropenem   | Inhibits KPC, AmpC         |
+:::
+::::
 
 ::: callout-important
 None inhibit metallo-β-lactamases (NDM, VIM, IMP)
