@@ -164,7 +164,7 @@ The β-lactam ring is under considerable strain due to its geometry. This strain
 :::
 :::::
 
-::: {.callout-important}
+::: callout-important
 No β-lactam ring = No antibacterial activity
 :::
 
@@ -428,7 +428,7 @@ This is the crucial biochemical distinction. Both enzymes bind penicillin via an
 
 <br>
 
-::: {.callout-tip}
+::: callout-tip
 Tolerance explains why some infections relapse despite "susceptible" organisms
 :::
 
@@ -447,7 +447,7 @@ This distinction is important clinically. A "susceptible" organism may still cau
 3.  **Efflux pumps** — active drug removal
 4.  **Altered PBPs** — low-affinity binding
 
-::: {.callout-warning}
+::: callout-warning
 Multiple mechanisms often coexist, especially in MDR gram-negatives
 :::
 
@@ -529,7 +529,7 @@ TEM-1 was one of the first plasmid-encoded β-lactamases discovered. CTX-M-15 ha
 -   **Inhibited by clavulanic acid** (in vitro)
 -   **Plasmid-encoded** — spread easily
 
-::: {.callout-warning}
+::: callout-warning
 Clinical outcomes with BLI combinations may be unpredictable for serious ESBL infections
 :::
 
@@ -548,7 +548,7 @@ ESBLs arose from mutations in TEM and SHV that expanded their substrate range. C
 -   Major global health threat
 -   Limited treatment options
 
-::: {.callout-important}
+::: callout-important
 The "aztreonam loophole" — MBLs cannot hydrolyze monobactams
 :::
 
@@ -675,7 +675,7 @@ Efflux pumps often work with other mechanisms. In *Pseudomonas*, efflux + β-lac
 :::
 :::::
 
-::: {.callout-important}
+::: callout-important
 MRSA resistance is NOT due to β-lactamases — it's due to PBP2a
 :::
 
@@ -851,13 +851,13 @@ The expanded gram-negative coverage is useful but limited by β-lactamase produc
 | Preferred route | IV         | Oral                   |
 | Bioequivalence  | —          | Better than ampicillin |
 
-<br> <br> 
+<br> <br>
 
-:::{style="width: fit-content; margin: auto;"}
-::: {.callout-tip }
-For oral therapy, amoxicillin is almost always preferred 
+:::: {style="width: fit-content; margin: auto;"}
+::: callout-tip
+For oral therapy, amoxicillin is almost always preferred
 :::
-:::
+::::
 
 ::: aside
 Oral amoxicillin achieves much better levels than oral ampicillin. <br> Unless IV is needed, amoxicillin is the better choice.
@@ -887,7 +887,7 @@ Oral amoxicillin achieves much better levels than oral ampicillin. <br> Unless I
 
 <br>
 
-:::{style="width: fit-content; margin: auto;"}
+::: {style="width: fit-content; margin: auto;"}
 | Class              | Gram+      | Gram- | Pseudomonas | Anaerobes | MRSA |
 |--------------------|------------|-------|-------------|-----------|------|
 | Natural            | +++        | \-    | \-          | ++        | \-   |
@@ -902,7 +902,6 @@ This summary helps with quick selection. Note that NONE of the penicillins work 
 
 # PART 5: Pharmacokinetics {background-color="#9B0014"}
 
-
 ## Oral absorption
 
 <br>
@@ -915,17 +914,11 @@ This summary helps with quick selection. Note that NONE of the penicillins work 
 | Dicloxacillin  | 37             | Decreased   |
 | Flucloxacillin | 44             | Decreased   |
 
-<br> <br>
-:::{style="width: fit-content; margin: auto;"}
-::: {.callout-tip}
-Amoxicillin has the best oral bioavailability
-:::
-:::
+<br> <br> :::{style="width: fit-content; margin: auto;"} ::: {.callout-tip} Amoxicillin has the best oral bioavailability ::: :::
 
 ::: aside
-Absorption varies dramatically. This determines which penicillins can be used orally. <br> Amoxicillin is exceptional with 74-92% absorption unaffected by food. Lower doses (e.g., 250–500 mg)→ High bioavailability (~85–95%), fairly linear but with higher doses (e.g., ≥1000 mg)→ Reduced fractional absorption (bioavailability drops to ~60–70%)→ but total exposure still increases, but less than dose-proportional. <br> <br> Most others oral peneicllins should be taken on an empty stomach.
+Absorption varies dramatically. This determines which penicillins can be used orally. <br> Amoxicillin is exceptional with 74-92% absorption unaffected by food. Lower doses (e.g., 250–500 mg)→ High bioavailability (\~85–95%), fairly linear but with higher doses (e.g., ≥1000 mg)→ Reduced fractional absorption (bioavailability drops to \~60–70%)→ but total exposure still increases, but less than dose-proportional. <br> <br> Most others oral peneicllins should be taken on an empty stomach.
 :::
-
 
 ## Protein binding
 
@@ -943,7 +936,6 @@ Absorption varies dramatically. This determines which penicillins can be used or
 Protein binding affects interpretation of serum levels. A drug with 96% protein binding has only 4% free drug. <br> Whether this is clinically significant is debated, but it may matter for deep-seated infections.
 :::
 
-
 ## Distribution
 
 <br>
@@ -960,8 +952,6 @@ Protein binding affects interpretation of serum levels. A drug with 96% protein 
 Penicillins are polar molecules with limited lipid solubility. They distribute well to most tissues but penetrate the CNS poorly. Inflammation increases CNS penetration (important for meningitis treatment).
 :::
 
-
-
 ## CNS Penetration
 
 <br>
@@ -971,19 +961,17 @@ Penicillins are polar molecules with limited lipid solubility. They distribute w
 | Normal meninges   | \<1%         | \<1%       |
 | Inflamed meninges | 5-10%        | 13-14%     |
 
-
 <br> <br>
 
-:::{style="width: fit-content; margin: auto;"}
-::: {.callout-note}
+:::: {style="width: fit-content; margin: auto;"}
+::: callout-note
 Inflammation is required for adequate CNS levels. As meningitis resolves, drug penetration decreases.
 :::
-:::
+::::
 
 ::: aside
 This has clinical implications. Meningitis treatment requires high doses because penetration is still limited even with inflammation. As treatment succeeds and inflammation decreases, drug levels in CSF decrease too.
 :::
-
 
 ## Elimination
 
@@ -1001,8 +989,6 @@ This has clinical implications. Meningitis treatment requires high doses because
 The short half-lives necessitate frequent dosing (every 4-6 hours). <br> Renal impairment requires dose adjustment for most penicillins. Nafcillin is the exception—no renal adjustment needed.
 :::
 
-
-
 ## Renal dosing: When to adjust
 
 <br>
@@ -1019,8 +1005,6 @@ The short half-lives necessitate frequent dosing (every 4-6 hours). <br> Renal i
 The threshold for dose adjustment varies by agent. Natural penicillins and aminopenicillins need adjustment below 30 mL/min. Antistaphylococcal penicillins (except oxacillin) generally don't need adjustment.
 :::
 
-
-
 ## Dosing in renal failure
 
 <br>
@@ -1036,7 +1020,6 @@ The threshold for dose adjustment varies by agent. Natural penicillins and amino
 ::: notes
 Nafcillin doesn't require renal adjustment. For dialysis patients, give the dose after dialysis to avoid drug removal. <br> Extended-spectrum agents like piperacillin require adjustment.
 :::
-
 
 ## Optimizing β-Lactam dosing
 
@@ -1068,7 +1051,7 @@ This PK/PD concept is fundamental. Unlike aminoglycosides (concentration-depende
 
 <br> <br>
 
-::: {.callout-tip}
+::: callout-tip
 Extended infusion may improve outcomes, especially for organisms with higher MICs
 :::
 
@@ -1076,11 +1059,7 @@ Extended infusion may improve outcomes, especially for organisms with higher MIC
 Extended infusion dosing has become standard of care in many institutions. The total daily dose may be similar or even lower, but the pharmacodynamics are superior.
 :::
 
-
-
 # PART 6: Adverse effects {background-color="#9B0014"}
-
-
 
 ## Overview of adverse effects
 
@@ -1098,8 +1077,6 @@ Extended infusion dosing has become standard of care in many institutions. The t
 Hypersensitivity is the most clinically significant concern. <br> Most other effects are dose-related or specific to certain agents.
 :::
 
-
-
 ## Hypersensitivity: Types
 
 <br>
@@ -1111,14 +1088,11 @@ Hypersensitivity is the most clinically significant concern. <br> Most other eff
 | Type III | 1-3 weeks | Immune complex | Serum sickness, drug fever |
 | Type IV | Days-weeks | T-cell mediated | Maculopapular rash, contact dermatitis |
 
-
 <br> <br>
 
 ::: aside
 Type I reactions are the most dangerous and require avoidance. Type IV reactions (delayed maculopapular rashes) are most common and generally don't preclude future use.
 :::
-
-
 
 ## Penicillin allergy: By the numbers
 
@@ -1136,8 +1110,6 @@ Type I reactions are the most dangerous and require avoidance. Type IV reactions
 These numbers are important. Most "penicillin allergy" labels are inaccurate. Over-labeling leads to use of broader-spectrum, more toxic, and more expensive antibiotics. De-labeling is an important intervention.
 :::
 
-
-
 ## Penicillin allergy de-labeling
 
 <br>
@@ -1150,14 +1122,13 @@ These numbers are important. Most "penicillin allergy" labels are inaccurate. Ov
 
 <br> <br>
 
-::: {.callout-tip}
+::: callout-tip
 De-labeling programs are safe and improve patient care
 :::
 
 ::: aside
 Penicillin allergy de-labeling is an important quality improvement initiative. Many patients can safely receive penicillins after proper evaluation. This improves outcomes and reduces costs.
 :::
-
 
 ## Cross-reactivity with cephalosporins
 
@@ -1175,8 +1146,6 @@ Penicillin allergy de-labeling is an important quality improvement initiative. M
 The 10% cross-reactivity rate was based on flawed data. Current evidence suggests much lower rates. Side chain similarity predicts cross-reactivity better than the β-lactam ring alone.
 :::
 
-
-
 ## Other adverse effects
 
 <br>
@@ -1192,7 +1161,6 @@ The 10% cross-reactivity rate was based on flawed data. Current evidence suggest
 ::: notes
 GI effects are common with oral penicillins. Neutropenia is associated with prolonged courses (\>2 weeks). Seizures occur with very high doses, especially in patients with renal impairment.
 :::
-
 
 ## Agent-specific toxicities
 
@@ -1211,13 +1179,12 @@ The ampicillin rash with infectious mononucleosis is not a true allergy and does
 
 # PART 7: β-Lactamase inhibitors {background-color="#9B0014"}
 
-
 ## β-Lactamase inhibitor classes
 
 <br>
 
-::::: columns
-::: {.column width="50%"}
+::::: {.columns style="justify-content: center;"}
+::: {.column width="40%" style="text-align: center;"}
 **Traditional (β-lactam)**
 
 -   Clavulanic acid
@@ -1225,7 +1192,7 @@ The ampicillin rash with infectious mononucleosis is not a true allergy and does
 -   Tazobactam
 :::
 
-::: {.column width="50%"}
+::: {.column width="40%" style="text-align: center;"}
 **Novel (non-β-lactam)**
 
 -   Avibactam
@@ -1235,12 +1202,10 @@ The ampicillin rash with infectious mononucleosis is not a true allergy and does
 :::::
 
 ::: aside
-The traditional inhibitors are β-lactam compounds themselves that act as "suicide substrates." The novel inhibitors have different mechanisms and broader coverage, including KPC and AmpC.
+The traditional inhibitors are β-lactam compounds themselves that act as "suicide substrates." <br> The novel inhibitors have different mechanisms and broader coverage, including KPC and AmpC.
 :::
 
-------------------------------------------------------------------------
-
-## Mechanism: Traditional Inhibitors
+## Mechanism: Traditional inhibitors
 
 <br>
 
@@ -1255,23 +1220,19 @@ The traditional inhibitors are β-lactam compounds themselves that act as "suici
 The traditional inhibitors sacrifice themselves to inactivate the β-lactamase. This is different from competitive inhibition—the enzyme is destroyed, not just temporarily blocked.
 :::
 
-------------------------------------------------------------------------
-
-## Traditional Inhibitor Combinations
+## Traditional inhibitor combinations
 
 <br>
 
-| Inhibitor       | Partner      | Formulations              |
-|-----------------|--------------|---------------------------|
-| Clavulanic acid | Amoxicillin  | Oral (US), IV (elsewhere) |
-| Sulbactam       | Ampicillin   | IV                        |
-| Tazobactam      | Piperacillin | IV                        |
+| Inhibitor       | Partner      | Formulations |
+|-----------------|--------------|--------------|
+| Clavulanic acid | Amoxicillin  | Oral, IV     |
+| Sulbactam       | Ampicillin   | IV           |
+| Tazobactam      | Piperacillin | IV           |
 
-::: notes
-In the US, amoxicillin-clavulanate is only available orally. It's available IV in other countries. Sulbactam has intrinsic activity against *Acinetobacter*. Tazobactam is always used with piperacillin.
+::: aside
+Sulbactam has intrinsic activity against *Acinetobacter*. <br> Tazobactam is always used with piperacillin.
 :::
-
-------------------------------------------------------------------------
 
 ## Spectrum of Traditional Inhibitors
 
@@ -1289,13 +1250,11 @@ In the US, amoxicillin-clavulanate is only available orally. It's available IV i
 -   Class C (AmpC)
 -   KPC (weak inhibition)
 
-::: notes
+::: aside
 This is a critical limitation. Traditional inhibitors don't work against AmpC or carbapenemases. That's why piperacillin-tazobactam doesn't work reliably against AmpC-producing organisms or KPC producers.
 :::
 
-------------------------------------------------------------------------
-
-## Novel β-Lactamase Inhibitors
+## Novel β-Lactamase inhibitors
 
 <br>
 
@@ -1305,17 +1264,15 @@ This is a critical limitation. Traditional inhibitors don't work against AmpC or
 | Relebactam  | Imipenem    | Inhibits KPC, AmpC         |
 | Vaborbactam | Meropenem   | Inhibits KPC, AmpC         |
 
-::: {.callout-important}
+::: {.callout-important style="width: 60%; margin: auto;"}
 None inhibit metallo-β-lactamases (NDM, VIM, IMP)
 :::
 
-::: notes
-These newer combinations have expanded activity against carbapenemases and AmpC. They're important for treating CRE. However, the gap remains for metallo-β-lactamases.
+::: aside
+These newer combinations have expanded activity against carbapenemases and AmpC. <br> They're important for treating CRE. However, the gap remains for metallo-β-lactamases.
 :::
 
-------------------------------------------------------------------------
-
-## Inhibitor Spectrum Summary
+## Inhibitor spectrum summary
 
 <br>
 
@@ -1326,13 +1283,11 @@ These newer combinations have expanded activity against carbapenemases and AmpC.
 | Avibactam   | ✓       | ✓     | ✓   | ✓    | ✗    | ✓      |
 | Vaborbactam | ✓       | ✓     | ✓   | ✓    | ✗    | ✗      |
 
-::: notes
-Use this table for quick reference. Note that metallo-β-lactamases (MBLs) are not inhibited by any approved inhibitor. Avibactam has the broadest spectrum, including OXA-48.
+::: aside
+Note that metallo-β-lactamases (MBLs) are not inhibited by any approved inhibitor. Avibactam has the broadest spectrum, including OXA-48.
 :::
 
-------------------------------------------------------------------------
-
-## MIC Values: BLI Combinations
+## MIC Values: BLI combinations
 
 <br>
 
@@ -1345,17 +1300,15 @@ Use this table for quick reference. Note that metallo-β-lactamases (MBLs) are n
 | *B. fragilis*         | \>16     | 0.5       | 2        |
 | *P. aeruginosa*       | \>16     | \>16      | 4        |
 
-::: notes
-These MICs show how inhibitors restore activity. Note that *P. aeruginosa* remains relatively resistant even to pip-tazo—the MIC is at the breakpoint. This explains why pip-tazo may fail for serious *Pseudomonas* infections.
+::: aside
+These MICs show how inhibitors restore activity. Note that *P. aeruginosa* remains relatively resistant even to pip-tazo—the MIC is at the breakpoint. <br> This explains why pip-tazo may fail for serious *Pseudomonas* infections.
 :::
 
-------------------------------------------------------------------------
-
-## Clinical Limitations of BLI Combinations
+## Clinical limitations of BLI combinations
 
 <br>
 
-::: {.callout-warning}
+::: {.callout-warning style="width: 60%; margin: auto;"}
 **In vitro activity does not guarantee clinical success**
 :::
 
@@ -1364,19 +1317,11 @@ These MICs show how inhibitors restore activity. Note that *P. aeruginosa* remai
 -   **Serious infections**: Carbapenems often preferred for ESBL bacteremia
 -   **AmpC producers**: Traditional inhibitors ineffective
 
-::: notes
-This is an important nuance. Just because an organism tests "susceptible" to pip-tazo doesn't mean it's the best choice for serious infections. The inoculum effect means that with high bacterial loads, β-lactamases can overwhelm the inhibitor.
+::: aside
+This is an important nuance. Just because an organism tests "susceptible" to pip-tazo doesn't mean it's the best choice for serious infections. <br> The inoculum effect means that with high bacterial loads, β-lactamases can overwhelm the inhibitor.
 :::
-
-------------------------------------------------------------------------
 
 # PART 8: Clinical Application {background-color="#9B0014"}
-
-::: notes
-Let's apply what we've learned to clinical scenarios. We'll work through several cases covering different infection types.
-:::
-
-------------------------------------------------------------------------
 
 ## Clinical Case 1: Skin Infection
 
@@ -1392,12 +1337,6 @@ Let's apply what we've learned to clinical scenarios. We'll work through several
 
 **What is the most appropriate oral therapy?**
 
-::: notes
-Pause for discussion. What organisms cause cellulitis? What are the risk factors for MRSA? What's the narrowest effective spectrum?
-:::
-
-------------------------------------------------------------------------
-
 ## Case 1: Answer
 
 <br>
@@ -1408,11 +1347,9 @@ Pause for discussion. What organisms cause cellulitis? What are the risk factors
 -   **Rationale**: Narrow spectrum, covers MSSA + strep
 -   **Avoid**: Amoxicillin-clavulanate (too broad), Fluoroquinolones (no added benefit)
 
-::: notes
+::: aside
 This case illustrates appropriate narrow-spectrum selection. Without MRSA risk factors, we should target MSSA and streptococci. Broader agents aren't better and contribute to resistance.
 :::
-
-------------------------------------------------------------------------
 
 ## Clinical Case 2: Pneumonia
 
@@ -1428,11 +1365,9 @@ This case illustrates appropriate narrow-spectrum selection. Without MRSA risk f
 
 **What is the most appropriate oral therapy?**
 
-::: notes
+::: aside
 Consider the likely pathogens, resistance patterns, and guideline recommendations. Is she low or high risk for resistant organisms?
 :::
-
-------------------------------------------------------------------------
 
 ## Case 2: Answer
 
@@ -1445,11 +1380,9 @@ Consider the likely pathogens, resistance patterns, and guideline recommendation
 -   **Alternative**: Respiratory fluoroquinolone (moxifloxacin)
 -   **Rationale**: Covers pneumococcus (including most resistant strains), *H. influenzae*
 
-::: notes
+::: aside
 For CAP with COPD, coverage for H. influenzae is important. Amoxicillin-clavulanate provides this. Adding a macrolide covers atypical pathogens. This follows IDSA/ATS guidelines.
 :::
-
-------------------------------------------------------------------------
 
 ## Clinical Case 3: UTI
 
@@ -1468,8 +1401,6 @@ For CAP with COPD, coverage for H. influenzae is important. Amoxicillin-clavulan
 Is this a case where penicillins are first-line? Consider resistance patterns in uropathogens.
 :::
 
-------------------------------------------------------------------------
-
 ## Case 3: Answer
 
 <br>
@@ -1482,11 +1413,9 @@ Is this a case where penicillins are first-line? Consider resistance patterns in
     -   Fosfomycin single dose
 -   **Amoxicillin/ampicillin**: NOT first-line due to resistance
 
-::: notes
+::: aside
 This illustrates that penicillins aren't always the right choice. For uncomplicated UTI, resistance to ampicillin is too high to use empirically. Nitrofurantoin has maintained good activity.
 :::
-
-------------------------------------------------------------------------
 
 ## Clinical Case 4: Intra-Abdominal Infection
 
@@ -1501,11 +1430,9 @@ This illustrates that penicillins aren't always the right choice. For uncomplica
 
 **What is the most appropriate empiric therapy?**
 
-::: notes
+::: aside
 Consider the polymicrobial nature of intra-abdominal infections. What organisms need to be covered? What about resistance?
 :::
-
-------------------------------------------------------------------------
 
 ## Case 4: Answer
 
@@ -1521,8 +1448,6 @@ Consider the polymicrobial nature of intra-abdominal infections. What organisms 
 Pip-tazo is an excellent choice for community-acquired intra-abdominal infections. It covers all the expected pathogens. Extended infusion dosing optimizes pharmacodynamics.
 :::
 
-------------------------------------------------------------------------
-
 ## Clinical Case 5: Endocarditis
 
 <br>
@@ -1536,11 +1461,9 @@ Pip-tazo is an excellent choice for community-acquired intra-abdominal infection
 
 **What is the most appropriate therapy?**
 
-::: notes
+::: aside
 This is a serious infection requiring prolonged therapy. What's the optimal agent for MSSA endocarditis?
 :::
-
-------------------------------------------------------------------------
 
 ## Case 5: Answer
 
@@ -1548,20 +1471,17 @@ This is a serious infection requiring prolonged therapy. What's the optimal agen
 
 -   **Diagnosis**: MSSA tricuspid valve endocarditis
 -   **Duration**: 4-6 weeks IV therapy
--   **Best choice**: **Nafcillin 2g IV q4h** or **Oxacillin 2g IV q4h**
-    -   Often given as continuous infusion
+-   **Best choice**:\* **Cefazolin 2 g IVq8h** less nephrotoxicity [@Burdet2025]and possibly better outcomes [@Prosty2025;@McDanel2017]than **Nafcillin 2g IV q4h** or **Cloxacillin 2g IV q4h**
 -   **NOT vancomycin**: Inferior outcomes for MSSA
 -   **Monitoring**: Renal function, signs of drug fever, eosinophilia
 
-::: {.callout-important}
+::: callout-important
 For MSSA, nafcillin/oxacillin are superior to vancomycin
 :::
 
 ::: notes
 This is important: vancomycin is inferior to nafcillin for MSSA infections. The antistaphylococcal penicillins penetrate better and have faster bactericidal activity. Don't use vancomycin for MSSA just because it's "easier."
 :::
-
-------------------------------------------------------------------------
 
 ## Clinical Case 6: Meningitis
 
@@ -1576,30 +1496,25 @@ This is important: vancomycin is inferior to nafcillin for MSSA infections. The 
 
 **What is the most appropriate therapy?**
 
-::: notes
-This is a medical emergency. What are the first-line agents for meningococcal meningitis?
-:::
-
-------------------------------------------------------------------------
 
 ## Case 6: Answer
 
 <br>
 
 -   **Diagnosis**: Meningococcal meningitis
--   **Best choice**: **Penicillin G 4 million units IV q4h**
--   **Alternative**: Ceftriaxone 2g IV q12h
+-   **Best choice**: CCeftriazone 2 grams IV q12h 
+-   **Alternative**: Penicillin G 4 million units IV q4h
 -   **Duration**: 7 days
 -   **Chemoprophylaxis**: Close contacts need rifampin, ciprofloxacin, or ceftriaxone
 -   **Dexamethasone**: Controversial for meningococcus (consider for pneumococcus)
 
-::: notes
-Penicillin G remains excellent for meningococcal meningitis. The narrow spectrum is actually an advantage here. Ceftriaxone is often used empirically before organism identification.
+::: aside
+Penicillin G remains an effective option meningococcal meningitis even through resistance rates vary (between 3-74%).Ceftriaxone is often used empirically before organism identification.
 :::
 
-------------------------------------------------------------------------
 
-## Clinical Case 7: Syphilis
+
+## Clinical case 7: Syphilis
 
 <br>
 
@@ -1615,25 +1530,24 @@ Penicillin G remains excellent for meningococcal meningitis. The narrow spectrum
 This case combines two important topics: syphilis treatment and penicillin allergy management.
 :::
 
-------------------------------------------------------------------------
 
 ## Case 7: Answer
 
 <br>
 
 -   **Treatment of choice**: **Benzathine penicillin G 2.4 million units IM x 1**
--   **No adequate alternative** for syphilis
+-   **Alternative** Ceftriaxone 2 grams IV daily 10-14 days
 -   **Penicillin allergy**: Likely not true allergy (childhood rash)
 -   **Management options**:
     1.  Penicillin skin testing → if negative, treat with penicillin
     2.  Penicillin desensitization → then treat
 -   **NOT acceptable**: Doxycycline or azithromycin (inferior efficacy)
 
-::: notes
+::: aside
 Penicillin is the only proven treatment for syphilis, especially neurosyphilis. If a patient has documented penicillin allergy, desensitization is recommended. This is one of the few infections where there's no acceptable alternative.
 :::
 
-------------------------------------------------------------------------
+
 
 ## Quick Selection Guide
 
@@ -1654,13 +1568,13 @@ Penicillin is the only proven treatment for syphilis, especially neurosyphilis. 
 This quick reference summarizes the preferred penicillin for common infections. Emphasize matching the narrowest effective spectrum to the infection.
 :::
 
-------------------------------------------------------------------------
+
 
 # Summary and Key Takeaways {background-color="#9B0014"}
 
-------------------------------------------------------------------------
 
-## Key Point 1: Structure Determines Function
+
+## Key Point 1: Structure determines function
 
 <br>
 
@@ -1669,7 +1583,7 @@ This quick reference summarizes the preferred penicillin for common infections. 
 -   Modifications create different penicillin classes
 -   Understanding structure explains clinical properties
 
-------------------------------------------------------------------------
+
 
 ## Key Point 2: Know the Resistance Mechanisms
 
@@ -1681,7 +1595,6 @@ This quick reference summarizes the preferred penicillin for common infections. 
 -   **Altered PBPs**: Low-affinity binding (MRSA, PRP)
 -   Multiple mechanisms often coexist
 
-------------------------------------------------------------------------
 
 ## Key Point 3: Match Spectrum to Pathogen
 
@@ -1693,7 +1606,7 @@ This quick reference summarizes the preferred penicillin for common infections. 
 -   **Pip-tazo**: Broad including *Pseudomonas*, anaerobes
 -   **None work against MRSA**
 
-------------------------------------------------------------------------
+
 
 ## Key Point 4: β-Lactamase Inhibitors Have Limits
 
@@ -1707,7 +1620,7 @@ This quick reference summarizes the preferred penicillin for common infections. 
 -   Newer inhibitors: Broader coverage but still gaps
 -   In vitro activity ≠ clinical success
 
-------------------------------------------------------------------------
+
 
 ## Key Point 5: De-Label Penicillin Allergies
 
@@ -1719,60 +1632,8 @@ This quick reference summarizes the preferred penicillin for common infections. 
 -   De-labeling improves patient care
 -   Don't avoid penicillins unnecessarily
 
-------------------------------------------------------------------------
 
-## Questions for Review
 
-<br>
 
-1.  Why does MRSA resistance to β-lactams NOT respond to β-lactamase inhibitors?
 
-2.  A patient with KPC-producing *K. pneumoniae* bacteremia—which BLI combinations might be effective?
-
-3.  Why might pip-tazo fail for serious ESBL *E. coli* bacteremia despite susceptibility on testing?
-
-::: notes
-Use these for discussion. Q1: MRSA has altered PBP, not β-lactamase. Q2: Ceftazidime-avibactam, meropenem-vaborbactam, imipenem-relebactam. Q3: Inoculum effect, need for higher drug exposure in serious infections.
-:::
-
-------------------------------------------------------------------------
-
-## Additional Review Questions
-
-<br>
-
-4.  Which penicillin does NOT require dose adjustment in renal failure and why?
-
-5.  A patient needs IV antibiotics for MSSA osteomyelitis. Why is nafcillin preferred over vancomycin?
-
-6.  Why is amoxicillin preferred over ampicillin for oral therapy?
-
-::: notes
-Q4: Nafcillin—hepatic elimination. Q5: Better bactericidal activity, better bone penetration, lower treatment failure rates. Q6: Much better oral bioavailability (75-92% vs 30-55%), unaffected by food.
-:::
-
-------------------------------------------------------------------------
-
-## Recommended Reading
-
-<br>
-
--   Bush K, Jacoby GA. Updated functional classification of β-lactamases. *Antimicrobial Agents and Chemotherapy* 2010.
--   Shenoy ES, et al. Evaluation and management of penicillin allergy. *JAMA* 2019.
--   IDSA/ATS Community-Acquired Pneumonia Guidelines
--   IDSA Skin and Soft Tissue Infection Guidelines
--   Mandell, Douglas, and Bennett's *Principles and Practice of Infectious Diseases*, 9th ed.
-
-------------------------------------------------------------------------
-
-## Thank You!
-
-<br>
-
-**Questions?**
-
-Contact: \[Your contact information\]
-
-::: notes
-Allow 5-10 minutes for questions. Be prepared to discuss specific dosing scenarios, cross-reactivity questions, and case-based problems.
-:::
+## References

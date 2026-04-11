@@ -34,7 +34,27 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="betalactam1-slides_files/libs/revealjs/dist/theme/quarto-9809e45efaaa2cf7b83a386cbade2508.css">
   <link href="betalactam1-slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="betalactam1-slides_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -2127,15 +2147,15 @@ Russell E. Lewis
 <section id="β-lactamase-inhibitor-classes" class="slide level2">
 <h2>β-Lactamase inhibitor classes</h2>
 <p><br></p>
-<div class="columns">
-<div class="column" style="width:50%;">
+<div class="columns" style="justify-content: center;">
+<div class="column" style="text-align: center;">
 <p><strong>Traditional (β-lactam)</strong></p>
 <ul>
 <li>Clavulanic acid</li>
 <li>Sulbactam</li>
 <li>Tazobactam</li>
 </ul>
-</div><div class="column" style="width:50%;">
+</div><div class="column" style="text-align: center;">
 <p><strong>Novel (non-β-lactam)</strong></p>
 <ul>
 <li>Avibactam</li>
@@ -2145,10 +2165,10 @@ Russell E. Lewis
 </div></div>
 
 <aside><div>
-<p>The traditional inhibitors are β-lactam compounds themselves that act as “suicide substrates.” The novel inhibitors have different mechanisms and broader coverage, including KPC and AmpC.</p>
+<p>The traditional inhibitors are β-lactam compounds themselves that act as “suicide substrates.” <br> The novel inhibitors have different mechanisms and broader coverage, including KPC and AmpC.</p>
 </div></aside></section>
 <section id="mechanism-traditional-inhibitors" class="slide level2">
-<h2>Mechanism: Traditional Inhibitors</h2>
+<h2>Mechanism: Traditional inhibitors</h2>
 <p><br></p>
 <ol type="1">
 <li>Inhibitor binds to β-lactamase active site</li>
@@ -2173,7 +2193,7 @@ Russell E. Lewis
       }</style></aside>
 </section>
 <section id="traditional-inhibitor-combinations" class="slide level2">
-<h2>Traditional Inhibitor Combinations</h2>
+<h2>Traditional inhibitor combinations</h2>
 <p><br></p>
 <table class="caption-top">
 <thead>
@@ -2187,7 +2207,7 @@ Russell E. Lewis
 <tr class="odd">
 <td>Clavulanic acid</td>
 <td>Amoxicillin</td>
-<td>Oral (US), IV (elsewhere)</td>
+<td>Oral, IV</td>
 </tr>
 <tr class="even">
 <td>Sulbactam</td>
@@ -2201,20 +2221,10 @@ Russell E. Lewis
 </tr>
 </tbody>
 </table>
-<aside class="notes">
-<p>In the US, amoxicillin-clavulanate is only available orally. It’s available IV in other countries. Sulbactam has intrinsic activity against <em>Acinetobacter</em>. Tazobactam is always used with piperacillin.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
+
+<aside><div>
+<p>Sulbactam has intrinsic activity against <em>Acinetobacter</em>. <br> Tazobactam is always used with piperacillin.</p>
+</div></aside></section>
 <section id="spectrum-of-traditional-inhibitors" class="slide level2">
 <h2>Spectrum of Traditional Inhibitors</h2>
 <p><br></p>
@@ -2230,22 +2240,12 @@ Russell E. Lewis
 <li>Class C (AmpC)</li>
 <li>KPC (weak inhibition)</li>
 </ul>
-<aside class="notes">
+
+<aside><div>
 <p>This is a critical limitation. Traditional inhibitors don’t work against AmpC or carbapenemases. That’s why piperacillin-tazobactam doesn’t work reliably against AmpC-producing organisms or KPC producers.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
+</div></aside></section>
 <section id="novel-β-lactamase-inhibitors" class="slide level2">
-<h2>Novel β-Lactamase Inhibitors</h2>
+<h2>Novel β-Lactamase inhibitors</h2>
 <p><br></p>
 <table class="caption-top">
 <thead>
@@ -2273,6 +2273,7 @@ Russell E. Lewis
 </tr>
 </tbody>
 </table>
+<div style="width: 60%; margin: auto;">
 <div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -2286,22 +2287,13 @@ Russell E. Lewis
 </div>
 </div>
 </div>
-<aside class="notes">
-<p>These newer combinations have expanded activity against carbapenemases and AmpC. They’re important for treating CRE. However, the gap remains for metallo-β-lactamases.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
+</div>
+
+<aside><div>
+<p>These newer combinations have expanded activity against carbapenemases and AmpC. <br> They’re important for treating CRE. However, the gap remains for metallo-β-lactamases.</p>
+</div></aside></section>
 <section id="inhibitor-spectrum-summary" class="slide level2">
-<h2>Inhibitor Spectrum Summary</h2>
+<h2>Inhibitor spectrum summary</h2>
 <p><br></p>
 <table class="caption-top">
 <thead>
@@ -2354,22 +2346,12 @@ Russell E. Lewis
 </tr>
 </tbody>
 </table>
-<aside class="notes">
-<p>Use this table for quick reference. Note that metallo-β-lactamases (MBLs) are not inhibited by any approved inhibitor. Avibactam has the broadest spectrum, including OXA-48.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
+
+<aside><div>
+<p>Note that metallo-β-lactamases (MBLs) are not inhibited by any approved inhibitor. Avibactam has the broadest spectrum, including OXA-48.</p>
+</div></aside></section>
 <section id="mic-values-bli-combinations" class="slide level2">
-<h2>MIC Values: BLI Combinations</h2>
+<h2>MIC Values: BLI combinations</h2>
 <p><br></p>
 <table class="caption-top">
 <thead>
@@ -2419,23 +2401,14 @@ Russell E. Lewis
 </tr>
 </tbody>
 </table>
-<aside class="notes">
-<p>These MICs show how inhibitors restore activity. Note that <em>P. aeruginosa</em> remains relatively resistant even to pip-tazo—the MIC is at the breakpoint. This explains why pip-tazo may fail for serious <em>Pseudomonas</em> infections.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
+
+<aside><div>
+<p>These MICs show how inhibitors restore activity. Note that <em>P. aeruginosa</em> remains relatively resistant even to pip-tazo—the MIC is at the breakpoint. <br> This explains why pip-tazo may fail for serious <em>Pseudomonas</em> infections.</p>
+</div></aside></section>
 <section id="clinical-limitations-of-bli-combinations" class="slide level2">
-<h2>Clinical Limitations of BLI Combinations</h2>
+<h2>Clinical limitations of BLI combinations</h2>
 <p><br></p>
+<div style="width: 60%; margin: auto;">
 <div class="callout callout-warning callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -2449,45 +2422,21 @@ Russell E. Lewis
 </div>
 </div>
 </div>
+</div>
 <ul>
 <li><strong>ESBL infections</strong>: Treatment failures reported with BLI combinations</li>
 <li><strong>Inoculum effect</strong>: High bacterial loads may overwhelm inhibitor</li>
 <li><strong>Serious infections</strong>: Carbapenems often preferred for ESBL bacteremia</li>
 <li><strong>AmpC producers</strong>: Traditional inhibitors ineffective</li>
 </ul>
-<aside class="notes">
-<p>This is an important nuance. Just because an organism tests “susceptible” to pip-tazo doesn’t mean it’s the best choice for serious infections. The inoculum effect means that with high bacterial loads, β-lactamases can overwhelm the inhibitor.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section class="slide level2">
 
-</section></section>
+<aside><div>
+<p>This is an important nuance. Just because an organism tests “susceptible” to pip-tazo doesn’t mean it’s the best choice for serious infections. <br> The inoculum effect means that with high bacterial loads, β-lactamases can overwhelm the inhibitor.</p>
+</div></aside></section></section>
 <section>
 <section id="part-8-clinical-application" class="title-slide slide level1 center" data-background-color="#9B0014">
 <h1>PART 8: Clinical Application</h1>
-<aside class="notes">
-<p>Let’s apply what we’ve learned to clinical scenarios. We’ll work through several cases covering different infection types.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+
 </section>
 <section id="clinical-case-1-skin-infection" class="slide level2">
 <h2>Clinical Case 1: Skin Infection</h2>
@@ -2501,19 +2450,6 @@ Russell E. Lewis
 <li>No history of MRSA</li>
 </ul>
 <p><strong>What is the most appropriate oral therapy?</strong></p>
-<aside class="notes">
-<p>Pause for discussion. What organisms cause cellulitis? What are the risk factors for MRSA? What’s the narrowest effective spectrum?</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
 </section>
 <section id="case-1-answer" class="slide level2">
 <h2>Case 1: Answer</h2>
@@ -2525,20 +2461,10 @@ Russell E. Lewis
 <li><strong>Rationale</strong>: Narrow spectrum, covers MSSA + strep</li>
 <li><strong>Avoid</strong>: Amoxicillin-clavulanate (too broad), Fluoroquinolones (no added benefit)</li>
 </ul>
-<aside class="notes">
+
+<aside><div>
 <p>This case illustrates appropriate narrow-spectrum selection. Without MRSA risk factors, we should target MSSA and streptococci. Broader agents aren’t better and contribute to resistance.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
+</div></aside></section>
 <section id="clinical-case-2-pneumonia" class="slide level2">
 <h2>Clinical Case 2: Pneumonia</h2>
 <p><br></p>
@@ -2551,20 +2477,10 @@ Russell E. Lewis
 <li>Outpatient treatment appropriate</li>
 </ul>
 <p><strong>What is the most appropriate oral therapy?</strong></p>
-<aside class="notes">
+
+<aside><div>
 <p>Consider the likely pathogens, resistance patterns, and guideline recommendations. Is she low or high risk for resistant organisms?</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
+</div></aside></section>
 <section id="case-2-answer" class="slide level2">
 <h2>Case 2: Answer</h2>
 <p><br></p>
@@ -2576,20 +2492,10 @@ Russell E. Lewis
 <li><strong>Alternative</strong>: Respiratory fluoroquinolone (moxifloxacin)</li>
 <li><strong>Rationale</strong>: Covers pneumococcus (including most resistant strains), <em>H. influenzae</em></li>
 </ul>
-<aside class="notes">
+
+<aside><div>
 <p>For CAP with COPD, coverage for H. influenzae is important. Amoxicillin-clavulanate provides this. Adding a macrolide covers atypical pathogens. This follows IDSA/ATS guidelines.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
+</div></aside></section>
 <section id="clinical-case-3-uti" class="slide level2">
 <h2>Clinical Case 3: UTI</h2>
 <p><br></p>
@@ -2629,20 +2535,10 @@ Russell E. Lewis
 </ul></li>
 <li><strong>Amoxicillin/ampicillin</strong>: NOT first-line due to resistance</li>
 </ul>
-<aside class="notes">
+
+<aside><div>
 <p>This illustrates that penicillins aren’t always the right choice. For uncomplicated UTI, resistance to ampicillin is too high to use empirically. Nitrofurantoin has maintained good activity.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
+</div></aside></section>
 <section id="clinical-case-4-intra-abdominal-infection" class="slide level2">
 <h2>Clinical Case 4: Intra-Abdominal Infection</h2>
 <p><br></p>
@@ -2654,20 +2550,10 @@ Russell E. Lewis
 <li>No recent antibiotics, no recent hospitalization</li>
 </ul>
 <p><strong>What is the most appropriate empiric therapy?</strong></p>
-<aside class="notes">
+
+<aside><div>
 <p>Consider the polymicrobial nature of intra-abdominal infections. What organisms need to be covered? What about resistance?</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
+</div></aside></section>
 <section id="case-4-answer" class="slide level2">
 <h2>Case 4: Answer</h2>
 <p><br></p>
@@ -2703,30 +2589,17 @@ Russell E. Lewis
 <li>No contraindications to β-lactams</li>
 </ul>
 <p><strong>What is the most appropriate therapy?</strong></p>
-<aside class="notes">
+
+<aside><div>
 <p>This is a serious infection requiring prolonged therapy. What’s the optimal agent for MSSA endocarditis?</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
+</div></aside></section>
 <section id="case-5-answer" class="slide level2">
 <h2>Case 5: Answer</h2>
 <p><br></p>
 <ul>
 <li><strong>Diagnosis</strong>: MSSA tricuspid valve endocarditis</li>
 <li><strong>Duration</strong>: 4-6 weeks IV therapy</li>
-<li><strong>Best choice</strong>: <strong>Nafcillin 2g IV q4h</strong> or <strong>Oxacillin 2g IV q4h</strong>
-<ul>
-<li>Often given as continuous infusion</li>
-</ul></li>
+<li><strong>Best choice</strong>:* <strong>Cefazolin 2 g IVq8h</strong> less nephrotoxicity <span class="citation" data-cites="Burdet2025">(<a href="#/references" role="doc-biblioref" onclick="">Burdet et al. 2025</a>)</span>and possibly better outcomes <span class="citation" data-cites="Prosty2025 McDanel2017">(<a href="#/references" role="doc-biblioref" onclick="">Prosty et al. 2025</a>; <a href="#/references" role="doc-biblioref" onclick="">McDanel et al. 2017</a>)</span>than <strong>Nafcillin 2g IV q4h</strong> or <strong>Cloxacillin 2g IV q4h</strong></li>
 <li><strong>NOT vancomycin</strong>: Inferior outcomes for MSSA</li>
 <li><strong>Monitoring</strong>: Renal function, signs of drug fever, eosinophilia</li>
 </ul>
@@ -2768,47 +2641,24 @@ Russell E. Lewis
 <li>Suspected <em>Neisseria meningitidis</em></li>
 </ul>
 <p><strong>What is the most appropriate therapy?</strong></p>
-<aside class="notes">
-<p>This is a medical emergency. What are the first-line agents for meningococcal meningitis?</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
 </section>
 <section id="case-6-answer" class="slide level2">
 <h2>Case 6: Answer</h2>
 <p><br></p>
 <ul>
 <li><strong>Diagnosis</strong>: Meningococcal meningitis</li>
-<li><strong>Best choice</strong>: <strong>Penicillin G 4 million units IV q4h</strong></li>
-<li><strong>Alternative</strong>: Ceftriaxone 2g IV q12h</li>
+<li><strong>Best choice</strong>: CCeftriazone 2 grams IV q12h</li>
+<li><strong>Alternative</strong>: Penicillin G 4 million units IV q4h</li>
 <li><strong>Duration</strong>: 7 days</li>
 <li><strong>Chemoprophylaxis</strong>: Close contacts need rifampin, ciprofloxacin, or ceftriaxone</li>
 <li><strong>Dexamethasone</strong>: Controversial for meningococcus (consider for pneumococcus)</li>
 </ul>
-<aside class="notes">
-<p>Penicillin G remains excellent for meningococcal meningitis. The narrow spectrum is actually an advantage here. Ceftriaxone is often used empirically before organism identification.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
+
+<aside><div>
+<p>Penicillin G remains an effective option meningococcal meningitis even through resistance rates vary (between 3-74%).Ceftriaxone is often used empirically before organism identification.</p>
+</div></aside></section>
 <section id="clinical-case-7-syphilis" class="slide level2">
-<h2>Clinical Case 7: Syphilis</h2>
+<h2>Clinical case 7: Syphilis</h2>
 <p><br></p>
 <p><strong>28-year-old man with primary syphilis</strong></p>
 <ul>
@@ -2836,7 +2686,7 @@ Russell E. Lewis
 <p><br></p>
 <ul>
 <li><strong>Treatment of choice</strong>: <strong>Benzathine penicillin G 2.4 million units IM x 1</strong></li>
-<li><strong>No adequate alternative</strong> for syphilis</li>
+<li><strong>Alternative</strong> Ceftriaxone 2 grams IV daily 10-14 days</li>
 <li><strong>Penicillin allergy</strong>: Likely not true allergy (childhood rash)</li>
 <li><strong>Management options</strong>:
 <ol type="1">
@@ -2845,20 +2695,10 @@ Russell E. Lewis
 </ol></li>
 <li><strong>NOT acceptable</strong>: Doxycycline or azithromycin (inferior efficacy)</li>
 </ul>
-<aside class="notes">
+
+<aside><div>
 <p>Penicillin is the only proven treatment for syphilis, especially neurosyphilis. If a patient has documented penicillin allergy, desensitization is recommended. This is one of the few infections where there’s no acceptable alternative.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
+</div></aside></section>
 <section id="quick-selection-guide" class="slide level2">
 <h2>Quick Selection Guide</h2>
 <p><br></p>
@@ -2917,9 +2757,6 @@ Russell E. Lewis
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-</section>
-<section class="slide level2">
-
 </section></section>
 <section>
 <section id="summary-and-key-takeaways" class="title-slide slide level1 center" data-background-color="#9B0014">
@@ -2927,7 +2764,7 @@ Russell E. Lewis
 
 </section>
 <section id="key-point-1-structure-determines-function" class="slide level2">
-<h2>Key Point 1: Structure Determines Function</h2>
+<h2>Key Point 1: Structure determines function</h2>
 <p><br></p>
 <ul>
 <li><strong>β-Lactam ring</strong> is essential for activity</li>
@@ -2984,80 +2821,20 @@ Russell E. Lewis
 <li>Don’t avoid penicillins unnecessarily</li>
 </ul>
 </section>
-<section id="questions-for-review" class="slide level2">
-<h2>Questions for Review</h2>
-<p><br></p>
-<ol type="1">
-<li><p>Why does MRSA resistance to β-lactams NOT respond to β-lactamase inhibitors?</p></li>
-<li><p>A patient with KPC-producing <em>K. pneumoniae</em> bacteremia—which BLI combinations might be effective?</p></li>
-<li><p>Why might pip-tazo fail for serious ESBL <em>E. coli</em> bacteremia despite susceptibility on testing?</p></li>
-</ol>
-<aside class="notes">
-<p>Use these for discussion. Q1: MRSA has altered PBP, not β-lactamase. Q2: Ceftazidime-avibactam, meropenem-vaborbactam, imipenem-relebactam. Q3: Inoculum effect, need for higher drug exposure in serious infections.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="additional-review-questions" class="slide level2">
-<h2>Additional Review Questions</h2>
-<p><br></p>
-<ol start="4" type="1">
-<li><p>Which penicillin does NOT require dose adjustment in renal failure and why?</p></li>
-<li><p>A patient needs IV antibiotics for MSSA osteomyelitis. Why is nafcillin preferred over vancomycin?</p></li>
-<li><p>Why is amoxicillin preferred over ampicillin for oral therapy?</p></li>
-</ol>
-<aside class="notes">
-<p>Q4: Nafcillin—hepatic elimination. Q5: Better bactericidal activity, better bone penetration, lower treatment failure rates. Q6: Much better oral bioavailability (75-92% vs 30-55%), unaffected by food.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="recommended-reading" class="slide level2">
-<h2>Recommended Reading</h2>
-<p><br></p>
-<ul>
-<li>Bush K, Jacoby GA. Updated functional classification of β-lactamases. <em>Antimicrobial Agents and Chemotherapy</em> 2010.</li>
-<li>Shenoy ES, et al.&nbsp;Evaluation and management of penicillin allergy. <em>JAMA</em> 2019.</li>
-<li>IDSA/ATS Community-Acquired Pneumonia Guidelines</li>
-<li>IDSA Skin and Soft Tissue Infection Guidelines</li>
-<li>Mandell, Douglas, and Bennett’s <em>Principles and Practice of Infectious Diseases</em>, 9th ed.</li>
-</ul>
-</section>
-<section id="thank-you" class="slide level2">
-<h2>Thank You!</h2>
-<p><br></p>
-<p><strong>Questions?</strong></p>
-<p>Contact: [Your contact information]</p>
-<aside class="notes">
-<p>Allow 5-10 minutes for questions. Be prepared to discuss specific dosing scenarios, cross-reactivity questions, and case-based problems.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Burdet2025" class="csl-entry" role="listitem">
+Burdet, Charles, Nadia Saïdani, Céline Dupieux, Adrien Lemaignen, Etienne Canouï, Laure Surgers, Marc Olivier Vareil, et al. 2025. <span>“Cloxacillin Versus Cefazolin for Meticillin-Susceptible Staphylococcus Aureus Bacteraemia (CloCeBa): A Prospective, Open-Label, Multicentre, Non-Inferiority, Randomised Clinical Trial.”</span> <em>The Lancet</em> 406 (10517): 2349–59. <a href="https://doi.org/10.1016/s0140-6736(25)01624-1">https://doi.org/10.1016/s0140-6736(25)01624-1</a>.
+</div>
+<div id="ref-McDanel2017" class="csl-entry" role="listitem">
+McDanel, Jennifer S, Mary-Claire Roghmann, Eli N Perencevich, Michael E Ohl, Michihiko Goto, Daniel J Livorsi, Makoto Jones, et al. 2017. <span>“Comparative Effectiveness of Cefazolin Versus Nafcillin or Oxacillin for Treatment of Methicillin-Susceptible Staphylococcus Aureus Infections Complicated by Bacteremia: A Nationwide Cohort Study.”</span> <em>Clinical Infectious Diseases</em> 65 (1): 100–106. <a href="https://doi.org/10.1093/cid/cix287">https://doi.org/10.1093/cid/cix287</a>.
+</div>
+<div id="ref-Prosty2025" class="csl-entry" role="listitem">
+Prosty, Connor, Dean Noutsios, Todd C. Lee, Nick Daneman, Joshua S. Davis, Nynke G. L. Jager, Nesrin Ghanem-Zoubi, et al. 2025. <span>“Cefazolin Vs. Antistaphylococcal Penicillins for the Treatment of Methicillin-Susceptible Staphylococcus Aureus Bacteraemia: A Systematic Review and Meta-Analysis.”</span> <em>Clinical Microbiology and Infection</em> 31 (8): 1272–82. <a href="https://doi.org/10.1016/j.cmi.2025.04.045">https://doi.org/10.1016/j.cmi.2025.04.045</a>.
+</div>
+</div>
 </section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
