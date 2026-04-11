@@ -767,7 +767,7 @@ Group A strep has essentially 100% susceptibility to penicillin. Penicillin G re
 | Gas gangrene (*C. perfringens*) | Penicillin G    |
 
 ::: aside
-These are infections where natural penicillins remain preferred. For syphilis, there is no alternative as effective as penicillin G. Penicillin-allergic patients with syphilis should undergo desensitization.
+These are infections where natural penicillins remain preferred. <br>For syphilis, there is no alternative as effective as penicillin G. Penicillin-allergic patients with syphilis should undergo desensitization.
 :::
 
 ## Class 2: Penicillinase-resistant penicillins
