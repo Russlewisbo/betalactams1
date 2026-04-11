@@ -722,6 +722,8 @@ Each class has different side chain modifications. The modifications determine s
 
 <br>
 
+::::: columns
+::: {.column width="50%"}
 **Penicillin G** (parenteral) and **Penicillin V** (oral)
 
 -   The original penicillins
@@ -729,9 +731,6 @@ Each class has different side chain modifications. The modifications determine s
 -   **Acid-labile** (Pen G) vs **Acid-stable** (Pen V)
 -   Susceptible to β-lactamases
 -   Still drugs of choice for many infections
-
-::: notes
-Natural penicillins are still very important. They have the highest intrinsic activity against susceptible organisms. Narrow spectrum can be an advantage (less collateral damage to microbiome).
 :::
 
 ## Natural Penicillins: Spectrum
@@ -767,7 +766,7 @@ Group A strep has essentially 100% susceptibility to penicillin. Penicillin G re
 | Actinomycosis                   | Penicillin G    |
 | Gas gangrene (*C. perfringens*) | Penicillin G    |
 
-::: notes
+::: aside
 These are infections where natural penicillins remain preferred. For syphilis, there is no alternative as effective as penicillin G. Penicillin-allergic patients with syphilis should undergo desensitization.
 :::
 
