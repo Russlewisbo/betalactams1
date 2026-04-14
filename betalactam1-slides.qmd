@@ -34,10 +34,9 @@ bibliography: betalactam-1references.bib
 
 <center>
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 40px;">
-  ![](images-betalactam1/dmm.png){width="150"}
-  ![](images-betalactam1/padova.png){width="250"}
-</div>
+::: {style="display: flex; justify-content: center; align-items: center; gap: 40px;"}
+![](images-betalactam1/dmm.png){width="150"} ![](images-betalactam1/padova.png){width="250"}
+:::
 
 <br> {{< fa solid envelope size=1x >}} russelledward.lewis\@unipd.it <br> {{< fa brands github size=1x >}} [https://github.com/Russlewisbo](https://github.com/Russlewisbo/ESCMID_2022_talk) <br> Slides and course materials: [www.padovaid.com](https://padovaid.com/)
 
@@ -60,7 +59,7 @@ bibliography: betalactam-1references.bib
 9.  Recognize adverse effects and hypersensitivity reactions
 10. Select appropriate β-lactam/β-lactamase inhibitor combinations
 
-# PART 1: History and chemistry {background-color="#9B0014"}
+# PART 1: History and chemistry {background-color="#b20e10"}
 
 ::: notes
 We'll begin with the historical discovery and chemical basis of penicillins. Understanding structure is essential for understanding function.
@@ -232,7 +231,7 @@ All the different penicillin classes arise from different side chain modificatio
 The isolation of 6-APA was a breakthrough. By attaching different side chains to this nucleus, chemists could create penicillins with different properties. This is how we got methicillin, ampicillin, and all the other semisynthetic penicillins.
 :::
 
-# PART 2: Mechanism of Action {background-color="#9B0014"}
+# PART 2: Mechanism of Action {background-color="#b20e10"}
 
 ::: notes
 Now we'll explore how penicillins actually kill bacteria. Understanding the mechanism helps explain why they're bactericidal and why certain bacteria are resistant.
@@ -439,7 +438,7 @@ Tolerance explains why some infections relapse despite "susceptible" organisms
 This distinction is important clinically. A "susceptible" organism may still cause treatment failure if many cells are tolerant (not actively growing). This is relevant for endocarditis and other difficult infections.
 :::
 
-# PART 3: Resistance Mechanisms {background-color="#9B0014"}
+# PART 3: Resistance Mechanisms {background-color="#b20e10"}
 
 ## Four mechanisms of β-Lactam resistance
 
@@ -701,7 +700,7 @@ This is a critical concept. MRSA produces a novel PBP (PBP2a) with very low affi
 This mechanism explains why we need different drugs for MRSA. The newer cephalosporins ceftaroline and ceftobiprole have enhanced binding to PBP2a, which is why they're active against MRSA.
 :::
 
-# PART 4: Classification of Penicillins {background-color="#9B0014"}
+# PART 4: Classification of Penicillins {background-color="#b20e10"}
 
 ::: notes
 Now we'll classify penicillins by their antibacterial spectrum. Understanding the classes helps with drug selection.
@@ -727,6 +726,10 @@ Each class has different side chain modifications. The modifications determine s
 
 ::::: columns
 ::: {.column width="50%"}
+![](images-betalactam1/Penicillin-G-2-vials.png){fig-align="center" width="250"}
+:::
+
+::: {.column width="50%"}
 **Penicillin G** (parenteral) and **Penicillin V** (oral)
 
 -   The original penicillins
@@ -735,6 +738,7 @@ Each class has different side chain modifications. The modifications determine s
 -   Susceptible to β-lactamases
 -   Still drugs of choice for many infections
 :::
+:::::
 
 ## Natural Penicillins: Spectrum
 
@@ -770,7 +774,7 @@ Group A strep has essentially 100% susceptibility to penicillin. Penicillin G re
 | Gas gangrene (*C. perfringens*) | Penicillin G    |
 
 ::: aside
-These are infections where natural penicillins remain preferred. <br>For syphilis, there is no alternative as effective as penicillin G. Penicillin-allergic patients with syphilis should undergo desensitization.
+These are infections where natural penicillins remain preferred. <br>For syphilis, penicillin G is still the drug of choice alhough outcomes may be similar with ceftriazone. <br> Penicillin-allergic patients with syphilis should undergo desensitization.
 :::
 
 ## Class 2: Penicillinase-resistant penicillins
@@ -799,7 +803,7 @@ These are infections where natural penicillins remain preferred. <br>For syphili
 The bulky side chain physically blocks β-lactamase access to the β-lactam ring. Remember: they don't work against MRSA because MRSA resistance is PBP-mediated, not β-lactamase-mediated.
 :::
 
-## Antistaphylococcal penicillins: details
+## Antistaphylococcal penicillins: Details
 
 <br>
 
@@ -818,7 +822,7 @@ Nafcillin is primarily hepatically eliminated, so no renal dose adjustment neede
 
 <br>
 
-![](images-betalactam1/amoxicillin.png){fig-align="center"}
+![](images-betalactam1/amoxicillin.png){fig-align="center" width="600"}
 
 <br>
 
@@ -902,7 +906,7 @@ Oral amoxicillin achieves much better levels than oral ampicillin. <br> Unless I
 This summary helps with quick selection. Note that NONE of the penicillins work against MRSA. <br> Antistaphylococcal penicillins are narrow but highly effective against MSSA.
 :::
 
-# PART 5: Pharmacokinetics {background-color="#9B0014"}
+# PART 5: Pharmacokinetics {background-color="#b20e10"}
 
 ## Oral absorption
 
@@ -1061,7 +1065,7 @@ Extended infusion may improve outcomes, especially for organisms with higher MIC
 Extended infusion dosing has become standard of care in many institutions. The total daily dose may be similar or even lower, but the pharmacodynamics are superior.
 :::
 
-# PART 6: Adverse effects {background-color="#9B0014"}
+# PART 6: Adverse effects {background-color="#b20e10"}
 
 ## Overview of adverse effects
 
@@ -1179,7 +1183,7 @@ GI effects are common with oral penicillins. Neutropenia is associated with prol
 The ampicillin rash with infectious mononucleosis is not a true allergy and doesn't predict future reactions. <br> Piperacillin can cause platelet dysfunction with prolonged use.
 :::
 
-# PART 7: β-Lactamase inhibitors {background-color="#9B0014"}
+# PART 7: β-Lactamase inhibitors {background-color="#b20e10"}
 
 ## β-Lactamase inhibitor classes
 
@@ -1236,7 +1240,7 @@ The traditional inhibitors sacrifice themselves to inactivate the β-lactamase. 
 Sulbactam has intrinsic activity against *Acinetobacter*. <br> Tazobactam is always used with piperacillin.
 :::
 
-## Spectrum of Traditional Inhibitors
+## Spectrum of traditional inhibitors
 
 <br>
 
@@ -1289,7 +1293,7 @@ These newer combinations have expanded activity against carbapenemases and AmpC.
 Note that metallo-β-lactamases (MBLs) are not inhibited by any approved inhibitor. Avibactam has the broadest spectrum, including OXA-48.
 :::
 
-## MIC Values: BLI combinations
+## MIC values: BLI combinations
 
 <br>
 
@@ -1314,6 +1318,8 @@ These MICs show how inhibitors restore activity. Note that *P. aeruginosa* remai
 **In vitro activity does not guarantee clinical success**
 :::
 
+<br> <br>
+
 -   **ESBL infections**: Treatment failures reported with BLI combinations
 -   **Inoculum effect**: High bacterial loads may overwhelm inhibitor
 -   **Serious infections**: Carbapenems often preferred for ESBL bacteremia
@@ -1323,7 +1329,7 @@ These MICs show how inhibitors restore activity. Note that *P. aeruginosa* remai
 This is an important nuance. Just because an organism tests "susceptible" to pip-tazo doesn't mean it's the best choice for serious infections. <br> The inoculum effect means that with high bacterial loads, β-lactamases can overwhelm the inhibitor.
 :::
 
-# PART 8: Clinical Application {background-color="#9B0014"}
+# PART 8: Clinical Application {background-color="#b20e10"}
 
 ## Clinical Case 1: Skin Infection
 
@@ -1473,7 +1479,7 @@ This is a serious infection requiring prolonged therapy. What's the optimal agen
 
 -   **Diagnosis**: MSSA tricuspid valve endocarditis
 -   **Duration**: 4-6 weeks IV therapy
--   **Best choice**:\* **Cefazolin 2 g IVq8h** less nephrotoxicity [@Burdet2025]and possibly better outcomes [@Prosty2025;@McDanel2017]than **Nafcillin 2g IV q4h** or **Cloxacillin 2g IV q4h**
+-   **Best choice**:\* **Cefazolin 2 g IVq8h** less nephrotoxicity [@Burdet2025]and possibly better outcomes [@Prosty2025; @McDanel2017]than **Nafcillin 2g IV q4h** or **Cloxacillin 2g IV q4h**
 -   **NOT vancomycin**: Inferior outcomes for MSSA
 -   **Monitoring**: Renal function, signs of drug fever, eosinophilia
 
@@ -1498,13 +1504,12 @@ This is important: vancomycin is inferior to nafcillin for MSSA infections. The 
 
 **What is the most appropriate therapy?**
 
-
 ## Case 6: Answer
 
 <br>
 
 -   **Diagnosis**: Meningococcal meningitis
--   **Best choice**: CCeftriazone 2 grams IV q12h 
+-   **Best choice**: CCeftriazone 2 grams IV q12h
 -   **Alternative**: Penicillin G 4 million units IV q4h
 -   **Duration**: 7 days
 -   **Chemoprophylaxis**: Close contacts need rifampin, ciprofloxacin, or ceftriaxone
@@ -1513,8 +1518,6 @@ This is important: vancomycin is inferior to nafcillin for MSSA infections. The 
 ::: aside
 Penicillin G remains an effective option meningococcal meningitis even through resistance rates vary (between 3-74%).Ceftriaxone is often used empirically before organism identification.
 :::
-
-
 
 ## Clinical case 7: Syphilis
 
@@ -1532,7 +1535,6 @@ Penicillin G remains an effective option meningococcal meningitis even through r
 This case combines two important topics: syphilis treatment and penicillin allergy management.
 :::
 
-
 ## Case 7: Answer
 
 <br>
@@ -1549,9 +1551,7 @@ This case combines two important topics: syphilis treatment and penicillin aller
 Penicillin is the only proven treatment for syphilis, especially neurosyphilis. If a patient has documented penicillin allergy, desensitization is recommended. This is one of the few infections where there's no acceptable alternative.
 :::
 
-
-
-## Quick Selection Guide
+## Quick selection guide
 
 <br>
 
@@ -1570,13 +1570,9 @@ Penicillin is the only proven treatment for syphilis, especially neurosyphilis. 
 This quick reference summarizes the preferred penicillin for common infections. Emphasize matching the narrowest effective spectrum to the infection.
 :::
 
+# Summary and Key Takeaways {background-color="#b20e10"}
 
-
-# Summary and Key Takeaways {background-color="#9B0014"}
-
-
-
-## Key Point 1: Structure determines function
+## Key point 1: Structure determines function
 
 <br>
 
@@ -1585,9 +1581,7 @@ This quick reference summarizes the preferred penicillin for common infections. 
 -   Modifications create different penicillin classes
 -   Understanding structure explains clinical properties
 
-
-
-## Key Point 2: Know the Resistance Mechanisms
+## Key point 2: Know the resistance mechanisms
 
 <br>
 
@@ -1597,8 +1591,7 @@ This quick reference summarizes the preferred penicillin for common infections. 
 -   **Altered PBPs**: Low-affinity binding (MRSA, PRP)
 -   Multiple mechanisms often coexist
 
-
-## Key Point 3: Match Spectrum to Pathogen
+## Key point 3: Match spectrum to pathogen
 
 <br>
 
@@ -1608,9 +1601,7 @@ This quick reference summarizes the preferred penicillin for common infections. 
 -   **Pip-tazo**: Broad including *Pseudomonas*, anaerobes
 -   **None work against MRSA**
 
-
-
-## Key Point 4: β-Lactamase Inhibitors Have Limits
+## Key point 4: β-Lactamase inhibitors have limits
 
 <br>
 
@@ -1622,9 +1613,7 @@ This quick reference summarizes the preferred penicillin for common infections. 
 -   Newer inhibitors: Broader coverage but still gaps
 -   In vitro activity ≠ clinical success
 
-
-
-## Key Point 5: De-Label Penicillin Allergies
+## Key point 5: De-Label penicillin allergies
 
 <br>
 
@@ -1633,9 +1622,5 @@ This quick reference summarizes the preferred penicillin for common infections. 
 -   Skin testing can identify true allergy
 -   De-labeling improves patient care
 -   Don't avoid penicillins unnecessarily
-
-
-
-
 
 ## References
