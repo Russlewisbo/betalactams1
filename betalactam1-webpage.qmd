@@ -15,70 +15,68 @@ format:
 # Short View Summary {.unnumbered}
 
 ::: {.callout-note title="Quick Reference: Penicillin Dosing"}
-
 **Penicillin G**
 
-- Usual Adult Dose: 8–24 Million Units/Day Intravenously (IV) in Equally Divided Doses Every 4–6 Hours
-- Renal and hepatic failure: decrease dose in renal failure
-- CSF penetration: poor
-- Adverse effects: hypersensitivity reaction, hyperkalemia (potassium salt), hypokalemia (sodium salt)
+-   Usual Adult Dose: 8–24 Million Units/Day Intravenously (IV) in Equally Divided Doses Every 4–6 Hours
+-   Renal and hepatic failure: decrease dose in renal failure
+-   CSF penetration: poor
+-   Adverse effects: hypersensitivity reaction, hyperkalemia (potassium salt), hypokalemia (sodium salt)
 
 **Penicillin V**
 
-- Usual Adult Dose: 250–500 mg Every 6–12 Hours Orally
-- Renal and hepatic failure: decrease dose in renal failure
-- CSF penetration: poor
-- Adverse effects: hypersensitivity reaction, nausea/vomiting
+-   Usual Adult Dose: 250–500 mg Every 6–12 Hours Orally
+-   Renal and hepatic failure: decrease dose in renal failure
+-   CSF penetration: poor
+-   Adverse effects: hypersensitivity reaction, nausea/vomiting
 
 **Oxacillin**
 
-- Usual Adult Dose: 2 g Every 4 Hours IV
-- Renal and hepatic failure: no adjustment
-- CSF penetration: poor
-- Adverse effects: hypersensitivity reaction, hepatotoxicity, interstitial nephritis
+-   Usual Adult Dose: 2 g Every 4 Hours IV
+-   Renal and hepatic failure: no adjustment
+-   CSF penetration: poor
+-   Adverse effects: hypersensitivity reaction, hepatotoxicity, interstitial nephritis
 
 **Nafcillin**
 
-- Usual Adult Dose: 2 g Every 4 Hours IV
-- Renal and hepatic failure: no adjustment
-- CSF penetration: low
-- Adverse effects: hypersensitivity reaction, interstitial nephritis, hepatotoxicity, hypokalemia
+-   Usual Adult Dose: 2 g Every 4 Hours IV
+-   Renal and hepatic failure: no adjustment
+-   CSF penetration: low
+-   Adverse effects: hypersensitivity reaction, interstitial nephritis, hepatotoxicity, hypokalemia
 
 **Ampicillin**
 
-- Usual Adult Dose: 2 g Every 4–6 Hours IV
-- Renal and hepatic failure: decrease dose in renal failure
-- CSF penetration: low
-- Adverse effects: hypersensitivity reaction
+-   Usual Adult Dose: 2 g Every 4–6 Hours IV
+-   Renal and hepatic failure: decrease dose in renal failure
+-   CSF penetration: low
+-   Adverse effects: hypersensitivity reaction
 
 **Ampicillin-Sulbactam**
 
-- Usual Adult Dose: 1.5–3 g Every 6 Hours IV
-- Renal and hepatic failure: decrease dose in renal failure
-- CSF penetration: low
-- Adverse effects: hypersensitivity reaction, diarrhea
+-   Usual Adult Dose: 1.5–3 g Every 6 Hours IV
+-   Renal and hepatic failure: decrease dose in renal failure
+-   CSF penetration: low
+-   Adverse effects: hypersensitivity reaction, diarrhea
 
 **Amoxicillin**
 
-- Usual Adult Dose: 500 mg to 1 g Every 8–12 Hours Orally
-- Renal and hepatic failure: decrease dose in renal failure
-- CSF penetration: low
-- Adverse effects: hypersensitivity reaction
+-   Usual Adult Dose: 500 mg to 1 g Every 8–12 Hours Orally
+-   Renal and hepatic failure: decrease dose in renal failure
+-   CSF penetration: low
+-   Adverse effects: hypersensitivity reaction
 
 **Amoxicillin-Clavulanate**
 
-- Usual Adult Dose: 500 mg Every 8 Hours Orally or 875 mg Every 12 Hours Orally
-- Renal and hepatic failure: decrease dose in renal failure
-- CSF penetration: low
-- Adverse effects: hypersensitivity reaction, diarrhea
+-   Usual Adult Dose: 500 mg Every 8 Hours Orally or 875 mg Every 12 Hours Orally
+-   Renal and hepatic failure: decrease dose in renal failure
+-   CSF penetration: low
+-   Adverse effects: hypersensitivity reaction, diarrhea
 
 **Piperacillin-Tazobactam**
 
-- Usual Adult Dose: 3.375–4.5 g Every 6–8 Hours IV
-- Renal and hepatic failure: decrease dose in renal failure
-- CSF penetration: low
-- Adverse effects: hypersensitivity reaction, diarrhea
-
+-   Usual Adult Dose: 3.375–4.5 g Every 6–8 Hours IV
+-   Renal and hepatic failure: decrease dose in renal failure
+-   CSF penetration: low
+-   Adverse effects: hypersensitivity reaction, diarrhea
 :::
 
 # Introduction to Penicillins
@@ -89,9 +87,7 @@ Penicillin was discovered by Alexander Fleming from *Penicillium notatum* (now *
 
 The basic structure of penicillins is a nucleus consisting of a thiazolidine ring, the β-lactam ring, and a side chain (@fig-penicillin-structure). The core ring structures, particularly the β-lactam ring, are essential for antibacterial activity. The side chain determines in large part the antibacterial spectrum and pharmacologic properties of each penicillin agent.
 
-![Structure of penicillin and site of β-lactamase attack. The thiazolidine ring (1) and β-lactam ring (2) form the core structure. The site of penicillinase (β-lactamase) attack opens the β-lactam ring, converting benzylpenicillin to benzylpenicilloic acid.](images-betalactam1/fig20-1-06.png){#fig-penicillin-structure}
-
-Emergence of β-lactamase–producing organisms, including *Staphylococcus aureus*, prompted development of compounds resistant to hydrolysis by β-lactamases and the search for agents with expanded gram-negative activity. The isolation of the penicillin nucleus, 6-amino-penicillanic acid, from a precursor-depleted fermentation of *Penicillium chrysogenum* made possible the production and testing of semisynthetic penicillins, including methicillin (active against β-lactamase–producing *S. aureus*), ampicillin (active against selected gram-negative bacilli), and carbenicillin (active against *Pseudomonas aeruginosa*).
+![](images-betalactam1/natural_PCN.png){width="400"}Emergence of β-lactamase–producing organisms, including *Staphylococcus aureus*, prompted development of compounds resistant to hydrolysis by β-lactamases and the search for agents with expanded gram-negative activity. The isolation of the penicillin nucleus, 6-amino-penicillanic acid, from a precursor-depleted fermentation of *Penicillium chrysogenum* made possible the production and testing of semisynthetic penicillins, including methicillin (active against β-lactamase–producing *S. aureus*), ampicillin (active against selected gram-negative bacilli), and carbenicillin (active against *Pseudomonas aeruginosa*).
 
 # Mechanism of Action
 
@@ -109,23 +105,23 @@ The basic subunit of the peptidoglycan component is a disaccharide monomer of *N
 Penicillin inhibits enzymes that catalyze the final step in bacterial cell wall assembly, which is the formation of the cross-links that bridge peptidoglycan, giving the cell its structural integrity.
 :::
 
-![Penicillin-binding protein (PBP) transpeptidation reaction that cross-links bacterial cell wall. The structure for *Staphylococcus aureus* is shown. NAG, *N*-Acetylglucosamine; NAM, *N*-acetylmuramic acid.](images-betalactam1/fig20-2-08.png){#fig-pbp-transpeptidation}
-
 ## Penicillin-Binding Proteins (PBPs)
 
-The penicillin-sensitive reactions are catalyzed by a family of closely related proteins, called penicillin-binding proteins (PBPs). Bacteria produce four types of PBPs, which structurally resemble and are likely derived from serine proteases. High-molecular-weight PBPs (i.e., >50 kilodaltons [kDa]) and low-molecular-weight PBPs catalyze transpeptidation and carboxypeptidation reactions of cell wall assembly, respectively.
+The penicillin-sensitive reactions are catalyzed by a family of closely related proteins, called penicillin-binding proteins (PBPs). Bacteria produce four types of PBPs, which structurally resemble and are likely derived from serine proteases. High-molecular-weight PBPs (i.e., \>50 kilodaltons \[kDa\]) and low-molecular-weight PBPs catalyze transpeptidation and carboxypeptidation reactions of cell wall assembly, respectively.
+
+![](images-betalactam1/transpeptidation.png){fig-align="center"}
 
 ::: {.callout-tip title="Clinical Pearl"}
 β-Lactamases are PBPs that catalyze hydrolysis of the β-lactam ring. The main distinction between cell wall–synthetic PBPs and β-lactamases is the rate of deacylation—slow for PBPs (leading to inhibition) and fast for β-lactamases (conferring resistance).
 :::
 
-| PBP | Function | Effect of Inhibition |
-|-----|----------|---------------------|
-| PBP1b | Transpeptidase activity | Cell lysis |
-| PBP1 | Cell elongation | Formation of round cells |
-| PBP2 | Cell elongation and shape | Round cells in *E. coli* |
-| PBP3 | Cross-wall formation | Long, filamentous cells |
-| Low-MW PBPs | Carboxypeptidases | Cell shape maintenance |
+| PBP         | Function                  | Effect of Inhibition     |
+|-------------|---------------------------|--------------------------|
+| PBP1b       | Transpeptidase activity   | Cell lysis               |
+| PBP1        | Cell elongation           | Formation of round cells |
+| PBP2        | Cell elongation and shape | Round cells in *E. coli* |
+| PBP3        | Cross-wall formation      | Long, filamentous cells  |
+| Low-MW PBPs | Carboxypeptidases         | Cell shape maintenance   |
 
 : Functions of Penicillin-Binding Proteins {#tbl-pbp-functions}
 
@@ -133,10 +129,10 @@ The penicillin-sensitive reactions are catalyzed by a family of closely related 
 
 Four mechanisms account for clinically significant bacterial resistance to penicillins and other β-lactams:
 
-1. **Destruction of antibiotic by β-lactamases** — the most common mechanism
-2. **Failure of antibiotic to penetrate the outer membrane** of gram-negative bacteria
-3. **Efflux of drug** across the outer membrane of gram-negative bacteria
-4. **Low-affinity binding of antibiotic to target PBPs**
+1.  **Destruction of antibiotic by β-lactamases** — the most common mechanism
+2.  **Failure of antibiotic to penetrate the outer membrane** of gram-negative bacteria
+3.  **Efflux of drug** across the outer membrane of gram-negative bacteria
+4.  **Low-affinity binding of antibiotic to target PBPs**
 
 ::: {.callout-warning title="Clinical Warning"}
 Production of β-lactamases is the most common mechanism of resistance, which in some gram-negative bacteria, such as *P. aeruginosa*, is accompanied by reduced permeability and augmented efflux.
@@ -147,7 +143,7 @@ Production of β-lactamases is the most common mechanism of resistance, which in
 β-Lactamases can be categorized into one of four classes, Ambler classes A, B, C, and D, based on amino-acid sequence similarity and molecular structure (@tbl-betalactamases) [@Bush2010].
 
 | Ambler Class | Major Subtypes | Preferred Substrates | Inhibitor | Representative Enzymes |
-|--------------|----------------|---------------------|-----------|------------------------|
+|--------------|--------------|--------------|--------------|----------------|
 | **A** | ESBLs, KPC | Penicillins, cephalosporins, carbapenems | Clavulanic acid, Avibactam | TEM, SHV, CTX-M, KPC |
 | **B** | Metallo-β-lactamases | All β-lactams except aztreonam | EDTA, chelators | NDM, VIM, IMP |
 | **C** | AmpC | Cephalosporins | Cloxacillin, Avibactam | AmpC, CMY |
@@ -159,30 +155,30 @@ Production of β-lactamases is the most common mechanism of resistance, which in
 
 Penicillins can be divided into five classes on the basis of antibacterial activity:
 
-1. **Natural penicillins** — penicillin G, penicillin V
-2. **Penicillinase-resistant penicillins** — nafcillin, oxacillin, dicloxacillin, flucloxacillin
-3. **Aminopenicillins** — ampicillin, amoxicillin
-4. **Carboxypenicillins** — carbenicillin, ticarcillin
-5. **Acyl ureidopenicillins** — azlocillin, mezlocillin, piperacillin
+1.  **Natural penicillins** — penicillin G, penicillin V
+2.  **Penicillinase-resistant penicillins** — nafcillin, oxacillin, dicloxacillin, flucloxacillin
+3.  **Aminopenicillins** — ampicillin, amoxicillin
+4.  **Carboxypenicillins** — carbenicillin, ticarcillin
+5.  **Acyl ureidopenicillins** — azlocillin, mezlocillin, piperacillin
 
 ## Spectrum of Activity
 
-| Organism | Penicillin G | Ampicillin | Oxacillin | Piperacillin |
-|----------|-------------|------------|-----------|--------------|
-| *S. pneumoniae* | 0.03 | 0.03 | 0.13 | 0.05 |
-| *S. pyogenes* | 0.015 | 0.03 | 0.13 | 0.2 |
-| *E. faecalis* | 2 | 1 | 16 | 4 |
-| *S. aureus* (MSSA) | NA | NA | 0.13 | 0.8 |
-| *H. influenzae* | 1 | 0.25 | 32 | 0.1 |
-| *E. coli* | 200 | >200 | 200 | 32 |
-| *P. aeruginosa* | >200 | >200 | >200 | 32 |
+| Organism           | Penicillin G | Ampicillin | Oxacillin | Piperacillin |
+|--------------------|--------------|------------|-----------|--------------|
+| *S. pneumoniae*    | 0.03         | 0.03       | 0.13      | 0.05         |
+| *S. pyogenes*      | 0.015        | 0.03       | 0.13      | 0.2          |
+| *E. faecalis*      | 2            | 1          | 16        | 4            |
+| *S. aureus* (MSSA) | NA           | NA         | 0.13      | 0.8          |
+| *H. influenzae*    | 1            | 0.25       | 32        | 0.1          |
+| *E. coli*          | 200          | \>200      | 200       | 32           |
+| *P. aeruginosa*    | \>200        | \>200      | \>200     | 32           |
 
 : Expected MICs (μg/mL) for Selected Organisms {#tbl-mic-spectrum}
 
 # Pharmacologic Properties
 
 | Penicillin | Oral Absorption (%) | Protein Binding (%) | Half-life (h) | Renal Adjustment |
-|------------|---------------------|---------------------|---------------|------------------|
+|---------------|---------------|---------------|---------------|---------------|
 | Penicillin G | NA | 60 | 0.7 | Yes |
 | Penicillin V | 60 | 80 | 0.5–0.8 | Yes |
 | Oxacillin | NA | 90 | 0.4–0.7 | No |
@@ -204,17 +200,17 @@ Most penicillins penetrate the CNS poorly under normal conditions. Inflammation 
 The most important adverse effects of the penicillins are hypersensitivity reactions, which range in severity from rash to anaphylaxis. Penicillins can act as haptens to combine with proteins.
 
 ::: {.callout-warning title="Allergy Warning"}
-Although a history of penicillin allergy is quite common, less than 2% will have an allergic reaction if challenged. True anaphylactic reactions to penicillins are rare (<0.01%); skin-testing and oral challenges have been used successfully to de-label patients with a penicillin allergy [@Shenoy2019].
+Although a history of penicillin allergy is quite common, less than 2% will have an allergic reaction if challenged. True anaphylactic reactions to penicillins are rare (\<0.01%); skin-testing and oral challenges have been used successfully to de-label patients with a penicillin allergy [@Shenoy2019].
 :::
 
 ## Other Adverse Effects
 
-- **Neurologic**: Seizures (high doses, renal failure)
-- **Hematologic**: Neutropenia, platelet dysfunction
-- **GI**: Nausea, diarrhea, *C. difficile* infection
-- **Renal**: Interstitial nephritis (methicillin, nafcillin)
-- **Hepatic**: Elevated transaminases, cholestatic jaundice
-- **Electrolyte**: Hypokalemia (nafcillin), hyperkalemia (K⁺ penicillin G)
+-   **Neurologic**: Seizures (high doses, renal failure)
+-   **Hematologic**: Neutropenia, platelet dysfunction
+-   **GI**: Nausea, diarrhea, *C. difficile* infection
+-   **Renal**: Interstitial nephritis (methicillin, nafcillin)
+-   **Hepatic**: Elevated transaminases, cholestatic jaundice
+-   **Electrolyte**: Hypokalemia (nafcillin), hyperkalemia (K⁺ penicillin G)
 
 # Individual Penicillins
 
@@ -222,7 +218,7 @@ Although a history of penicillin allergy is quite common, less than 2% will have
 
 The antibacterial activities of aminopenicillins are similar (@fig-aminopenicillins). They are susceptible to hydrolysis by β-lactamases.
 
-![Aminopenicillins: Ampicillin and Amoxicillin structures.](images-betalactam1/fig20-6-25.png){#fig-aminopenicillins}
+![](images-betalactam1/amoxicillin.png){fig-align="center"}
 
 ### Ampicillin
 
@@ -242,21 +238,21 @@ High-dose amoxicillin (80–90 mg/kg/day) is first-line therapy for otitis media
 
 Piperacillin is similar to ampicillin in activity against gram-positive species but has excellent activity against *P. aeruginosa* (@fig-antipseudomonal).
 
-![Penicillins active against gram-negative bacteria.](images-betalactam1/fig20-7-31.png){#fig-antipseudomonal}
-
 Piperacillin is now used exclusively in the United States as a piperacillin-tazobactam combination to extend its activity against class A β-lactamase–producing strains.
+
+![](images-betalactam1/piperacillin.png){fig-align="center"}
 
 # β-Lactam and β-Lactamase Inhibitor Combinations
 
 Six β-lactamase inhibitors are currently in clinical use: clavulanic acid, sulbactam, tazobactam, avibactam, relebactam, and vaborbactam [@Reading1977].
 
-| Inhibitor | Partner Drug | Class A | Class C | KPC |
-|-----------|--------------|---------|---------|-----|
-| Clavulanate | Amoxicillin | ✓ | ✗ | ✗ |
-| Sulbactam | Ampicillin | ✓ | ✗ | ✗ |
-| Tazobactam | Piperacillin | ✓ | ✗ | ✗ |
-| Avibactam | Ceftazidime | ✓ | ✓ | ✓ |
-| Vaborbactam | Meropenem | ✓ | ✓ | ✓ |
+| Inhibitor   | Partner Drug | Class A | Class C | KPC |
+|-------------|--------------|---------|---------|-----|
+| Clavulanate | Amoxicillin  | ✓       | ✗       | ✗   |
+| Sulbactam   | Ampicillin   | ✓       | ✗       | ✗   |
+| Tazobactam  | Piperacillin | ✓       | ✗       | ✗   |
+| Avibactam   | Ceftazidime  | ✓       | ✓       | ✓   |
+| Vaborbactam | Meropenem    | ✓       | ✓       | ✓   |
 
 : β-Lactamase Inhibitor Spectrum {#tbl-bli-spectrum}
 
@@ -268,11 +264,11 @@ Reports of failure with β-lactam/β-lactamase inhibitors for treatment of serio
 
 Penicillins remain important antibiotics in clinical practice, particularly when combined with β-lactamase inhibitors. Key points include:
 
-- The β-lactam ring is essential for antibacterial activity
-- PBPs are the molecular targets of β-lactams
-- Four mechanisms of resistance exist: β-lactamase production, decreased permeability, efflux, and altered PBPs
-- Classification includes natural, antistaphylococcal, aminopenicillins, and antipseudomonal penicillins
-- β-Lactamase inhibitors restore activity against many resistant organisms but have limitations
+-   The β-lactam ring is essential for antibacterial activity
+-   PBPs are the molecular targets of β-lactams
+-   Four mechanisms of resistance exist: β-lactamase production, decreased permeability, efflux, and altered PBPs
+-   Classification includes natural, antistaphylococcal, aminopenicillins, and antipseudomonal penicillins
+-   β-Lactamase inhibitors restore activity against many resistant organisms but have limitations
 
 # References {.unnumbered}
 
