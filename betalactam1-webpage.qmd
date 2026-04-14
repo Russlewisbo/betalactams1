@@ -89,7 +89,7 @@ Penicillin was discovered by Alexander Fleming from *Penicillium notatum* (now *
 
 The basic structure of penicillins is a nucleus consisting of a thiazolidine ring, the β-lactam ring, and a side chain (@fig-penicillin-structure). The core ring structures, particularly the β-lactam ring, are essential for antibacterial activity. The side chain determines in large part the antibacterial spectrum and pharmacologic properties of each penicillin agent.
 
-![Structure of penicillin and site of β-lactamase attack. The thiazolidine ring (1) and β-lactam ring (2) form the core structure. The site of penicillinase (β-lactamase) attack opens the β-lactam ring, converting benzylpenicillin to benzylpenicilloic acid.](images/fig20-1-06.png){#fig-penicillin-structure}
+![Structure of penicillin and site of β-lactamase attack. The thiazolidine ring (1) and β-lactam ring (2) form the core structure. The site of penicillinase (β-lactamase) attack opens the β-lactam ring, converting benzylpenicillin to benzylpenicilloic acid.](images-betalactam1/fig20-1-06.png){#fig-penicillin-structure}
 
 Emergence of β-lactamase–producing organisms, including *Staphylococcus aureus*, prompted development of compounds resistant to hydrolysis by β-lactamases and the search for agents with expanded gram-negative activity. The isolation of the penicillin nucleus, 6-amino-penicillanic acid, from a precursor-depleted fermentation of *Penicillium chrysogenum* made possible the production and testing of semisynthetic penicillins, including methicillin (active against β-lactamase–producing *S. aureus*), ampicillin (active against selected gram-negative bacilli), and carbenicillin (active against *Pseudomonas aeruginosa*).
 
@@ -109,7 +109,7 @@ The basic subunit of the peptidoglycan component is a disaccharide monomer of *N
 Penicillin inhibits enzymes that catalyze the final step in bacterial cell wall assembly, which is the formation of the cross-links that bridge peptidoglycan, giving the cell its structural integrity.
 :::
 
-![Penicillin-binding protein (PBP) transpeptidation reaction that cross-links bacterial cell wall. The structure for *Staphylococcus aureus* is shown. NAG, *N*-Acetylglucosamine; NAM, *N*-acetylmuramic acid.](images/fig20-2-08.png){#fig-pbp-transpeptidation}
+![Penicillin-binding protein (PBP) transpeptidation reaction that cross-links bacterial cell wall. The structure for *Staphylococcus aureus* is shown. NAG, *N*-Acetylglucosamine; NAM, *N*-acetylmuramic acid.](images-betalactam1/fig20-2-08.png){#fig-pbp-transpeptidation}
 
 ## Penicillin-Binding Proteins (PBPs)
 
@@ -222,7 +222,7 @@ Although a history of penicillin allergy is quite common, less than 2% will have
 
 The antibacterial activities of aminopenicillins are similar (@fig-aminopenicillins). They are susceptible to hydrolysis by β-lactamases.
 
-![Aminopenicillins: Ampicillin and Amoxicillin structures.](images/fig20-6-25.png){#fig-aminopenicillins}
+![Aminopenicillins: Ampicillin and Amoxicillin structures.](images-betalactam1/fig20-6-25.png){#fig-aminopenicillins}
 
 ### Ampicillin
 
@@ -242,7 +242,7 @@ High-dose amoxicillin (80–90 mg/kg/day) is first-line therapy for otitis media
 
 Piperacillin is similar to ampicillin in activity against gram-positive species but has excellent activity against *P. aeruginosa* (@fig-antipseudomonal).
 
-![Penicillins active against gram-negative bacteria.](images/fig20-7-31.png){#fig-antipseudomonal}
+![Penicillins active against gram-negative bacteria.](images-betalactam1/fig20-7-31.png){#fig-antipseudomonal}
 
 Piperacillin is now used exclusively in the United States as a piperacillin-tazobactam combination to extend its activity against class A β-lactamase–producing strains.
 
