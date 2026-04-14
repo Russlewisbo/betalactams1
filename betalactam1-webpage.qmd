@@ -1,11 +1,7 @@
 ---
-title: "Penicillins and β-Lactamase Inhibitors"
-subtitle: "Chapter 20"
-author:
-  - name: Ryan K. Shields
-  - name: Yohei Doi
+title: "Natural Penicillins and β-Lactamase Inhibitors"
 date: 2024-01-01
-bibliography: references.bib
+bibliography: betalactam-1references.bib
 csl: nlm-citation-name.csl
 format:
   html:
