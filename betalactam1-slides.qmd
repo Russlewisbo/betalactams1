@@ -180,7 +180,7 @@ The β-lactam ring mimics the natural substrate of PBPs, which is the D-alanyl-D
 
 ::: {style="font-size: 0.75em"}
 | **Ambler Class** | **Major Subtype** | **Preferred Substrates** | **Inhibitor** | **Genetic Localization** | **Representative Enzymes** |
-|:----------:|------------|------------|------------|------------|------------|
+|:--:|----|----|----|----|----|
 | **A** | Gram-positive β-lactamase 2a | Penicillins | Clavulanic acid | Chromosome or plasmid | PC1 |
 | **A** | **Gram-negative β-lactamase 2b** | Penicillins, 1st-gen cephalosporins | Clavulanic acid | Plasmid or chromosomal | TEM-1, SHV-1 |
 | **A** | **Extended-spectrum β-lactamase 2be** | Penicillins, extended-spectrum cephalosporins, aztreonam | Clavulanic acid | Plasmid | TEM-24, SHV-12, CTX-M-15 |
@@ -349,7 +349,7 @@ The evolutionary relationship between PBPs and β-lactamases is important. β-la
 :::: {style="display: flex; justify-content: center;"}
 ::: {style="width: 65%;"}
 | Class | Size | Function |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **High-MW Class A** | \>50 kDa | Bifunctional: transglycosylase + transpeptidase |
 | **High-MW Class B** | \>50 kDa | Transpeptidase only |
 | **Low-MW** | \<50 kDa | Carboxypeptidases |
@@ -808,7 +808,7 @@ The bulky side chain physically blocks β-lactamase access to the β-lactam ring
 <br>
 
 | Drug           | Route | Protein Binding | Elimination   | Special Considerations  |
-|---------------|---------------|---------------|---------------|---------------|
+|----------------|-------|-----------------|---------------|-------------------------|
 | Nafcillin      | IV    | 90%             | Hepatic       | Hypokalemia, phlebitis  |
 | Oxacillin      | IV    | 90%             | Mixed         | Hepatotoxicity          |
 | Dicloxacillin  | PO    | 96%             | Renal/hepatic | Highest protein binding |
@@ -1088,7 +1088,7 @@ Hypersensitivity is the most clinically significant concern. <br> Most other eff
 <br>
 
 | Type | Timing | Mechanism | Manifestations |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | Type I | Minutes-hours | IgE-mediated | Anaphylaxis, urticaria, angioedema |
 | Type II | Days | Antibody-mediated | Hemolytic anemia, cytopenia |
 | Type III | 1-3 weeks | Immune complex | Serum sickness, drug fever |
