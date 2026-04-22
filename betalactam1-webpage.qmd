@@ -143,7 +143,7 @@ Production of β-lactamases is the most common mechanism of resistance, which in
 β-Lactamases can be categorized into one of four classes, Ambler classes A, B, C, and D, based on amino-acid sequence similarity and molecular structure (@tbl-betalactamases) [@Bush2010].
 
 | Ambler Class | Major Subtypes | Preferred Substrates | Inhibitor | Representative Enzymes |
-|--------------|--------------|--------------|--------------|----------------|
+|----|----|----|----|----|
 | **A** | ESBLs, KPC | Penicillins, cephalosporins, carbapenems | Clavulanic acid, Avibactam | TEM, SHV, CTX-M, KPC |
 | **B** | Metallo-β-lactamases | All β-lactams except aztreonam | EDTA, chelators | NDM, VIM, IMP |
 | **C** | AmpC | Cephalosporins | Cloxacillin, Avibactam | AmpC, CMY |
@@ -178,7 +178,7 @@ Penicillins can be divided into five classes on the basis of antibacterial activ
 # Pharmacologic Properties
 
 | Penicillin | Oral Absorption (%) | Protein Binding (%) | Half-life (h) | Renal Adjustment |
-|---------------|---------------|---------------|---------------|---------------|
+|----|----|----|----|----|
 | Penicillin G | NA | 60 | 0.7 | Yes |
 | Penicillin V | 60 | 80 | 0.5–0.8 | Yes |
 | Oxacillin | NA | 90 | 0.4–0.7 | No |

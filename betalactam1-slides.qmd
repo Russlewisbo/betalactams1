@@ -261,7 +261,6 @@ Penicillins are bactericidal, not bacteriostatic. However, they only kill active
 :::
 ::::::
 
-------------------------------------------------------------------------
 
 ## Why bacteria need cell walls
 
@@ -288,7 +287,7 @@ Penicillins are bactericidal, not bacteriostatic. However, they only kill active
 This is why penicillins have such a good safety profile. They target a structure (peptidoglycan) that human cells don't have. The selective toxicity ratio is excellent. Video source: <https://pdb101.rcsb.org/>
 :::
 
-------------------------------------------------------------------------
+
 
 ## Peptidoglycan structure
 
@@ -323,7 +322,7 @@ The cross-links are what give peptidoglycan its strength. Without cross-linking,
 Penicillin structurally mimics the D-Ala-D-Ala substrate. When the PBP tries to bind penicillin, it forms a stable covalent complex instead of completing the reaction. The enzyme is "stuck."
 :::
 
-------------------------------------------------------------------------
+
 
 ## What are penicillin-binding proteins (PBPs)?
 
@@ -340,7 +339,7 @@ Penicillin structurally mimics the D-Ala-D-Ala substrate. When the PBP tries to 
 The evolutionary relationship between PBPs and β-lactamases is important. β-lactamases evolved from PBPs but developed the ability to rapidly hydrolyze (rather than be inhibited by) β-lactams.
 :::
 
-------------------------------------------------------------------------
+
 
 ## Classes of PBPs
 
@@ -360,7 +359,7 @@ The evolutionary relationship between PBPs and β-lactamases is important. β-la
 High-molecular-weight PBPs are the essential targets. Class A PBPs can do both glycan chain elongation and cross-linking. Class B only do cross-linking. Low-MW PBPs are carboxypeptidases that trim the peptidoglycan.
 :::
 
-------------------------------------------------------------------------
+
 
 ## PBP functions in *E. coli*
 
@@ -381,7 +380,7 @@ High-molecular-weight PBPs are the essential targets. Class A PBPs can do both g
 Different β-lactams have different affinities for different PBPs, which explains why some cause rapid lysis while others cause filamentation. The essential PBPs are 1, 2, and 3.
 :::
 
-------------------------------------------------------------------------
+
 
 ## PBPs vs β-Lactamases: Key difference
 
